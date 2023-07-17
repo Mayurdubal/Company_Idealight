@@ -2,9 +2,9 @@ import TerioCounter from "@/src/components/TerioCounter";
 import Layout from "@/src/layout/Layout";
 import { herothreeswiper, studiesswiper } from "@/src/sliderProps";
 import { Swiper, SwiperSlide } from "swiper/react";
-const Index3 = () => {
+const Index = () => {
   return (
-    <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home 3"}>
+    <Layout noHeaderBg headerExtraClass={"two"} blackLogo pageName={"Home"}>
       <section className="hero-section-three">
         <Swiper
           {...herothreeswiper}
@@ -796,4 +796,4 @@ const Index3 = () => {
     </Layout>
   );
 };
-export default Index3;
+export default Index;
