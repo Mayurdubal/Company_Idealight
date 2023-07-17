@@ -15,7 +15,7 @@ const Layout = ({
   return (
     <Fragment>
       <Head>
-        <title>Idealite - {pageName}</title>
+        <title>Idealite | {pageName}</title>
       </Head>
       <VideoPopup />
       <ImageView />

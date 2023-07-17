@@ -53,11 +53,6 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                       services
                     </Link>
                   </li>
-                  <li>
-                    <Link legacyBehavior href="404error">
-                      404 error
-                    </Link>
-                  </li>
                 </ul>
               </li>
               <li>

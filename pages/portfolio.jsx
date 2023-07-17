@@ -8,7 +8,7 @@ const PortfolioGridIsotope = dynamic(
 );
 const PortfolioGrid = () => {
   return (
-    <Layout noHeaderBg pageName={"Portfolio 1"}>
+    <Layout noHeaderBg pageName={"Portfolio"}>
       <section
         className="splash-area-section"
         style={{ backgroundImage: "url(assets/img/background.jpg)" }}
