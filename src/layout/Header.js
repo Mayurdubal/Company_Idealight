@@ -32,23 +32,6 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 <Link legacyBehavior href="/">
                   Home
                 </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="/">
-                      homepage 1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-2">
-                      homepage 2
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="index-3">
-                      homepage 3
-                    </Link>
-                  </li>
-                </ul>
               </li>
               <li>
                 <Link legacyBehavior href="about">
@@ -71,11 +54,6 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                     </Link>
                   </li>
                   <li>
-                    <Link legacyBehavior href="pricing">
-                      pricing
-                    </Link>
-                  </li>
-                  <li>
                     <Link legacyBehavior href="404error">
                       404 error
                     </Link>
@@ -83,38 +61,11 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 </ul>
               </li>
               <li>
-                <Link legacyBehavior href="portfolio-grid">
+                <Link legacyBehavior href="portfolio">
                   Portfolio
                 </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="portfolio-grid">
-                      portfolio grid
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-masonry">
-                      portfolio masonry
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-metro">
-                      portfolio metro
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-single-v1">
-                      portfolio single v1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="portfolio-single-v2">
-                      portfolio single v2
-                    </Link>
-                  </li>
-                </ul>
               </li>
-              <li>
+              {/* <li>
                 <Link legacyBehavior href="blog-grid">
                   Blog
                 </Link>
@@ -135,7 +86,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li>
                 <Link legacyBehavior href="contacts">
                   contacts

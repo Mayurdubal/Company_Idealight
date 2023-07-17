@@ -16,7 +16,7 @@ const E404 = () => {
               </h5>
             </div>
           </div>
-          <a href="#" className="themebtu mt-5">
+          <a href="/" className="themebtu mt-5">
             Go Back to Home
           </a>
         </div>
