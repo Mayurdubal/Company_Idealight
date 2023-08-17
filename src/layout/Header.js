@@ -1,30 +1,21 @@
-import Link from "next/link";
-import { useState } from "react";
-import MobileHeader from "./MobileHeader";
+import Link from 'next/link';
+import { useState } from 'react';
+import MobileHeader from './MobileHeader';
+
 const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
-  const [searchToggle, setSearchToggle] = useState(false);
   const [toggle, setToggle] = useState(false);
+
   return (
     <header
-      className={headerExtraClass ? headerExtraClass : ""}
-      style={
-        !noHeaderBg
-          ? { backgroundImage: `url(assets/img/header.jpg)` }
-          : { background: "transparent" }
-      }
+      className={headerExtraClass ? headerExtraClass : ''}
+      style={!noHeaderBg ? { backgroundImage: `url(assets/img/header.jpg)` } : { background: 'transparent' }}
     >
       <div className="container">
-        <div className="nav">
-          <div className="d-flex align-items-center">
+        <div className="nav flex-sm-nowrap flex-md-wrap">
+          <div className="d-flex align-items-center justify-content-between w-100">
             <div className="logo">
               <Link legacyBehavior href="/">
-                <a>
-                  {blackLogo ? (
-                    <img alt="logo" src="assets/img/logo-black.png" />
-                  ) : (
-                    <img alt="logo" src="assets/img/logo.png" />
-                  )}
-                </a>
+                <a>{blackLogo ? <img alt="idealite" src="assets/img/idealite-logo.svg" /> : <img alt="idealite" src="assets/img/idealite-logo.svg" />}</a>
               </Link>
             </div>
             <ul className="menu">
@@ -35,80 +26,38 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
               </li>
               <li>
                 <Link legacyBehavior href="about">
-                  Pages
-                </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="about">
-                      about
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="team">
-                      team
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="services">
-                      services
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <Link legacyBehavior href="portfolio">
-                  Portfolio
+                  About Us
                 </Link>
               </li>
-              {/* <li>
-                <Link legacyBehavior href="blog-grid">
-                  Blog
-                </Link>
-                <ul className="sub-menu">
-                  <li>
-                    <Link legacyBehavior href="blog-grid">
-                      blog grid
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="blog-single-post">
-                      blog single post 1
-                    </Link>
-                  </li>
-                  <li>
-                    <Link legacyBehavior href="blog-single-post-2">
-                      blog single post 2
-                    </Link>
-                  </li>
-                </ul>
-              </li> */}
               <li>
-                <Link legacyBehavior href="contacts">
-                  contacts
+                <Link legacyBehavior href="services">
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="projects">
+                  Projects
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="careers">
+                  Careers
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="hire">
+                  Hire Freelancers ?
+                </Link>
+              </li>
+              <li>
+                <Link legacyBehavior href="hire">
+                  <a className="themebtu">Contact</a>
                 </Link>
               </li>
             </ul>
           </div>
-          <div>
-            <form id="content">
-              <input
-                type="text"
-                name="input"
-                className={`input ${searchToggle ? "square" : ""}`}
-                id="search-input"
-              />
-              <button
-                type="reset"
-                className={`search ${searchToggle ? "close" : ""}`}
-                id="search-btn"
-                onClick={() => setSearchToggle(!searchToggle)}
-              />
-            </form>
-            <Link legacyBehavior href="/contacts">
-              <a className="themebtu">Get Started</a>
-            </Link>
-          </div>
-          <div className="bar-menu" onClick={() => setToggle(true)}>
+
+          <div className="bar-menu flex-shrink-1" onClick={() => setToggle(true)}>
             <i className="fa-solid fa-bars" />
           </div>
         </div>
