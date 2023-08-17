@@ -2,6 +2,7 @@ import TerioCounter from '@/src/components/TerioCounter';
 import Layout from '@/src/layout/Layout';
 import { studiesswiper } from '@/src/sliderProps';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import AboutUs from '@/src/components/AboutUs';
 
 const Index = () => {
   return (
@@ -33,6 +34,8 @@ const Index = () => {
         </div>
         <div className="swiper-pagination two-style" />
       </section>
+      <AboutUs />
+
       <section className="gap">
         <div className="container">
           <div className="our-clients">

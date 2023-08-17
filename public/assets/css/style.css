@@ -234,7 +234,7 @@ header.two .menu a.themebtu:hover {
   color: #fff;
 }
 header {
-  position: absolute;
+  position: relative;
   width: 100%;
   padding-top: 10px;
   z-index: 1111;
@@ -2281,6 +2281,58 @@ section.gap.blog-recent-posts .latest-blog-post {
   padding-top: 0;
 }
 /* 50. about paga */
+.aboutus {
+  padding: 60px 0;
+}
+.aboutus .nav {
+  justify-content: flex-start;
+  gap: 30px;
+}
+.aboutus .nav-pills .nav-link {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  border-bottom: 2px solid #000;
+  border-radius: 0;
+  padding: 10px 0;
+}
+.aboutus .nav-pills .nav-link.active,
+.aboutus .nav-pills .show > .nav-link {
+  color: #038956;
+  background-color: transparent;
+  border-bottom-color: #038956;
+}
+.aboutus--desc {
+  color: rgba(0, 0, 0, 0.6);
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 25px 0 45px 0;
+}
+.aboutus--title {
+  color: #038956;
+  font-family: Inter;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 25px;
+}
+.aboutus .tab-pane-content {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 20px;
+}
+.about-list-group-item {
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 8px 0;
+  margin: 20px 0;
+}
 .things-differently {
   position: relative;
 }
