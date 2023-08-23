@@ -598,11 +598,11 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   content: '';
   width: 0%;
   height: 2px;
-  background-color: white;
+  background-color: #038956;
   bottom: -4px;
 }
 .links ul li a:hover {
-  color: white;
+  color: #038956;
 }
 .links ul li a:hover:before {
   width: 100%;
@@ -654,7 +654,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   justify-content: space-between;
   padding-top: 20px;
   margin-top: 100px;
-  border-top: 1px solid #666;
+  border-top: 1px solid #e2eae6;
   padding-bottom: 20px;
 }
 .footer-bottom ul {
@@ -664,7 +664,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   padding: 0 10px;
 }
 .footer-bottom ul li a {
-  color: #666666;
+  color: #038956;
 }
 .footer-bottom ul li a:hover {
   color: #999999;
