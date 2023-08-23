@@ -1,9 +1,9 @@
 import BrandSlider from '@/src/components/BrandSlider';
 import Layout from '@/src/layout/Layout';
 
-const Services = () => {
+const Services = ({ hideLayout = false }) => {
   return (
-    <Layout noHeaderBg pageName={'Services'}>
+    <Layout noHeaderBg pageName={'Services'} layout={hideLayout}>
       <section className="discovery gap no-bottom">
         <div className="container">
           <div className="row">
