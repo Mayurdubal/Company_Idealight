@@ -2093,7 +2093,7 @@ ul.sidebar .brandicon {
 .portfolio-controllers button {
   background-color: transparent;
   border: 0;
-  margin: 0 20px 0 0px;
+  margin: 0 40px 0 0px;
   font-size: 20px;
   color: #666;
 }
@@ -2920,6 +2920,10 @@ header.two .menu a,
   padding-right: 30px;
 }
 
+.pt-30 {
+  padding-top: 30px;
+}
+
 .gap-30 {
   gap: 40px;
 }
@@ -2929,5 +2933,17 @@ header.two .menu a,
 }
 
 .txt-green {
-  color: #038956;
+  color: #038956 !important;
+}
+
+.font-14 {
+  font-size: 14px;
+}
+
+.pl-25 {
+  padding-left: 25px;
+}
+
+.pt-10 {
+  padding-top: 10px;
 }

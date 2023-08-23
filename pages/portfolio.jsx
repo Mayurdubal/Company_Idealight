@@ -1,23 +1,14 @@
-import Layout from "@/src/layout/Layout";
-import dynamic from "next/dynamic";
-const PortfolioGridIsotope = dynamic(
-  () => import("@/src/components/PortfolioGridIsotope"),
-  {
-    ssr: false,
-  }
-);
-const PortfolioGrid = () => {
+import Layout from '@/src/layout/Layout';
+import dynamic from 'next/dynamic';
+const PortfolioGridIsotope = dynamic(() => import('@/src/components/PortfolioGridIsotope'), {
+  ssr: false,
+});
+const PortfolioGrid = ({ hideLayout = false }) => {
   return (
-    <Layout noHeaderBg pageName={"Portfolio"}>
-      <section
-        className="splash-area-section"
-        style={{ backgroundImage: "url(assets/img/background.jpg)" }}
-      >
+    <Layout noHeaderBg pageName={'Portfolio'} layout={hideLayout}>
+      <section className="projects mt-5">
         <div className="container">
-          <div className="splash-area">
-            <h2>We Love to Build Something Amazing</h2>
-            <a href="#">Portfolio Grid</a>
-          </div>
+          <h2 className="page-title">Featured Projects</h2>
         </div>
       </section>
       <PortfolioGridIsotope />

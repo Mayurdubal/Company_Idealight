@@ -35,7 +35,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="projects">
+                <Link legacyBehavior href="portfolio">
                   Projects
                 </Link>
               </li>
@@ -50,7 +50,7 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="hire">
+                <Link legacyBehavior href="contact">
                   <a className="themebtu">Contact</a>
                 </Link>
               </li>

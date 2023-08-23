@@ -4,6 +4,7 @@ import { studiesswiper } from '@/src/sliderProps';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import About from './about';
 import Services from './services';
+import PortfolioGrid from './portfolio';
 
 const Index = () => {
   return (
@@ -37,6 +38,7 @@ const Index = () => {
       </section>
       <About hideLayout={true} />
       <Services hideLayout={true} />
+      <PortfolioGrid hideLayout={true} />
 
       <section className="gap">
         <div className="container">
