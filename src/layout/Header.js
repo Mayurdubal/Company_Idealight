@@ -1,14 +1,18 @@
-import Link from 'next/link';
-import { useState } from 'react';
-import MobileHeader from './MobileHeader';
+import Link from "next/link";
+import { useRouter } from "next/router";
+import { useState } from "react";
+import MobileHeader from "./MobileHeader";
 
 const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
+  const router = useRouter();
   const [toggle, setToggle] = useState(false);
+
+  console.log(router.pathname)
 
   return (
     <header
-      className={headerExtraClass ? headerExtraClass : ''}
-      style={!noHeaderBg ? { backgroundImage: `url(assets/img/header.jpg)` } : { background: 'transparent' }}
+      className={headerExtraClass ? headerExtraClass : ""}
+      style={!noHeaderBg ? { backgroundImage: `url(assets/img/header.jpg)` } : { background: "transparent" }}
     >
       <div className="container">
         <div className="nav flex-sm-nowrap flex-md-wrap">
@@ -20,37 +24,37 @@ const Header = ({ headerExtraClass, noHeaderBg, blackLogo }) => {
             </div>
             <ul className="menu">
               <li>
-                <Link legacyBehavior href="/">
+                <Link href="/" className={router.pathname == "/" ? "active" : ""}>
                   Home
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="about">
+                <Link href="about" className={router.pathname == "/about" ? "active" : ""}>
                   About Us
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="services">
+                <Link href="services" className={router.pathname == "/services" ? "active" : ""}>
                   Services
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="portfolio">
+                <Link href="portfolio" className={router.pathname == "/portfolio" ? "active" : ""}>
                   Projects
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="careers">
+                <Link href="careers" className={router.pathname == "/careers" ? "active" : ""}>
                   Careers
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="hire">
+                <Link href="careers" className={router.pathname == "/careers" ? "active" : ""}>
                   Hire Freelancers ?
                 </Link>
               </li>
               <li>
-                <Link legacyBehavior href="contact">
+                <Link legacyBehavior href="contacts" className={router.pathname == "/contacts" ? "active" : ""}>
                   <a className="themebtu">Contact</a>
                 </Link>
               </li>
