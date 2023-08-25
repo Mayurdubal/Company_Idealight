@@ -2,6 +2,7 @@ import Layout from '@/src/layout/Layout';
 import About from './about';
 import Services from './services';
 import PortfolioGrid from './portfolio';
+import Careers from './careers';
 
 const Index = () => {
   return (
@@ -36,6 +37,7 @@ const Index = () => {
       <About hideLayout={true} />
       <Services hideLayout={true} />
       <PortfolioGrid hideLayout={true} />
+      <Careers hideLayout={true} />
     </Layout>
   );
 };

@@ -71,11 +71,11 @@
 -----------------------------------------------------------------------------------*/
 /* 1. General Style */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
 
 body {
   overflow-x: hidden !important;
-  font-family: 'Inter';
+  font-family: "Inter";
 }
 p {
   font-size: 16px;
@@ -220,7 +220,7 @@ header .logo img {
   position: relative;
 }
 .menu > li .sub-menu li:not(:last-child):before {
-  content: '';
+  content: "";
   background-color: #6669;
   bottom: 0%;
   width: 80%;
@@ -286,7 +286,7 @@ header {
 }
 .hero-section-one .heading-boder span:before {
   position: absolute;
-  content: '';
+  content: "";
   background-image: url(../img/text-line-w.png);
 }
 /* 4. small-services */
@@ -402,7 +402,7 @@ img.dots {
 .project:before {
   width: 100%;
   position: absolute;
-  content: '';
+  content: "";
   height: 64%;
   background-color: #f3f8fb;
   top: 0;
@@ -440,7 +440,7 @@ img.dots {
 }
 .swiper-button-prev:before {
   position: absolute;
-  content: '';
+  content: "";
   height: 30px;
   width: 30px;
   background-color: #ededed;
@@ -449,7 +449,7 @@ img.dots {
 }
 .swiper-button-next:before {
   position: absolute;
-  content: '';
+  content: "";
   height: 30px;
   width: 30px;
   background-color: #ededed;
@@ -595,7 +595,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .links ul li a:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 0%;
   height: 2px;
   background-color: #038956;
@@ -729,7 +729,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .heading-boder span:before {
   position: absolute;
-  content: '';
+  content: "";
   background-image: url(../img/text-line.png);
 }
 .heading-boder p {
@@ -740,7 +740,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
 }
 .heading-boder span:before {
   position: absolute;
-  content: '';
+  content: "";
   background-image: url(../img/text-line.png);
   height: 19%;
   background-repeat: no-repeat;
@@ -1101,7 +1101,7 @@ form.touch .btugap {
 }
 .sercives:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 716px;
   background-color: #f3f8fb;
@@ -1226,7 +1226,7 @@ form.touch .btugap {
 }
 .case-studies-two figure:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 0%;
   height: 0%;
   opacity: 0;
@@ -1274,7 +1274,7 @@ form.touch .btugap {
 }
 .team-section:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 100%;
   height: 652px;
   background-color: #f2edf5;
@@ -1528,7 +1528,7 @@ section.why-choose-us .heading-boder h2 {
 }
 .choose-us-img figure:before {
   position: absolute;
-  content: '';
+  content: "";
   width: 0%;
   height: 0%;
   opacity: 0;
@@ -1635,7 +1635,7 @@ section.why-choose-us .heading-boder h2 {
   width: 100%;
 }
 .case-studies-project a:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 0%;
   height: 1px;
@@ -1715,7 +1715,7 @@ section.why-choose-us .heading-boder h2 {
 }
 .satisfied-clients:before {
   position: absolute;
-  content: '';
+  content: "";
   z-index: -1;
   width: 100%;
   background-color: #f3f8fb;
@@ -2040,7 +2040,7 @@ ul.sidebar .brandicon {
 }
 .accordion-item .icon:before,
 .accordion-item .icon:after {
-  content: '';
+  content: "";
   width: 12px;
   height: 3px;
   background: black;
@@ -2454,7 +2454,7 @@ header .search {
   transform: translate(-100%, -50%);
 }
 header .search:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 10px;
   height: 1px;
@@ -2474,7 +2474,7 @@ header .close {
   transition-delay: 0.2s;
 }
 header .close:before {
-  content: '';
+  content: "";
   position: absolute;
   width: 27px;
   height: 4px;
@@ -2488,7 +2488,7 @@ header .close:before {
   transition: 0.2s ease-in-out;
 }
 header .close:after {
-  content: '';
+  content: "";
   position: absolute;
   width: 27px;
   height: 4px;
@@ -2630,7 +2630,7 @@ i#nav-icon4 {
   transition: 0.25s ease-in-out;
 }
 .mobile-nav > ul > li.menu-item-has-children:before {
-  content: '';
+  content: "";
   background-image: url(../img/down-arrow.svg);
   background-repeat: no-repeat;
   position: absolute;
@@ -2704,7 +2704,7 @@ i#nav-icon4 {
   width: auto;
 }
 .mobile-nav > ul > li.menu-item-has-children.active > ul.sub-menu li:before {
-  content: '';
+  content: "";
   width: 6px;
   height: 6px;
   position: absolute;
@@ -2733,7 +2733,7 @@ i#nav-icon4 {
   position: relative;
 }
 .mobile-nav .donation a.cart:before {
-  content: '1';
+  content: "1";
   color: white;
   width: 25px;
   height: 25px;
@@ -2765,10 +2765,10 @@ li.menu-item-has-children.active {
   background-color: transparent;
 }
 .mobile-nav a#res-cross:before {
-  content: '';
+  content: "";
   width: 35px;
   height: 35px;
-  background-image: url('../img/remove.svg');
+  background-image: url("../img/remove.svg");
   background-repeat: no-repeat;
   position: absolute;
   top: 15px;
@@ -2799,7 +2799,7 @@ li.menu-item-has-children.active {
   z-index: 1000;
 }
 #button::after {
-  content: '\f077';
+  content: "\f077";
   font-family: FontAwesome;
   font-weight: normal;
   font-style: normal;
@@ -2916,6 +2916,50 @@ header.two .menu a,
   transition: 0.3s ease-in-out;
 }
 
+.careers-banner {
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.job-card {
+  max-width: 20rem;
+  border-radius: 12px;
+  flex-grow: 1;
+}
+
+.badge {
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 5px 12px;
+}
+
+.badge-primary {
+  background-color: #2e78e8;
+  color: #fff;
+}
+
+.badge-success {
+  background-color: #038956;
+  color: #fff;
+}
+
+.badge-info {
+  background-color: #35b6df;
+  color: #fff;
+}
+
+.badge-danger {
+  background-color: #b335df;
+  color: #fff;
+}
+
+.text-right {
+  text-align: right;
+}
+
 .pr-30 {
   padding-right: 30px;
 }
@@ -2946,4 +2990,21 @@ header.two .menu a,
 
 .pt-10 {
   padding-top: 10px;
+}
+
+.job-badge {
+  padding-top: 12px;
+  padding-bottom: 60px;
+}
+
+.job-btn {
+  border-radius: 10px;
+  border: 1px solid #038956;
+  background: #fff;
+  color: #038956;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 7px 30px;
 }
