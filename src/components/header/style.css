@@ -1,0 +1,11 @@
+header {
+  @apply flex items-center justify-between;
+
+  ul {
+    @apply flex gap-16 px-5 text-lg text-black;
+
+    .active {
+      color: var(--primary-color)
+    }
+  }
+}
