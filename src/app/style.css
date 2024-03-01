@@ -178,4 +178,27 @@
   p {
     @apply my-2 text-[00000080] text-sm leading-[22px];
   }
+
+  .options {
+    @apply mt-10 mb-5 px-20 py-14 rounded-md flex justify-between items-start;
+    background: #0389560d;
+
+    div {
+      &:first-child {
+        @apply w-2/6 flex items-baseline flex-col gap-14;
+
+        button {
+          @apply flex items-center gap-4 py-3 px-6 rounded-lg bg-white text-sm text-black font-semibold;
+        }
+      }
+
+      &:last-child {
+        @apply w-3/5;
+
+        p {
+          @apply text-xl font-bold text-[#000000CC];
+        }
+      }
+    }
+  }
 }

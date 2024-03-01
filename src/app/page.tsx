@@ -174,6 +174,30 @@ export default function Home() {
             Feel free to reach out to us using the options below, and our
             dedicated team will respond to your inquiries promptly.
           </p>
+          <div className="options">
+            <div>
+              <button>
+                <Image
+                  src="/support.svg"
+                  width={25}
+                  height={25}
+                  alt="support"
+                />{" "}
+                Need Support ?
+              </button>
+              <button>
+                <Image src="/email.svg" width={25} height={25} alt="email" />{" "}
+                Have Feedback ?
+              </button>
+              <button>
+                <Image src="/email.svg" width={25} height={25} alt="email" />{" "}
+                Need Support ?
+              </button>
+            </div>
+            <div>
+              <p>How can we help you today ?</p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
