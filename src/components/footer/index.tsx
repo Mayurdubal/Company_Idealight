@@ -1,7 +1,7 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
-import './style.css';
+import "./style.css";
 
 const Footer = () => {
   return (

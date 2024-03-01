@@ -1,10 +1,10 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+import Image from "next/image";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-import './style.css';
+import "./style.css";
 
 const Header = () => {
   const pathname = usePathname();
@@ -14,19 +14,19 @@ const Header = () => {
       <Image src="/logo.png" width={120} height={120} alt="idealite logo" />
       <ul className="menu">
         <li>
-          <Link href="/" className={pathname == '/' ? 'active' : ''}>
+          <Link href="/" className={pathname == "/" ? "active" : ""}>
             Home
           </Link>
         </li>
         <li>
-          <Link href="about" className={pathname == '/about' ? 'active' : ''}>
+          <Link href="about" className={pathname == "/about" ? "active" : ""}>
             About Us
           </Link>
         </li>
         <li>
           <Link
             href="services"
-            className={pathname == '/services' ? 'active' : ''}
+            className={pathname == "/services" ? "active" : ""}
           >
             Services
           </Link>
@@ -34,7 +34,7 @@ const Header = () => {
         <li>
           <Link
             href="portfolio"
-            className={pathname == '/portfolio' ? 'active' : ''}
+            className={pathname == "/portfolio" ? "active" : ""}
           >
             Projects
           </Link>
@@ -42,7 +42,7 @@ const Header = () => {
         <li>
           <Link
             href="contact"
-            className={pathname == '/contact' ? 'active' : ''}
+            className={pathname == "/contact" ? "active" : ""}
           >
             Contact
           </Link>

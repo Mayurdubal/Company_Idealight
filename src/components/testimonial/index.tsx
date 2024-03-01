@@ -1,13 +1,13 @@
-'use client';
+"use client";
 
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Swiper, SwiperSlide } from "swiper/react";
 
-import 'swiper/css';
-import 'swiper/css/pagination';
-import './style.css';
-import { testimonials } from '@/constants';
-import Image from 'next/image';
-import { Pagination } from 'swiper/modules';
+import "swiper/css";
+import "swiper/css/pagination";
+import "./style.css";
+import { testimonials } from "@/constants";
+import Image from "next/image";
+import { Pagination } from "swiper/modules";
 
 const Testimonial = () => {
   return (
@@ -20,8 +20,8 @@ const Testimonial = () => {
         </h4>
         <p>
           Celebrating the voices of our esteemed clients, our testimonials
-          provide an authentic glimpse into the experiences of those we've had
-          the pleasure of serving.
+          provide an authentic glimpse into the experiences of those we&apos;ve
+          had the pleasure of serving.
         </p>
       </div>
       <div className="list">
@@ -32,7 +32,7 @@ const Testimonial = () => {
           pagination={{ clickable: true }}
         >
           {testimonials.map(({ img, name, designation, description }) => (
-            <SwiperSlide>
+            <SwiperSlide key={name}>
               <div className="testmonial">
                 <Image src={img} width={60} height={60} alt={name} />
                 <h5>{name}</h5>

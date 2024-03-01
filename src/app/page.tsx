@@ -1,10 +1,10 @@
-import Image from 'next/image';
-import Link from 'next/link';
+import Image from "next/image";
+import Link from "next/link";
 
-import './style.css';
-import { techStack } from '@/constants';
-import ProjectsGrid from '@/components/projectsGrid';
-import Testimonial from '@/components/testimonial';
+import "./style.css";
+import { techStack } from "@/constants";
+import ProjectsGrid from "@/components/projectsGrid";
+import Testimonial from "@/components/testimonial";
 
 export default function Home() {
   return (
@@ -136,8 +136,8 @@ export default function Home() {
             websites stand as a testament to innovation.
           </p>
           <ul>
-            {techStack.map(({ title, img, description }, i) => (
-              <li key={i}>
+            {techStack.map(({ title, img, description }) => (
+              <li key={title}>
                 <figure>
                   <Image src={img} width={50} height={50} alt={title} />
                 </figure>
@@ -155,10 +155,10 @@ export default function Home() {
             Successes
           </h4>
           <p>
-            Explore how we've helped clients in various industries achieve their
-            goals and surpass expectations. Whether it's e-commerce, healthcare,
-            finance, or beyond, our projects showcase a commitment to delivering
-            tailored solutions
+            Explore how we&apos;ve helped clients in various industries achieve
+            their goals and surpass expectations. Whether it&apos;s e-commerce,
+            healthcare, finance, or beyond, our projects showcase a commitment
+            to delivering tailored solutions
           </p>
           <ProjectsGrid />
         </div>
