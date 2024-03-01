@@ -1,46 +1,55 @@
-"use client"
+'use client';
 
-import Image from "next/image"
-import Link from "next/link";
-import { usePathname } from "next/navigation";
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 
-import "./style.css"
+import './style.css';
 
 const Header = () => {
   const pathname = usePathname();
-  
+
   return (
     <header className="py-6 px-16">
       <Image src="/logo.png" width={120} height={120} alt="idealite logo" />
       <ul className="menu">
         <li>
-          <Link href="/" className={pathname == "/" ? "active" : ""}>
+          <Link href="/" className={pathname == '/' ? 'active' : ''}>
             Home
           </Link>
         </li>
         <li>
-          <Link href="about" className={pathname == "/about" ? "active" : ""}>
+          <Link href="about" className={pathname == '/about' ? 'active' : ''}>
             About Us
           </Link>
         </li>
         <li>
-          <Link href="services" className={pathname == "/services" ? "active" : ""}>
+          <Link
+            href="services"
+            className={pathname == '/services' ? 'active' : ''}
+          >
             Services
           </Link>
         </li>
         <li>
-          <Link href="portfolio" className={pathname == "/portfolio" ? "active" : ""}>
+          <Link
+            href="portfolio"
+            className={pathname == '/portfolio' ? 'active' : ''}
+          >
             Projects
           </Link>
         </li>
         <li>
-          <Link href="contact" className={pathname == "/contact" ? "active" : ""}>
+          <Link
+            href="contact"
+            className={pathname == '/contact' ? 'active' : ''}
+          >
             Contact
           </Link>
         </li>
       </ul>
     </header>
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

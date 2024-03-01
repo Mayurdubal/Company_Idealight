@@ -1,8 +1,10 @@
-import Image from "next/image";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
-import "./style.css";
-import { techStack } from "@/constants";
+import './style.css';
+import { techStack } from '@/constants';
+import ProjectsGrid from '@/components/projectsGrid';
+import Testimonial from '@/components/testimonial';
 
 export default function Home() {
   return (
@@ -144,6 +146,34 @@ export default function Home() {
               </li>
             ))}
           </ul>
+        </div>
+        {/* projects section */}
+        <div className="projects">
+          <h3>Explore our Projects</h3>
+          <h4>
+            Explore Our Showcase of <span>Innovative Solutions</span> and Client
+            Successes
+          </h4>
+          <p>
+            Explore how we've helped clients in various industries achieve their
+            goals and surpass expectations. Whether it's e-commerce, healthcare,
+            finance, or beyond, our projects showcase a commitment to delivering
+            tailored solutions
+          </p>
+          <ProjectsGrid />
+        </div>
+        {/* testimonials section */}
+        <Testimonial />
+        {/* contact section */}
+        <div className="contact">
+          <h3>Contact</h3>
+          <h4>
+            Need <span>help ?</span> Say Hello
+          </h4>
+          <p>
+            Feel free to reach out to us using the options below, and our
+            dedicated team will respond to your inquiries promptly.
+          </p>
         </div>
       </div>
     </main>

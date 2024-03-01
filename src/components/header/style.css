@@ -5,7 +5,7 @@ header {
     @apply flex gap-16 px-5 text-lg text-black;
 
     .active {
-      color: var(--primary-color)
+      color: var(--primary-color);
     }
   }
 }
