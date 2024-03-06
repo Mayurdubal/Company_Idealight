@@ -98,6 +98,7 @@
 
     li {
       @apply w-full border py-3 px-2 flex items-center text-sm rounded-md;
+      @apply w-full border py-3 px-2 flex items-center text-sm rounded-md;
 
       img {
         @apply mx-7;
@@ -116,6 +117,85 @@
       }
     }
   }
+}
+.services {
+  @apply py-16;
+  h4 {
+    @apply mt-3 mb-1 text-[#00000080] text-2xl font-semibold text-black;
+
+    span {
+      color: var(--primary-color);
+    }
+  }
+
+  h5 {
+    @apply text-[#00000080] text-2xl font-semibold text-black mt-5;
+  }
+  p {
+    @apply text-sm mt-3 text-justify leading-6;
+  }
+  button {
+    @apply px-3 py-2 mt-4 rounded-lg text-sm;
+    background: var(--primary-color);
+    color: white;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  .services1 {
+    @apply flex gap-10 mt-10;
+    div {
+      background: rgba(3, 137, 86, 0.05);
+      padding: 50px 40px;
+      border-radius: 10px;
+      &:first-child {
+        @apply w-7/12;
+      }
+      &:last-child {
+        @apply w-5/12;
+      }
+    }
+  }
+  .services2 {
+    @apply flex gap-10 mt-10;
+    div {
+      background: rgba(3, 137, 86, 0.05);
+      padding: 50px 40px;
+      border-radius: 10px;
+      &:first-child {
+        @apply w-2/4;
+      }
+      &:last-child {
+        @apply w-2/4;
+      }
+    }
+  }
+  .services3 {
+    @apply flex gap-10 mt-10 w-full;
+    div {
+      background: rgba(3, 137, 86, 0.05);
+      padding: 50px 40px;
+      border-radius: 10px;
+      display: flex;
+      gap: 80px;
+      span {
+        &:first-child {
+          @apply w-2/4;
+        }
+        &:last-child {
+          @apply w-2/4 flex;
+          span {
+            @apply flex items-start flex-wrap;
+          }
+        }
+      }
+      main {
+        @apply px-5 rounded-lg py-3 flex text-xs w-5/6  font-semibold text-black items-center gap-3;
+        background: white;
+      }
+    }
+  }
+}
+.badge {
+  @apply rounded-3xl border border-slate-400 border-2 px-4 py-2 text-xs font-semibold text-black;
 }
 .services {
   @apply py-16;
@@ -256,10 +336,10 @@
 
   p {
     @apply text-[00000080] text-sm;
+    @apply text-[00000080] text-sm;
   }
-
   .options {
-    @apply mt-10 mb-5 px-20 py-14 rounded-md flex justify-between items-start;
+    @apply mt-10 mb-5 px-14 py-10 rounded-md flex justify-between items-start;
     background: #0389560d;
 
     div {
@@ -270,7 +350,6 @@
           @apply flex items-center gap-4 py-3 px-6 rounded-lg bg-white text-sm text-black font-semibold;
         }
       }
-
       &:last-child {
         @apply w-3/5;
         p {
@@ -280,10 +359,10 @@
           @apply mt-0 text-xl;
         }
         span {
-          @apply flex gap-10;
+          @apply flex gap-5;
         }
         input {
-          @apply mt-4 rounded-lg h-12 px-6 w-3/4;
+          @apply mt-4 rounded-lg h-12 px-6 w-full;
         }
         textarea {
           @apply mt-4 w-full rounded-lg h-20 p-4;

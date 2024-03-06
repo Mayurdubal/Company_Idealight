@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import { useForm } from "@formspree/react";
 
 import "./style.css";
 import { techStack } from "@/constants";
@@ -7,6 +10,9 @@ import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
 
 export default function Home() {
+  const [state, handleSubmit] = useForm("moqovqjk");
+  const hasErrors = Array.isArray(state.errors) && state.errors.length > 0;
+
   return (
     <main className="home">
       {/* banner section */}
@@ -23,12 +29,12 @@ export default function Home() {
             <h3>Web, mobile and cloud experts</h3>
             <ul>
               <li>
-                <Link className="contact-us" href="/">
+                <Link className="contact-us" href="/contact">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="/">Explore Projects</Link>
+                <Link href="/portfolio">Explore Projects</Link>
               </li>
             </ul>
           </div>
@@ -66,8 +72,11 @@ export default function Home() {
               </li>
             </ul>
             <div>
-              <button>Learn More</button>
-              <Link href="/">Let&apos;s Connect</Link>
+              <Link href="/about">
+                {" "}
+                <button>Learn More </button>
+              </Link>
+              <Link href="/contact">Let&apos;s Connect</Link>
             </div>
           </div>
           <ul className="about-list">
@@ -320,12 +329,46 @@ export default function Home() {
               <p>
                 Let us know who you are and what you&apos;re looking for below.
               </p>
-              <span>
-                <input placeholder="Name" />{" "}
-                <input placeholder="Email Address" />
-              </span>
-              <textarea placeholder="Message" />
-              <button>Send</button>
+              <form className="content-form" onSubmit={handleSubmit}>
+                <span>
+                  <input type="text" name="name" placeholder="Name" required />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Email"
+                    required
+                  />
+                </span>
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Subject"
+                  required
+                />
+                <textarea
+                  placeholder="Your Message"
+                  defaultValue={""}
+                  name="message"
+                  required
+                />
+                <button
+                  className="themebtu contact-btn"
+                  type="submit"
+                  disabled={state.submitting}
+                >
+                  Send
+                </button>
+              </form>
+              <p
+                style={{
+                  opacity: 1,
+                  marginTop: "20px",
+                  color: hasErrors ? "red" : "green"
+                }}
+              >
+                {state.succeeded && "Your Message sent successfully!"}
+                {hasErrors && "Failed to send Message"}
+              </p>
             </div>
           </div>
         </div>
