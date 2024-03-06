@@ -1,9 +1,13 @@
 footer {
   @apply px-16;
   background: var(--background-color);
+  color: rgba(0, 0, 0, 0.8);
 
   .footer-1 {
     @apply pt-10 pb-16 text-sm flex items-start justify-between;
+  }
+  p {
+    line-height: 2;
   }
 
   h5 {
@@ -35,6 +39,10 @@ footer {
 
   .touch {
     width: 25%;
+    span {
+      @apply flex gap-4 font-semibold mt-2;
+      color: var(--primary-color);
+    }
   }
 
   .footer-2 {

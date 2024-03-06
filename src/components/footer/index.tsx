@@ -68,6 +68,14 @@ const Footer = () => {
             205, Dwarka Palace, Vimal Dairy Rd, Kashi Nagar, Bhayandar East,
             Mumbai, Maharashtra 401105
           </p>
+          <span>
+            <Image src="/call.svg" width={15} height={15} alt="call" />
+            <a href="tel:917977113822">917977113822</a>
+          </span>
+          <span>
+            <Image src="/email.svg" width={15} height={15} alt="call" />
+            <a href="mailto:harshit@idealite.in">harshit@idealite.in</a>
+          </span>
         </div>
       </div>
       <div className="footer-2">

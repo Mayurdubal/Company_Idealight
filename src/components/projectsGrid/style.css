@@ -1,5 +1,5 @@
 .category-list {
-  @apply flex gap-6;
+  @apply flex gap-6 text-sm;
 
   button {
     @apply py-2 px-3 rounded-lg font-semibold;
@@ -8,5 +8,28 @@
       color: var(--primary-color);
       background: var(--background-color);
     }
+  }
+}
+.project-container {
+  @apply flex flex-wrap justify-start gap-14  mt-10;
+
+  .project-card {
+    @apply w-64 border rounded-xl;
+  }
+  h2 {
+    @apply px-4 font-semibold;
+  }
+  h6 {
+    @apply text-xs px-4 mb-2 mt-2 font-semibold;
+    color: var(--primary-color);
+  }
+  p {
+    @apply px-4 text-xs;
+  }
+  span {
+    @apply text-justify;
+  }
+  .caseButton {
+    @apply px-4 py-2 pb-4 cursor-pointer;
   }
 }

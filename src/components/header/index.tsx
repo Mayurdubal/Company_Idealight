@@ -10,8 +10,8 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="py-6 px-16">
-      <Image src="/logo.png" width={120} height={120} alt="idealite logo" />
+    <header className="py-6 px-24">
+      <Image src="/logo.svg" width={100} height={100} alt="idealite logo" />
       <ul className="menu">
         <li>
           <Link href="/" className={pathname == "/" ? "active" : ""}>

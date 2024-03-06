@@ -1,19 +1,20 @@
 "use client";
 
-import { useCallback, useEffect, useRef, useState } from "react";
+import { useState } from "react";
+import Image from "next/image";
 
 import "./style.css";
 
 const data = [
   {
     id: 1,
-    name: "tamohara",
-    title: "Tamohara",
-    category: "Finance",
+    name: "bartleby",
+    title: "Bartleby",
+    category: "Education",
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
-    filter: "Finance",
+    filter: "Education",
     caseStuday: 1,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/bartleby.svg"
   },
   {
     id: 2,
@@ -23,7 +24,7 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Systems",
     caseStuday: 2,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/designer.svg"
   },
   {
     id: 3,
@@ -33,7 +34,7 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Govt",
     caseStuday: 3,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/bartleby.svg"
   },
   {
     id: 4,
@@ -43,18 +44,17 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Systems",
     caseStuday: 4,
-    img: "assets/img/portfolio-1.jpg",
-    website: "https://www.nike.com/in/"
+    img: "/nike.svg"
   },
   {
     id: 5,
-    name: "bartleby",
-    title: "Bartleby",
-    category: "Education",
+    name: "tamohara",
+    title: "Tamohara",
+    category: "Finance",
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
-    filter: "Education",
+    filter: "Finance",
     caseStuday: 5,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/smi.svg"
   },
   {
     id: 6,
@@ -64,8 +64,7 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Healthcare",
     caseStuday: 6,
-    img: "assets/img/portfolio-1.jpg",
-    website: "https://qritive.com/"
+    img: "/qritive.svg"
   },
   {
     id: 7,
@@ -75,7 +74,7 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Healthcare",
     caseStuday: 7,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/bartleby.svg"
   },
   {
     id: 8,
@@ -85,17 +84,17 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Healthcare",
     caseStuday: 8,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/lofoods.svg"
   },
   {
     id: 9,
-    name: "apohacoach",
+    name: "alphacoach",
     title: "Alphacoach",
     category: "Healthcare",
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Healthcare",
     caseStuday: 9,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/alphacoach.svg"
   },
   {
     id: 10,
@@ -105,7 +104,7 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "NGO",
     caseStuday: 10,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/bhavyata.svg"
   },
   {
     id: 11,
@@ -115,12 +114,17 @@ const data = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Education",
     caseStuday: 11,
-    img: "assets/img/portfolio-1.jpg"
+    img: "/lemark.svg"
   }
 ];
 
 const ProjectsGrid = () => {
-  const [filterKey, setFilterKey] = useState("all");
+  const [filterKey, setFilterKey] = useState<string>("all");
+
+  const filteredData =
+    filterKey === "all"
+      ? data
+      : data.filter((item) => item.category === filterKey);
 
   return (
     <div className="my-5">
@@ -149,8 +153,34 @@ const ProjectsGrid = () => {
           </li>
         ))}
       </ul>
-      <div className="h-80"></div>
+      <div className="project-container">
+        {filteredData.map((item) => (
+          <div className="project-card" key={item.id}>
+            <div>
+              <Image
+                src={`${item.img}`}
+                width={270}
+                height={270}
+                alt="bartleby"
+              />
+              <span>
+                <h6>{item.category}</h6>
+                <h2>{item.title}</h2>
+                <p>{item.desc}</p>
+                <Image
+                  className="caseButton"
+                  src="/caseButton.svg"
+                  width={140}
+                  height={140}
+                  alt="caseStudy"
+                />
+              </span>
+            </div>{" "}
+          </div>
+        ))}
+      </div>
     </div>
   );
 };
+
 export default ProjectsGrid;
