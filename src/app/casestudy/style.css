@@ -1,13 +1,40 @@
 .case-study {
-  @apply mt-12 ml-24 mr-24;
-  span {
-    @apply flex flex-col border-l-8 px-6 border-[#038956] mb-10;
+  @apply mt-12 ml-24 mr-24 mb-20;
 
-    h1 {
-      @apply text-2xl font-semibold text-black;
+  div {
+    @apply flex gap-10;
+
+    &:first-child {
+      @apply w-3/5;
+      h4 {
+        @apply font-semibold text-black;
+      }
+      p {
+        @apply text-justify text-black text-base mt-3 leading-7;
+      }
+      .objective {
+        @apply p-6 rounded-lg;
+        background-color: rgba(3, 137, 86, 0.05);
+      }
     }
-    p {
-      @apply text-sm mt-2;
+    &:last-child {
+      @apply w-full;
+      h4 {
+        @apply font-semibold text-black;
+      }
+      p {
+        @apply text-justify text-base mt-3 text-black leading-7;
+      }
     }
+  }
+}
+.title {
+  @apply flex flex-col border-l-8 px-6 border-[#038956] mb-10;
+
+  h1 {
+    @apply text-2xl font-semibold text-black;
+  }
+  p {
+    @apply text-sm mt-2;
   }
 }

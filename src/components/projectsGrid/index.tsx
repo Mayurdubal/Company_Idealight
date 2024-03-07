@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import "./style.css";
 
-const data = [
+export const projectData = [
   {
     id: 1,
     name: "bartleby",
@@ -123,8 +123,8 @@ const ProjectsGrid = () => {
 
   const filteredData =
     filterKey === "all"
-      ? data
-      : data.filter((item) => item.category === filterKey);
+      ? projectData
+      : projectData.filter((item) => item.category === filterKey);
 
   return (
     <div className="my-5">
@@ -134,11 +134,11 @@ const ProjectsGrid = () => {
             className={filterKey === "all" ? "active" : ""}
             onClick={() => setFilterKey("all")}
           >
-            All ({data.length})
+            All ({projectData.length})
           </button>
         </li>
         {Object.entries(
-          data.reduce((acc: Record<string, number>, curr) => {
+          projectData.reduce((acc: Record<string, number>, curr) => {
             acc[curr.category] = (acc[curr.category] || 0) + 1;
             return acc;
           }, {})
@@ -175,7 +175,7 @@ const ProjectsGrid = () => {
                   alt="caseStudy"
                 />
               </span>
-            </div>{" "}
+            </div>
           </div>
         ))}
       </div>
