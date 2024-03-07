@@ -4,6 +4,7 @@ import { useState } from "react";
 import Image from "next/image";
 
 import "./style.css";
+import Link from "next/link";
 
 export const projectData = [
   {
@@ -155,28 +156,30 @@ const ProjectsGrid = () => {
       </ul>
       <div className="project-container">
         {filteredData.map((item) => (
-          <div className="project-card" key={item.id}>
-            <div>
-              <Image
-                src={`${item.img}`}
-                width={270}
-                height={270}
-                alt="bartleby"
-              />
-              <span>
-                <h6>{item.category}</h6>
-                <h2>{item.title}</h2>
-                <p>{item.desc}</p>
+          <Link href="/casestudy" key={item.id}>
+            <div className="project-card">
+              <div>
                 <Image
-                  className="caseButton"
-                  src="/caseButton.svg"
-                  width={140}
-                  height={140}
-                  alt="caseStudy"
+                  src={`${item.img}`}
+                  width={270}
+                  height={270}
+                  alt="bartleby"
                 />
-              </span>
+                <span>
+                  <h6>{item.category}</h6>
+                  <h2>{item.title}</h2>
+                  <p>{item.desc}</p>
+                  <Image
+                    className="caseButton"
+                    src="/caseButton.svg"
+                    width={140}
+                    height={140}
+                    alt="caseStudy"
+                  />
+                </span>
+              </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </div>
