@@ -38,3 +38,19 @@
     @apply text-sm mt-2;
   }
 }
+@media (max-width: 767px) {
+  .case-study {
+    @apply m-10;
+    .title {
+      h1 {
+        @apply text-xl;
+      }
+    }
+    div {
+      @apply flex flex-col;
+      &:first-child {
+        @apply w-full;
+      }
+    }
+  }
+}

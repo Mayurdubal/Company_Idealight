@@ -63,7 +63,7 @@
     @apply w-1/2;
 
     h4 {
-      @apply mt-6 text-[#00000080] font-semibold text-2xl;
+      @apply mt-6 text-[#000000] font-semibold text-2xl;
     }
 
     p {
@@ -370,6 +370,135 @@
         button {
           @apply mt-4 py-2 px-5 rounded-lg text-white text-xs;
           background: #038956;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 767px) {
+  .banner {
+    figure {
+      @apply w-[280px] mb-3;
+    }
+    .wrapper {
+      @apply flex flex-col flex-col-reverse	text-center;
+    }
+    .intro {
+      @apply flex flex-col items-center;
+      h2 {
+        @apply text-3xl mt-14;
+      }
+      p {
+        @apply text-center;
+      }
+    }
+  }
+  .about {
+    @apply pt-20 pb-4 flex flex-col;
+
+    div.about-us {
+      @apply w-full;
+
+      h4 {
+        @apply text-xl mt-4;
+      }
+      p {
+        @apply w-full;
+      }
+      ul {
+        @apply flex flex-wrap gap-y-6;
+      }
+    }
+    ul.about-list {
+      @apply w-full text-justify;
+      li {
+        &:first-child {
+          @apply mt-8;
+        }
+      }
+    }
+  }
+  .services {
+    @apply pt-16 pb-2;
+    .services1 {
+      @apply flex flex-col w-full;
+      div {
+        &:first-child {
+          @apply w-full;
+          h5 {
+            @apply text-lg;
+          }
+        }
+        &:last-child {
+          @apply w-full;
+          h5 {
+            @apply text-lg;
+          }
+        }
+      }
+    }
+    .services2 {
+      @apply flex flex-col w-full;
+      div {
+        &:first-child {
+          @apply w-full;
+          h5 {
+            @apply text-lg;
+          }
+        }
+        &:last-child {
+          @apply w-full;
+          h5 {
+            @apply text-lg;
+          }
+        }
+      }
+    }
+    .services3 {
+      div {
+        @apply flex flex-col gap-10;
+        span {
+          &:first-child {
+            @apply w-full flex flex-col gap-y-4;
+          }
+          &:last-child {
+            @apply w-full flex flex-col gap-y-4;
+            main {
+              @apply w-full;
+            }
+          }
+        }
+      }
+    }
+  }
+  .tech-stack {
+    ul {
+      @apply pt-14 pb-0 grid grid-cols-2 w-full gap-3;
+      li {
+        @apply w-full p-4;
+      }
+    }
+  }
+  .projects {
+    h4 {
+      @apply text-2xl;
+    }
+  }
+  .contact {
+    .options {
+      @apply flex flex-col-reverse w-full p-8;
+      div {
+        &:last-child {
+          @apply w-full;
+          span {
+            @apply flex flex-col gap-0;
+          }
+        }
+        &:first-child {
+          @apply flex gap-4 w-full mt-4;
+          button {
+            @apply w-full;
+          }
         }
       }
     }

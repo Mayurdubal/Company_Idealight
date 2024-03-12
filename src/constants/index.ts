@@ -58,10 +58,10 @@ export const techStack = [
 export const testimonials = [
   {
     img: "/avatar.png",
-    name: "Sanket Singh",
-    designation: "Frontend Engineer",
+    name: "Kulin Maniar",
+    designation: "Founder, Bhavyata Foundation",
     description:
-      "Celebrating the voices of our esteemed clients, our testimonials provide an authentic glimpse into the experiences of those we've had the pleasure of serving."
+      "I find Harshit’s approach to assignments and projects very professional. His passion for perfection leads to what best the project needs. I would surely recommend Harshit’s talents for a professional and committed outcome. All the best to you, Harshit!!"
   },
   {
     img: "/avatar.png",

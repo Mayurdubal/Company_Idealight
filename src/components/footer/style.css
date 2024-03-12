@@ -55,3 +55,31 @@ footer {
     }
   }
 }
+@media (max-width: 767px) {
+  .footer-1 {
+    @apply flex flex-wrap;
+    .intro {
+      @apply w-full;
+    }
+    .explore,
+    .company,
+    .solution {
+      @apply w-full mt-6;
+      h5 {
+        @apply mb-4;
+      }
+    }
+    .touch {
+      @apply w-full;
+      h5 {
+        @apply mb-4 mt-6;
+      }
+    }
+  }
+  .footer-2 {
+    @apply flex flex-col text-center;
+    ul {
+      @apply flex justify-between mt-4 w-full;
+    }
+  }
+}

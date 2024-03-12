@@ -159,12 +159,14 @@ const ProjectsGrid = () => {
           <Link href="/casestudy" key={item.id}>
             <div className="project-card">
               <div>
-                <Image
-                  src={`${item.img}`}
-                  width={270}
-                  height={270}
-                  alt="bartleby"
-                />
+                <figure>
+                  <Image
+                    src={`${item.img}`}
+                    width={270}
+                    height={270}
+                    alt="bartleby"
+                  />
+                </figure>
                 <span>
                   <h6>{item.category}</h6>
                   <h2>{item.title}</h2>
