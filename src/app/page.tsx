@@ -8,6 +8,7 @@ import "./style.css";
 import { techStack } from "@/constants";
 import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
+import { useState } from "react";
 
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
@@ -73,7 +74,6 @@ export default function Home() {
             </ul>
             <div>
               <Link href="/about">
-                {" "}
                 <button>Learn More </button>
               </Link>
               <Link href="/contact">Let&apos;s Connect</Link>

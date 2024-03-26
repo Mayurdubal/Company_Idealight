@@ -2,7 +2,7 @@ import ProjectsGrid from "@/components/projectsGrid";
 import "../style.css";
 const Projects = () => {
   return (
-    <div className="projects px-8 py-16">
+    <div className="projects menu-container py-16">
       <h3 className="text-base font-semibold text-[#038956]">
         Explore our Projects
       </h3>

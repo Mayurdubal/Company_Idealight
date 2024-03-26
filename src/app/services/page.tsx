@@ -2,7 +2,7 @@ import Image from "next/image";
 import "../style.css";
 const Services = () => {
   return (
-    <div className="services px-8">
+    <div className="services menu-container">
       <h3 className="text-base font-semibold text-[#038956]">Our Services</h3>
       <h4>
         Build your <span>pixel-perfect</span> website

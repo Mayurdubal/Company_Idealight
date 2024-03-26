@@ -3,7 +3,7 @@ import Link from "next/link";
 import "../style.css";
 const About = () => {
   return (
-    <div className="about px-8">
+    <div className="about menu-container">
       <div className="about-us">
         <h3 className="text-base font-semibold text-[#038956]">About Us</h3>
         <h4>Crafting Interfaces That Connect</h4>

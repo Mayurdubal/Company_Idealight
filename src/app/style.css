@@ -55,6 +55,9 @@
     }
   }
 }
+.menu-container {
+  @apply px-24;
+}
 
 .about {
   @apply py-24 flex items-start justify-between;
@@ -63,6 +66,7 @@
     @apply w-1/2;
 
     h4 {
+      @apply mt-6 text-[#000000] font-semibold text-2xl;
       @apply mt-6 text-[#000000] font-semibold text-2xl;
     }
 
@@ -376,6 +380,9 @@
   }
 }
 @media (max-width: 767px) {
+  .menu-container {
+    @apply px-8;
+  }
   .banner {
     figure {
       @apply w-[280px] mb-3;
