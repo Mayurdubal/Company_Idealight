@@ -183,6 +183,7 @@ export default function Home() {
                 mobile applications, meticulously developed utilizing the latest
                 advancements in technology.
               </p>
+              <button>Discover</button>
             </div>
             <div>
               <span className="badge">SEO Optimization</span>
@@ -194,6 +195,7 @@ export default function Home() {
                 organic traffic, and propel your brand to the forefront of
                 online search results.
               </p>
+              <button>Discover</button>
             </div>
           </div>
           <div className="services3">

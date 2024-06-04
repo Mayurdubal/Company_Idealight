@@ -230,10 +230,10 @@
       padding: 50px 40px;
       border-radius: 10px;
       &:first-child {
-        @apply w-7/12;
+        @apply w-2/4;
       }
       &:last-child {
-        @apply w-5/12;
+        @apply w-2/4;
       }
     }
   }

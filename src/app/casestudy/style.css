@@ -2,36 +2,54 @@
   @apply mt-12 ml-24 mr-24 mb-20;
 
   div {
-    @apply flex gap-10;
+    @apply flex;
 
-    &:first-child {
-      @apply w-3/5;
-      h4 {
-        @apply font-semibold text-black;
-      }
-      p {
-        @apply text-justify text-black text-base mt-3 leading-7;
-      }
-      .objective {
-        @apply p-6 rounded-lg;
-        background-color: rgba(3, 137, 86, 0.05);
-      }
+    .section {
+      @apply rounded-lg w-full text-sm pb-4 pt-4 pl-4 pr-4 ml-4;
+      background-color: rgba(3, 137, 86, 0.05);
     }
-    &:last-child {
-      @apply w-full;
-      h4 {
-        @apply font-semibold text-black;
-      }
-      p {
-        @apply text-justify text-base mt-3 text-black leading-7;
-      }
+    h4 {
+      @apply font-semibold text-black text-lg  font-semibold mb-2;
     }
+   
+    p {
+      @apply text-black;
+    }
+  }
+}
+
+.project-phases {
+  @apply flex flex-col;
+
+  h3 {
+    @apply text-xl font-semibold text-black mt-6 mb-1;
+  }
+
+  .phase-title {
+    @apply text-base pt-3;
+  }
+  ul {
+    @apply list-disc pl-8; 
+  }
+
+  li {
+    @apply mb-2 text-black;
+  }
+
+  .phase-title {
+    @apply text-[#038956];
+  }
+  .phase-details {
+    @apply text-black text-sm;
   }
 }
 .title {
   @apply flex flex-col border-l-8 px-6 border-[#038956] mb-10;
 
   h1 {
+    @apply text-2xl font-semibold text-black;
+  }
+  h2 {
     @apply text-2xl font-semibold text-black;
   }
   p {

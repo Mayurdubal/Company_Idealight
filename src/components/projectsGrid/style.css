@@ -10,6 +10,7 @@
     }
   }
 }
+
 .project-container {
   @apply flex flex-wrap justify-start gap-14 mt-10;
 
@@ -33,6 +34,7 @@
     @apply px-4 py-2 pb-4 cursor-pointer;
   }
 }
+
 @media (max-width: 767px) {
   .category-list {
     @apply flex flex-wrap gap-2;
@@ -53,7 +55,14 @@
     }
 
     figure {
-      @apply w-[full] mb-3 rounded-md flex justify-center items-center;
+      @apply w-full mb-3 rounded-md flex justify-center items-center;
     }
   }
+}
+
+.load-more-btn {
+  @apply mt-5 px-3 py-2 bg-green-600 text-white rounded-lg ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
