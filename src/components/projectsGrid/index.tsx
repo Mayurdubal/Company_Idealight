@@ -529,15 +529,15 @@ const ProjectsGrid = () => {
                 <h2>{item.title}</h2>
                 <p>{item.desc}</p>
                 {item.external_link ? (
-                <Link href={`/casestudy/${item.caseStudy}`}>
-                <Image
-                  className="caseButton"
-                  src="/caseButton.svg"
-                  width={140}
-                  height={140}
-                  alt="caseStudy"
-                />
-              </Link>
+                  <Link href={`/casestudy/${item.caseStudy}`}>
+                    <Image
+                      className="caseButton"
+                      src="/caseButton.svg"
+                      width={140}
+                      height={140}
+                      alt="caseStudy"
+                    />
+                  </Link>
                 ) : (
                   <></>
                 )}
