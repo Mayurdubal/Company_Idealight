@@ -11,7 +11,7 @@
     h4 {
       @apply font-semibold text-black text-lg  font-semibold mb-2;
     }
-   
+
     p {
       @apply text-black;
     }
@@ -29,7 +29,7 @@
     @apply text-base pt-3;
   }
   ul {
-    @apply list-disc pl-8; 
+    @apply list-disc pl-8;
   }
 
   li {

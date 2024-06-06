@@ -12,7 +12,7 @@ const CaseStudy = () => {
   return (
     <div className="case-study">
       <span className="title">
-        <h2>{projectData[projectId-1]?.title}</h2>
+        <h2>{projectData[projectId - 1]?.title}</h2>
         <p>
           From financial metrics to sales and marketing data, our dashboard
           provides you with a holistic view of your business operations.
@@ -32,73 +32,102 @@ const CaseStudy = () => {
       </div>
 
       <div className="project-phases">
-          <h3>Project Phases</h3>
-          <ol>
-            <li className="phase-title">1. Requirements Gathering</li>
+        <h3>Project Phases</h3>
+        <ol>
+          <li className="phase-title">1. Requirements Gathering</li>
+          <ul>
+            {projectData[projectId - 1]?.requirements_gathering?.map(
+              (requirement, index) => (
+                <li key={index} className="phase-details">
+                  {requirement}
+                </li>
+              )
+            )}
+          </ul>
+
+          <li className="phase-title">2. System Architecture Design</li>
+          <ul>
+            <li>
+              {
+                projectData[projectId - 1]?.system_architecture_design[0]
+                  ?.architecture_selection
+              }
+            </li>
+            <li>Technology Stack:</li>
             <ul>
-              {projectData[projectId-1]?.requirements_gathering?.map((requirement,index)=>(
+              {projectData[
+                projectId - 1
+              ]?.system_architecture_design[0]?.technology_stack.map(
+                (tech, index) => (
                   <li key={index} className="phase-details">
-                    {requirement}
+                    {tech}
                   </li>
-                ))}
+                )
+              )}
             </ul>
+          </ul>
 
-            <li className="phase-title">2. System Architecture Design</li>
-              <ul>
-                <li>{projectData[projectId-1]?.system_architecture_design[0]?.architecture_selection}</li>
-                <li>Technology Stack:</li>
-                <ul>{projectData[projectId-1]?.system_architecture_design[0]?.technology_stack.map((tech,index)=>(
-                  <li key={index} className="phase-details">{tech}</li>
-                  ))}
-                </ul>
-              </ul>
-
-            <li className="phase-title">3. Development</li>
-              <ul>
-                <li>Front End</li>
-                  <ul>
-                    {projectData[projectId-1]?.development[0]?.front_end.map((front, index)=>(
-                       <li key={index} className="phase-details">{front}</li>
-                    ))}
-                  </ul>
-                <li>Back End</li>
-                  <ul>
-                    {projectData[projectId-1]?.development[0]?.back_end.map((back,index)=>(
-                      <li key={index} className="phase-details">{back}</li>
-                    ))}
-                  </ul>
-              </ul>
-
-            <li className="phase-title">4. Testing</li>
-              <ul>
-                {projectData[projectId-1]?.testing?.map((test,index)=>(
-                  <li key={index} className="phase-details">{test}</li>
-                ))}
-              </ul>
-
-            <li className="phase-title">5. Deployment</li>
-             <ul>
-                {projectData[projectId-1]?.deployment?.map((deploy,index)=>(
-                  <li key={index} className="phase-details">{deploy}</li>
-                ))}
-              </ul>
-
-            <li className="phase-title">Challenges & Solutions</li>
-              <ul>
-                {projectData[projectId-1]?.challenges?.map((challenge,index)=>(
-                  <li key={index} className="phase-details">{challenge}</li>
-                ))}
-              </ul>
-
-            <li className="phase-title">Outcomes</li>
+          <li className="phase-title">3. Development</li>
+          <ul>
+            <li>Front End</li>
             <ul>
-                {projectData[projectId-1]?.outcomes?.map((result,index)=>(
-                  <li key={index} className="phase-details">{result}</li>
-                ))}
-              </ul>
-          </ol>
-      </div>
+              {projectData[projectId - 1]?.development[0]?.front_end.map(
+                (front, index) => (
+                  <li key={index} className="phase-details">
+                    {front}
+                  </li>
+                )
+              )}
+            </ul>
+            <li>Back End</li>
+            <ul>
+              {projectData[projectId - 1]?.development[0]?.back_end.map(
+                (back, index) => (
+                  <li key={index} className="phase-details">
+                    {back}
+                  </li>
+                )
+              )}
+            </ul>
+          </ul>
 
+          <li className="phase-title">4. Testing</li>
+          <ul>
+            {projectData[projectId - 1]?.testing?.map((test, index) => (
+              <li key={index} className="phase-details">
+                {test}
+              </li>
+            ))}
+          </ul>
+
+          <li className="phase-title">5. Deployment</li>
+          <ul>
+            {projectData[projectId - 1]?.deployment?.map((deploy, index) => (
+              <li key={index} className="phase-details">
+                {deploy}
+              </li>
+            ))}
+          </ul>
+
+          <li className="phase-title">Challenges & Solutions</li>
+          <ul>
+            {projectData[projectId - 1]?.challenges?.map((challenge, index) => (
+              <li key={index} className="phase-details">
+                {challenge}
+              </li>
+            ))}
+          </ul>
+
+          <li className="phase-title">Outcomes</li>
+          <ul>
+            {projectData[projectId - 1]?.outcomes?.map((result, index) => (
+              <li key={index} className="phase-details">
+                {result}
+              </li>
+            ))}
+          </ul>
+        </ol>
+      </div>
     </div>
   );
 };

@@ -65,8 +65,8 @@ const Footer = () => {
         <div className="touch">
           <h5>Get in Touch</h5>
           <p>
-            SH-20, Ajanta Square, Ajanta Theater, OFF L T Road, Borivali West, Mumbai Mumbai Suburban 
-            Maharashtra, Pin Code - 400092
+            SH-20, Ajanta Square, Ajanta Theater, OFF L T Road, Borivali West,
+            Mumbai Mumbai Suburban Maharashtra, Pin Code - 400092
           </p>
           <span>
             <Image src="/call.svg" width={15} height={15} alt="call" />
