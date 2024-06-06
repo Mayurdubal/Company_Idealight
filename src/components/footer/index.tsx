@@ -8,7 +8,7 @@ const Footer = () => {
     <footer>
       <div className="footer-1">
         <div className="intro">
-          <Image src="/logo.png" width={100} height={100} alt="Idealite logo" />
+          <Image src="/logo.svg" width={100} height={100} alt="Idealite logo" />
           <p>
             We are passionate about leveraging cutting-edge technology to
             empower businesses and organizations to thrive in the digital age.
@@ -65,8 +65,8 @@ const Footer = () => {
         <div className="touch">
           <h5>Get in Touch</h5>
           <p>
-            205, Dwarka Palace, Vimal Dairy Rd, Kashi Nagar, Bhayandar East,
-            Mumbai, Maharashtra 401105
+            SH-20, Ajanta Square, Ajanta Theater, OFF L T Road, Borivali West, Mumbai Mumbai Suburban 
+            Maharashtra, Pin Code - 400092
           </p>
           <span>
             <Image src="/call.svg" width={15} height={15} alt="call" />
