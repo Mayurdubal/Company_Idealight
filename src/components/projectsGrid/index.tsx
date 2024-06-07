@@ -98,61 +98,29 @@ export const projectData = [
     subheading:
       "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
     category: "Inventory Management",
-    external_link: "",
+    external_link: " https://stockapp.idealite.in/",
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Systems",
     caseStudy: 2,
-    project_overview:
-      "The Designer Watches LLP Inventory Management Project aims to streamline and enhance the inventory management processes for Designer Watches LLP, a company specializing in high-end designer watches. The project focuses on implementing a robust inventory management system to improve inventory tracking, reduce losses, optimize stock levels, and enhance overall operational efficiency.",
-    objective: [
-      "Improve Inventory Tracking: Implement a system to accurately track inventory levels in real-time.",
-      "Reduce Inventory Losses: Minimize losses due to theft, misplacement, or errors through better management practices.",
-      "Optimize Stock Levels: Ensure optimal stock levels to meet customer demand without overstocking or understocking.",
-      "Enhance Operational Efficiency: Streamline inventory processes to save time and reduce costs."
-    ],
-    requirements_gathering: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique."
-    ],
+    project_overview: "",
+    objective: [""],
+    requirements_gathering: [""],
     system_architecture_design: [
       {
-        architecture_selection: [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique."
-        ],
-        technology_stack: [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique."
-        ]
+        architecture_selection: [""],
+        technology_stack: [""]
       }
     ],
     development: [
       {
-        front_end: [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique."
-        ],
-        back_end: [
-          "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique."
-        ]
+        front_end: [""],
+        back_end: [""]
       }
     ],
-    testing: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    "
-    ],
-    deployment: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    "
-    ],
-    challenges: [
-      "Integration with Existing Systems: Ensuring the new inventory management system integrates seamlessly with existing sales, accounting, and supply chain systems.",
-      "Accurate Data Entry: Ensuring that all inventory data is accurately entered into the system to avoid discrepancies.",
-      "Training Employees: Training staff to effectively use the new inventory management system.",
-      "Scalability: Ensuring the system can scale with the company's growth and handle increased inventory volumes.",
-      "Robust Inventory Management System : Implement a comprehensive system with features such as real-time tracking, automated reorder points, and detailed reporting.",
-      "Barcode and RFID Technology: Utilize barcode scanners and RFID tags to enhance accuracy and speed of inventory tracking.",
-      "Employee Training Programs: Conduct thorough training sessions for employees to ensure they can efficiently use the new system.",
-      "Integration Tools: Use integration tools and APIs to connect the inventory management system with existing software solutions.",
-      "Regular Audits and Reviews :  Implement regular inventory audits and system reviews to ensure data accuracy and system efficiency."
-    ],
-    outcomes: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique."
-    ],
+    testing: [""],
+    deployment: [""],
+    challenges: [""],
+    outcomes: [""],
     img: "/designer.svg"
   },
 
@@ -334,14 +302,8 @@ export const projectData = [
     desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
     filter: "Finance",
     caseStudy: 5,
-    project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.",
-    objective: [
-      "Optimize Investment Management: Enhance the efficiency and effectiveness of investment management processes through technology.",
-      "Enhance Data Analytics: Leverage advanced data analytics to gain deeper insights into market trends and investment opportunities.",
-      "Improve Client Services: Provide more personalized and timely services to clients by utilizing advanced technology solutions.",
-      "Ensure Security and Compliance: Implement robust security measures to protect financial data and ensure compliance with regulatory standards."
-    ],
+    project_overview: "",
+    objective: [""],
     requirements_gathering: [""],
     system_architecture_design: [
       {
@@ -355,15 +317,9 @@ export const projectData = [
         back_end: [""]
       }
     ],
-    testing: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    "
-    ],
-    deployment: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    "
-    ],
-    challenges: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    "
-    ],
+    testing: [""],
+    deployment: [""],
+    challenges: [""],
     outcomes: [""],
     img: "/smi.svg"
   },
