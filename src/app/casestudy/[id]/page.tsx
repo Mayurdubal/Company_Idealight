@@ -13,10 +13,7 @@ const CaseStudy = () => {
     <div className="case-study">
       <span className="title">
         <h2>{projectData[projectId - 1]?.title}</h2>
-        <p>
-          From financial metrics to sales and marketing data, our dashboard
-          provides you with a holistic view of your business operations.
-        </p>
+        <p>{projectData[projectId - 1]?.subheading}</p>
       </span>
       <div>
         <div className="flex flex-row">
@@ -26,7 +23,15 @@ const CaseStudy = () => {
           </span>
           <span className="objective section">
             <h4>Objective</h4>
-            <p>{projectData[projectId - 1]?.objective}</p>
+            <p>
+              {projectData[projectId - 1]?.objective.map(
+                (objectives, index) => (
+                  <ul key={index}>
+                    <li>{objectives}</li>
+                  </ul>
+                )
+              )}
+            </p>
           </span>
         </div>
       </div>
