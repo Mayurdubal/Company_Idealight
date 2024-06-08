@@ -28,14 +28,16 @@ export const projectData = [
       "Foster Self-Paced Learning: Encourage students to engage in self-paced learning through access to Bartleby’s comprehensive resources."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "User Authentication: Secure login and registration system.",
+      "Content Access: Ability to access textbook solutions, expert Q&A, and study resources.",
+      "Search Functionality: Advanced search features to find specific content quickly.",
+      "Responsive Design: Ensure the platform is accessible on various devices (desktop, mobile, tablet).",
+      "Scalability: Ability to handle large numbers of users simultaneously without performance issues."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          "Micces roserviArchitecture: Chosen for its scalability, flexibility, and ease of maintenance. This architecture allows different components of the application to be developed, deployed, and scaled independently."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -103,24 +105,24 @@ export const projectData = [
     filter: "Systems",
     caseStudy: 2,
     project_overview: "",
-    objective: [""],
-    requirements_gathering: [""],
+    objective: [],
+    requirements_gathering: [],
     system_architecture_design: [
       {
-        architecture_selection: [""],
-        technology_stack: [""]
+        architecture_selection: [],
+        technology_stack: []
       }
     ],
     development: [
       {
-        front_end: [""],
-        back_end: [""]
+        front_end: [],
+        back_end: []
       }
     ],
-    testing: [""],
-    deployment: [""],
-    challenges: [""],
-    outcomes: [""],
+    testing: [],
+    deployment: [],
+    challenges: [],
+    outcomes: [],
     img: "/designer.svg"
   },
 
@@ -151,7 +153,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -221,10 +223,10 @@ export const projectData = [
     project_overview:
       "The Nike Inventory Management Project aims to optimize and enhance the efficiency of Nike's inventory management processes. This project focuses on implementing advanced technologies and strategies to ensure accurate tracking, reduce excess inventory, improve supply chain efficiency, and ultimately enhance customer satisfaction.",
     objective: [
-      "Improve Inventory Accuracy : Implement systems to ensure real-time tracking and accurate inventory data.",
-      "Reduce Excess Inventory : Optimize inventory levels to reduce holding costs and minimize excess stock.",
-      "Enhance Supply Chain Efficiency : Streamline supply chain processes to ensure timely restocking and reduced lead times.",
-      "Boost Customer Satisfaction : Ensure product availability and timely delivery to enhance the overall customer experience."
+      "Improve Inventory Accuracy: Implement systems to ensure real-time tracking and accurate inventory data.",
+      "Reduce Excess Inventory: Optimize inventory levels to reduce holding costs and minimize excess stock.",
+      "Enhance Supply Chain Efficiency: Streamline supply chain processes to ensure timely restocking and reduced lead times.",
+      "Boost Customer Satisfaction: Ensure product availability and timely delivery to enhance the overall customer experience."
     ],
     requirements_gathering: [
       "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
@@ -234,7 +236,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -303,24 +305,24 @@ export const projectData = [
     filter: "Finance",
     caseStudy: 5,
     project_overview: "",
-    objective: [""],
-    requirements_gathering: [""],
+    objective: [],
+    requirements_gathering: [],
     system_architecture_design: [
       {
-        architecture_selection: [""],
-        technology_stack: [""]
+        architecture_selection: [],
+        technology_stack: []
       }
     ],
     development: [
       {
-        front_end: [""],
-        back_end: [""]
+        front_end: [],
+        back_end: []
       }
     ],
-    testing: [""],
-    deployment: [""],
-    challenges: [""],
-    outcomes: [""],
+    testing: [],
+    deployment: [],
+    challenges: [],
+    outcomes: [],
     img: "/smi.svg"
   },
 
@@ -351,7 +353,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -434,7 +436,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -517,7 +519,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -602,7 +604,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -688,7 +690,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -773,7 +775,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -855,7 +857,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -930,7 +932,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -1005,7 +1007,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -1080,7 +1082,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -1155,7 +1157,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -1230,7 +1232,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",
@@ -1305,7 +1307,7 @@ export const projectData = [
     system_architecture_design: [
       {
         architecture_selection: [
-          "Architecture Selection: Chose a microservices architecture to ensure scalability and maintainability."
+          " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
           "Front End: React.js for the user interface, Redux for state management.",

@@ -17,6 +17,7 @@
   .project-card {
     @apply w-64 border rounded-xl;
   }
+
   h2 {
     @apply px-4 font-semibold;
   }

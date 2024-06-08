@@ -23,15 +23,14 @@ const CaseStudy = () => {
           </span>
           <span className="objective section">
             <h4>Objective</h4>
-            <p>
-              {projectData[projectId - 1]?.objective.map(
-                (objectives, index) => (
-                  <ul key={index}>
-                    <li>{objectives}</li>
-                  </ul>
-                )
-              )}
-            </p>
+            {projectData[projectId - 1]?.objective.map((objective, index) => (
+              <div key={index} className="objective-card">
+                <li>
+                  <strong>{objective.split(":")[0]}:</strong>{" "}
+                  {objective.split(":")[1]}
+                </li>
+              </div>
+            ))}
           </span>
         </div>
       </div>
@@ -53,6 +52,7 @@ const CaseStudy = () => {
           <li className="phase-title">2. System Architecture Design</li>
           <ul>
             <li>
+              Architecture Selection:
               {
                 projectData[projectId - 1]?.system_architecture_design[0]
                   ?.architecture_selection

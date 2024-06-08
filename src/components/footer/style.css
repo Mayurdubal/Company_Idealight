@@ -4,10 +4,10 @@ footer {
   color: rgba(0, 0, 0, 0.8);
 
   .footer-1 {
-    @apply pt-10 pb-16 text-sm flex items-start justify-between;
+    @apply pt-10 pb-16 text-base flex items-start justify-between;
   }
   p {
-    line-height: 2;
+    line-height: 1.5;
   }
 
   h5 {
@@ -27,7 +27,7 @@ footer {
     width: 25%;
 
     p {
-      @apply mt-4 text-justify;
+      @apply mt-4;
     }
   }
 
@@ -35,6 +35,7 @@ footer {
   .company,
   .solution {
     width: 10%;
+    line-height: 1.5;
   }
 
   .touch {

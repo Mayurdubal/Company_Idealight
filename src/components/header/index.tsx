@@ -27,13 +27,16 @@ const Header = () => {
             </Link>
           </li>
           <li>
-            <Link href="about" className={pathname == "/about" ? "active" : ""}>
+            <Link
+              href="/about"
+              className={pathname == "/about" ? "active" : ""}
+            >
               About Us
             </Link>
           </li>
           <li>
             <Link
-              href="services"
+              href="/services"
               className={pathname == "/services" ? "active" : ""}
             >
               Services
@@ -41,7 +44,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              href="portfolio"
+              href="/portfolio"
               className={pathname == "/portfolio" ? "active" : ""}
             >
               Projects
@@ -49,7 +52,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              href="contact"
+              href="/contact"
               className={pathname == "/contact" ? "active" : ""}
             >
               Contact
@@ -80,7 +83,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="about"
+                href="/about"
                 className={pathname == "/about" ? "active" : ""}
                 onClick={() => toggleDrawer()}
               >
@@ -89,7 +92,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="services"
+                href="/services"
                 className={pathname == "/services" ? "active" : ""}
                 onClick={() => toggleDrawer()}
               >
@@ -98,7 +101,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="portfolio"
+                href="/portfolio"
                 className={pathname == "/portfolio" ? "active" : ""}
                 onClick={() => toggleDrawer()}
               >
@@ -107,7 +110,7 @@ const Header = () => {
             </li>
             <li>
               <Link
-                href="contact"
+                href="/contact"
                 className={pathname == "/contact" ? "active" : ""}
                 onClick={() => toggleDrawer()}
               >

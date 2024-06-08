@@ -5,9 +5,25 @@
     @apply flex;
 
     .section {
-      @apply rounded-lg w-full text-sm pb-4 pt-4 pl-4 pr-4 ml-4;
+      @apply rounded-lg text-sm w-full pb-4 pt-4 pl-4 pr-4;
       background-color: rgba(3, 137, 86, 0.05);
+      margin-right: 1rem;
+      font-weight: 400;
+      color: #000;
+      line-height: 1.8;
     }
+
+    .objective-card li {
+      margin-left: 0.8rem;
+      text-indent: -1.4rem;
+      padding-left: 1rem;
+      line-height: 1.6;
+    }
+
+    .objective-card strong {
+      @apply font-bold;
+    }
+
     h4 {
       @apply font-semibold text-black text-lg  font-semibold mb-2;
     }
