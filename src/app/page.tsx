@@ -10,9 +10,24 @@ import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
 import { useState } from "react";
 
+interface TechStackItem {
+  img: string;
+  title: string;
+  description: string;
+}
+
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
   const hasErrors = Array.isArray(state.errors) && state.errors.length > 0;
+  const [hoveredItem, setHoveredItem] = useState<TechStackItem | null>(null);
+
+  const handleMouseEnter = (item: TechStackItem) => {
+    setHoveredItem(item);
+  };
+
+  const handleMouseLeave = () => {
+    setHoveredItem(null);
+  };
 
   return (
     <main className="home">
@@ -268,13 +283,20 @@ export default function Home() {
             websites stand as a testament to innovation.
           </p>
           <ul>
-            {techStack.map(({ title, img, description }) => (
+            {techStack.map(({ title, img, description }: TechStackItem) => (
               <li key={title}>
-                <figure>
+                <figure
+                  onMouseEnter={() =>
+                    handleMouseEnter({ title, img, description })
+                  }
+                  onMouseLeave={handleMouseLeave}
+                >
                   <Image src={img} width={50} height={50} alt={title} />
                 </figure>
                 <h5>{title}</h5>
-                <p>{description}</p>
+                {hoveredItem && hoveredItem.title === title && (
+                  <p className="description">{description}</p>
+                )}
               </li>
             ))}
           </ul>

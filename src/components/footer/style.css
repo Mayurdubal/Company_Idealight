@@ -4,7 +4,7 @@ footer {
   color: rgba(0, 0, 0, 0.8);
 
   .footer-1 {
-    @apply pt-10 pb-16 text-base flex items-start justify-between;
+    @apply pt-10 pb-10 text-base flex items-start justify-between;
   }
   p {
     line-height: 1.5;
@@ -22,10 +22,15 @@ footer {
       color: var(--primary-color);
     }
   }
+  .map {
+    @apply mt-2 mb-3;
+    .btn {
+      @apply px-2 py-2 bg-[#038956] text-xs text-white rounded-lg;
+    }
+  }
 
   .intro {
     width: 25%;
-
     p {
       @apply mt-4;
     }
@@ -37,7 +42,6 @@ footer {
     width: 10%;
     line-height: 1.5;
   }
-
   .touch {
     width: 25%;
     span {

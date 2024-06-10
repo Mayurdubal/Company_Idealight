@@ -323,7 +323,7 @@
   }
 
   p {
-    @apply my-2 text-[00000080] text-sm leading-[22px];
+    @apply my-2 text-[00000080] leading-[22px];
   }
 }
 

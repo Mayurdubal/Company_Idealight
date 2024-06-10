@@ -13,10 +13,10 @@ export const projectData = [
     name: "bartleby",
     title: "Bartleby",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Transforming education with comprehensive, accessible resources, enhancing student learning and educator support.",
     category: "Education",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Bartleby Education Project leverages an advanced educational platform to boost student learning and engagement. With textbook solutions, expert Q&A, and personalized study aids, Bartleby integrates seamlessly into educational institutions to provide round-the-clock access to high-quality resources.",
     filter: "Education",
     caseStudy: 1,
     project_overview:
@@ -105,7 +105,7 @@ export const projectData = [
       "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
     category: "Inventory Management",
     external_link: " https://stockapp.idealite.in/",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Designer Watches LLP revolutionizes inventory management by offering a comprehensive dashboard that provides real-time financial metrics, sales data, and marketing insights. With our integrated platform, businesses can achieve a holistic view of their operations, ensuring efficient inventory control and optimized business processes.",
     filter: "Systems",
     caseStudy: 2,
     project_overview: "",
@@ -136,9 +136,9 @@ export const projectData = [
     title: "UK Post Office",
     category: "Govt",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Modernizing postal operations to deliver enhanced efficiency, security, and customer satisfaction.",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "The UK Post Office is undertaking a transformative government project aimed at modernizing its operations to improve efficiency, customer service, and overall functionality. By implementing advanced technologies and streamlined processes, this initiative will enhance user experience, ensure robust data security, and support long-term sustainability.",
     filter: "Govt",
     caseStudy: 3,
     project_overview:
@@ -229,10 +229,10 @@ export const projectData = [
     name: "nikee",
     title: "Nike",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Optimizing inventory management with cutting-edge technology for superior efficiency and customer satisfaction.",
     category: "Inventory Management",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "The Nike Inventory Management Project is dedicated to transforming Nike's inventory processes through the implementation of advanced technologies and strategic innovations. By focusing on real-time inventory tracking, reducing excess stock, and streamlining supply chain operations, this project aims to enhance accuracy, efficiency, and customer satisfaction.",
     filter: "Systems",
     caseStudy: 4,
     project_overview:
@@ -328,7 +328,7 @@ export const projectData = [
       "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
     category: "Finance",
     external_link: "https://investmentapp.idealite.in/",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Tamohara is revolutionizing financial management by offering a state-of-the-art dashboard that provides a holistic view of business operations. With real-time access to financial metrics, sales data, and marketing insights, this platform empowers businesses to make informed decisions, optimize performance, and drive growth.",
     filter: "Finance",
     caseStudy: 5,
     project_overview: "",
@@ -358,10 +358,10 @@ export const projectData = [
     name: "qritive",
     title: "Qritive",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Revolutionizing pathology with AI-driven precision and efficiency in healthcare diagnostics.",
     category: "Healthcare",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Qritive leverages advanced AI technology to transform pathology services, focusing on cancer diagnosis accuracy and efficiency. By integrating with Optum and UnitedHealthcare (UHC), Qritive aims to enhance diagnostic precision, streamline workflows, and improve patient outcomes.",
     filter: "Healthcare",
     caseStudy: 6,
     project_overview:
@@ -455,10 +455,10 @@ export const projectData = [
     name: "optum-uhc",
     title: "Optum + UHC",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Integrating advanced AI-driven pathology solutions to revolutionize healthcare diagnostics and patient care.",
     category: "Healthcare",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "The Optum + UnitedHealthcare (UHC) project focuses on incorporating Qritive's cutting-edge AI-powered pathology tools to enhance diagnostic accuracy, streamline workflows, and improve patient outcomes. By leveraging advanced technology, the project aims to provide precise and reliable cancer diagnoses, reduce turnaround times, and ensure seamless integration with existing health information systems.",
     filter: "Healthcare",
     caseStudy: 7,
     project_overview:
@@ -551,10 +551,10 @@ export const projectData = [
     name: "lofoods",
     title: "LoFoods",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Empowering healthier lifestyles through personalized nutrition and advanced dietary management solutions.",
     category: "Healthcare",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "The LoFoods Project aims to revolutionize healthcare by promoting healthy eating habits and enhancing overall health outcomes. Through the provision of low-calorie, nutritious food options, LoFoods leverages advanced technology and data analytics to create personalized dietary plans, track health metrics, and ensure the availability of healthy food choices.",
     filter: "Healthcare",
     caseStudy: 8,
     project_overview:
@@ -649,10 +649,10 @@ export const projectData = [
     name: "alphacoach",
     title: "Alphacoach",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Unlock your full potential with personalized coaching and advanced fitness tracking.",
     category: "Fitness",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "The Alphacoach project aims to transform health and fitness by providing customized coaching plans tailored to individual needs. Utilizing data analytics, artificial intelligence, and cutting-edge digital tools, Alphacoach offers real-time insights, tracks user progress, and adjusts plans accordingly to ensure optimal results.",
     filter: "Fitness",
     caseStudy: 9,
     project_overview:
@@ -747,10 +747,10 @@ export const projectData = [
     name: "bhavyata-foundation",
     title: "Bhavyata Foundation",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Empowering communities through education, healthcare, and sustainable development.",
     category: "NGO",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "The Bhavyata Foundation project is an initiative aimed at addressing critical social issues and improving the quality of life for underprivileged communities. Focusing on education, healthcare, rural development, and skill training, the foundation leverages community participation and sustainable practices to create lasting positive impacts.",
     filter: "NGO",
     caseStudy: 10,
     project_overview:
@@ -833,10 +833,10 @@ export const projectData = [
     name: "lemark-education",
     title: "LeMark Education",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Revolutionizing education through innovative teaching methods and digital integration.",
     category: "Education",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "The LeMark Education project is dedicated to revolutionizing the education sector by enhancing the quality of learning through innovative teaching methods and advanced technology. By focusing on comprehensive educational programs tailored to diverse learning needs, LeMark Education aims to improve learning outcomes and engagement.",
     filter: "Education",
     caseStudy: 11,
     project_overview:
@@ -918,10 +918,10 @@ export const projectData = [
     name: "revent-ai",
     title: "Revent AI",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Empowering businesses with scalable AI solutions for enhanced performance and security.",
     category: "AI",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Revent AI is at the forefront of revolutionizing businesses with scalable artificial intelligence solutions designed to enhance performance and security. Through meticulous requirements gathering, competitive analysis, and technical feasibility studies, Revent AI ensures the successful integration of advanced AI technologies within budget and timeline constraints.",
     filter: "AI",
     caseStudy: 12,
     project_overview:
@@ -993,10 +993,10 @@ export const projectData = [
     name: "vecflow",
     title: "Vecflow",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Revolutionizing business operations with AI-powered insights and optimization.",
     category: "AI",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Vecflow is dedicated to revolutionizing business operations through cutting-edge AI solutions that provide unparalleled insights and optimization. With a focus on scalability, security, and performance, Vecflow develops AI-driven platforms that ensure a user-friendly and responsive experience for both businesses and their customers. ",
     filter: "AI",
     caseStudy: 13,
     project_overview:
@@ -1068,10 +1068,10 @@ export const projectData = [
     name: "bajo-foods",
     title: "BajoFoods",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Transforming healthcare operations with innovative solutions and data-driven insights.",
     category: "Healthcare",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "BajoFoods is dedicated to transforming healthcare operations through innovative solutions and data-driven insights. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to the healthcare sector.",
     filter: "Healthcare",
     caseStudy: 14,
     project_overview:
@@ -1143,10 +1143,10 @@ export const projectData = [
     name: "atlassian",
     title: "Atlassiann",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Empowering service-oriented businesses with comprehensive operational insights.",
     category: "Service",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Atlassian is dedicated to empowering service-oriented businesses by providing comprehensive operational insights through their dashboard. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to service-based industries.",
     filter: "Service",
     caseStudy: 15,
     project_overview:
@@ -1218,10 +1218,10 @@ export const projectData = [
     name: "poker-boss",
     title: "Poker Boss",
     subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+      "Empowering finance professionals with comprehensive insights and analytics",
     category: "Finance",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Poker Boss aims to empower finance professionals by providing comprehensive insights and analytics through their dashboard. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to the finance sector.",
     filter: "Finance",
     caseStudy: 16,
     project_overview:
@@ -1292,11 +1292,10 @@ export const projectData = [
     id: 17,
     name: "navirego-ai",
     title: "Navirego AI",
-    subheading:
-      "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
+    subheading: "Unlocking business insights through advanced AI analytics.",
     category: "AI",
     external_link: "",
-    desc: "Aenean vulputate eleifend tellus. Vestibulum purus quam, scelerisque ut, mollis sed, nonummy id, metus. Proin faucibus arcu quis ante. Inut quam vitae...",
+    desc: "Navirego AI is dedicated to unlocking valuable business insights through advanced AI analytics, providing a holistic view of business operations from financial metrics to sales and marketing data. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to AI requirements.",
     filter: "AI",
     caseStudy: 17,
     project_overview:
@@ -1367,7 +1366,8 @@ export const projectData = [
     id: 18,
     name: "wordflo-ai",
     title: "Wordflo AI",
-    subheading: "Empower Your Business with Comprehensive AI-Driven Insights",
+    subheading:
+      "Empowering businesses with AI-driven insights for enhanced decision-making.",
     category: "AI",
     external_link: "",
     desc: "Wordflo AI is your ultimate tool for transforming business operations with cutting-edge AI technology. Our platform provides a panoramic view of your financial metrics, sales, and marketing data, ensuring you have the insights needed to make informed decisions.",
@@ -1492,7 +1492,7 @@ const ProjectsGrid = () => {
               <span>
                 <h6>{item.category}</h6>
                 <h2>{item.title}</h2>
-                <p>{item.desc}</p>
+                <p className="description">{item.desc}</p>
                 {item.external_link ? (
                   <a href={item.external_link} target="_blank">
                     <Image

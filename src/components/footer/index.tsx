@@ -64,10 +64,17 @@ const Footer = () => {
         </div>
         <div className="touch">
           <h5>Get in Touch</h5>
-          <p>
-            SH-20, Ajanta Square, Ajanta Theater, OFF L T Road, Borivali West,
-            Mumbai Mumbai Suburban Maharashtra, Pin Code - 400092
-          </p>
+
+          <div className="map">
+            <a
+              href="https://www.google.com/maps/place/SH-20,+Ajanta+Square,+Ajanta+Theater,+OFF+L+T+Road,+Borivali+West,+Mumbai,+Maharashtra+400092/@19.1822222,72.8443333,17z/data=!3m1!4b1!4m5!3m4!1s0x3be77e5a083c390f:0x8288419c87d98a1f!8m2!3d19.1822222!4d72.8443333"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              SH-20, Ajanta Square, Ajanta Theater, OFF L T Road, Borivali West,
+              Mumbai Mumbai Suburban Maharashtra, Pin Code - 400092
+            </a>
+          </div>
           <span>
             <Image src="/call.svg" width={15} height={15} alt="call" />
             <a href="tel:917977113822">917977113822</a>
