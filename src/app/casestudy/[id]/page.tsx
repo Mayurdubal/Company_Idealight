@@ -52,11 +52,11 @@ const CaseStudy = () => {
           <li className="phase-title">2. System Architecture Design</li>
           <ul>
             <li>
-              Architecture Selection:
-              {
-                projectData[projectId - 1]?.system_architecture_design[0]
-                  ?.architecture_selection
-              }
+              {projectData[
+                projectId - 1
+              ]?.system_architecture_design[0]?.architecture_selection.map(
+                (architecture, index) => <li key={index}>{architecture}</li>
+              )}
             </li>
             <li>Technology Stack:</li>
             <ul>
