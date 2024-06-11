@@ -16,11 +16,11 @@ export const projectData = [
       "Transforming education with comprehensive, accessible resources, enhancing student learning and educator support.",
     category: "Education",
     external_link: "",
-    desc: "Bartleby Education Project leverages an advanced educational platform to boost student learning and engagement. With textbook solutions, expert Q&A, and personalized study aids, Bartleby integrates seamlessly into educational institutions to provide round-the-clock access to high-quality resources.",
+    desc: "Bartleby Education Project leverages an advanced educational platform to boost student learning and engagement.",
     filter: "Education",
     caseStudy: 1,
     project_overview:
-      "The Bartleby Education Project aims to leverage Bartleby, an educational platform, to enhance student learning and support. Bartleby provides a range of services, including textbook solutions, expert Q&A, and personalized study help. This project will focus on integrating Bartleby's resources into educational institutions to improve student outcomes and engagement.",
+      "The Bartleby Education Project aims to leverage Bartleby, an educational platform, to enhance student learning and support.",
     objective: [
       "Enhance Learning Outcomes: Utilize Bartleby’s resources to provide students with additional learning support, leading to improved academic performance.",
       "Increase Accessibility: Make high-quality educational resources easily accessible to students anytime and anywhere.",
@@ -40,7 +40,7 @@ export const projectData = [
           "Micces roserviArchitecture: Chosen for its scalability, flexibility, and ease of maintenance. This architecture allows different components of the application to be developed, deployed, and scaled independently."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
+          "Front End: React.js for UI, Redux for state management.",
           "Back End: Node.js with Express.js for building RESTful APIs.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
           "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
@@ -105,7 +105,7 @@ export const projectData = [
       "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
     category: "Inventory Management",
     external_link: " https://stockapp.idealite.in/",
-    desc: "Designer Watches LLP revolutionizes inventory management by offering a comprehensive dashboard that provides real-time financial metrics, sales data, and marketing insights. With our integrated platform, businesses can achieve a holistic view of their operations, ensuring efficient inventory control and optimized business processes.",
+    desc: "Designer Watches LLP revolutionizes inventory management by offering a comprehensive dashboard that provides real-time financial metrics, sales data, and marketing insights. ",
     filter: "Systems",
     caseStudy: 2,
     project_overview: "",
@@ -138,7 +138,7 @@ export const projectData = [
     subheading:
       "Modernizing postal operations to deliver enhanced efficiency, security, and customer satisfaction.",
     external_link: "",
-    desc: "The UK Post Office is undertaking a transformative government project aimed at modernizing its operations to improve efficiency, customer service, and overall functionality. By implementing advanced technologies and streamlined processes, this initiative will enhance user experience, ensure robust data security, and support long-term sustainability.",
+    desc: "The UK Post Office is undertaking a transformative government project aimed at modernizing its operations to improve efficiency, customer service, and overall functionality.",
     filter: "Govt",
     caseStudy: 3,
     project_overview:
@@ -164,13 +164,13 @@ export const projectData = [
           "Cloud-Native Architecture: Utilize cloud services to ensure scalability, reliability, and cost-effectiveness."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: React.js for UI, Redux for state management, Bootstrap for responsive design.",
+          "Back End: Node.js with Express.js for building RESTful APIs, optionally Spring Boot (Java) for enterprise-level applications.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0 for secure user authentication, JWT (JSON Web Tokens) for stateless session management.",
+          "Payment Integration: Stripe API for processing payments, optionally PayPal for additional payment options.",
+          "Hosting: AWS, including EC2 for compute, S3 for storage, RDS for managed databases, optionally Lambda for serverless functions; alternatively Azure for cloud services.",
+          "Containerization: Docker for containerizing applications."
         ]
       }
     ],
@@ -232,7 +232,7 @@ export const projectData = [
       "Optimizing inventory management with cutting-edge technology for superior efficiency and customer satisfaction.",
     category: "Inventory Management",
     external_link: "",
-    desc: "The Nike Inventory Management Project is dedicated to transforming Nike's inventory processes through the implementation of advanced technologies and strategic innovations. By focusing on real-time inventory tracking, reducing excess stock, and streamlining supply chain operations, this project aims to enhance accuracy, efficiency, and customer satisfaction.",
+    desc: "The Nike Inventory Management Project is dedicated to transforming Nike's inventory processes through the implementation of advanced technologies and strategic innovations.",
     filter: "Systems",
     caseStudy: 4,
     project_overview:
@@ -259,13 +259,13 @@ export const projectData = [
           "Cloud-Native Architecture: Utilize cloud services to ensure scalability, reliability, and cost-effectiveness."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: React.js for UI, Redux for state management, Material-UI for responsive design.",
+          "Back End: Node.js with Express.js for building RESTful APIs, optionally Spring Boot (Java) for enterprise-level applications.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0 for secure user authentication, JWT (JSON Web Tokens) for stateless session management.",
+          "Payment Integration: Stripe API for processing payments, optionally PayPal for additional payment options.",
+          "Hosting: AWS, including EC2 for compute, S3 for storage, RDS for managed databases, optionally Lambda for serverless functions; alternatively Azure for cloud services.",
+          "Containerization: Docker for containerizing applications, Kubernetes for container orchestration., Kubernetes for container orchestration."
         ]
       }
     ],
@@ -328,7 +328,7 @@ export const projectData = [
       "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
     category: "Finance",
     external_link: "https://investmentapp.idealite.in/",
-    desc: "Tamohara is revolutionizing financial management by offering a state-of-the-art dashboard that provides a holistic view of business operations. With real-time access to financial metrics, sales data, and marketing insights, this platform empowers businesses to make informed decisions, optimize performance, and drive growth.",
+    desc: "Tamohara is revolutionizing financial management by offering a state-of-the-art dashboard that provides a holistic view of business operations.",
     filter: "Finance",
     caseStudy: 5,
     project_overview: "",
@@ -361,7 +361,7 @@ export const projectData = [
       "Revolutionizing pathology with AI-driven precision and efficiency in healthcare diagnostics.",
     category: "Healthcare",
     external_link: "",
-    desc: "Qritive leverages advanced AI technology to transform pathology services, focusing on cancer diagnosis accuracy and efficiency. By integrating with Optum and UnitedHealthcare (UHC), Qritive aims to enhance diagnostic precision, streamline workflows, and improve patient outcomes.",
+    desc: "Qritive leverages advanced AI technology to transform pathology services, focusing on cancer diagnosis accuracy and efficiency.",
     filter: "Healthcare",
     caseStudy: 6,
     project_overview:
@@ -387,13 +387,13 @@ export const projectData = [
           "Cloud-Native Architecture: Utilize cloud services to ensure scalability, reliability, and cost-effectiveness."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: React.js for UI, Redux for state management, Material-UI for responsive design.",
+          "Back End: Node.js with Express.js for building RESTful APIs, optionally Spring Boot (Java) for enterprise-level applications.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0 for secure user authentication, JWT (JSON Web Tokens) for stateless session management.",
+          "Payment Integration: Stripe API for processing payments, optionally PayPal for additional payment options.",
+          "Hosting: AWS, including EC2 for compute, S3 for storage, RDS for managed databases, optionally Lambda for serverless functions; alternatively Azure for cloud services.",
+          "Containerization: Docker for containerizing applications, Kubernetes for container orchestration., Kubernetes for container orchestration."
         ]
       }
     ],
@@ -458,7 +458,7 @@ export const projectData = [
       "Integrating advanced AI-driven pathology solutions to revolutionize healthcare diagnostics and patient care.",
     category: "Healthcare",
     external_link: "",
-    desc: "The Optum + UnitedHealthcare (UHC) project focuses on incorporating Qritive's cutting-edge AI-powered pathology tools to enhance diagnostic accuracy, streamline workflows, and improve patient outcomes. By leveraging advanced technology, the project aims to provide precise and reliable cancer diagnoses, reduce turnaround times, and ensure seamless integration with existing health information systems.",
+    desc: "The Optum + UnitedHealthcare (UHC) project focuses on incorporating Qritive's cutting-edge AI-powered pathology tools to enhance diagnostic accuracy, streamline workflows, and improve patient outcomes.",
     filter: "Healthcare",
     caseStudy: 7,
     project_overview:
@@ -484,13 +484,13 @@ export const projectData = [
           "Cloud-Native Architecture: Utilize cloud services to ensure scalability, reliability, and cost-effectiveness."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: React.js for UI, Redux for state management, Material-UI for responsive design.",
+          "Back End: Node.js with Express.js for building RESTful APIs, optionally Spring Boot (Java) for enterprise-level applications.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0 for secure user authentication, JWT (JSON Web Tokens) for stateless session management.",
+          "Payment Integration: Stripe API for processing payments, optionally PayPal for additional payment options.",
+          "Hosting: AWS, including EC2 for compute, S3 for storage, RDS for managed databases, optionally Lambda for serverless functions; alternatively Azure for cloud services.",
+          "Containerization: Docker for containerizing applications, Kubernetes for container orchestration., Kubernetes for container orchestration."
         ]
       }
     ],
@@ -554,7 +554,7 @@ export const projectData = [
       "Empowering healthier lifestyles through personalized nutrition and advanced dietary management solutions.",
     category: "Healthcare",
     external_link: "",
-    desc: "The LoFoods Project aims to revolutionize healthcare by promoting healthy eating habits and enhancing overall health outcomes. Through the provision of low-calorie, nutritious food options, LoFoods leverages advanced technology and data analytics to create personalized dietary plans, track health metrics, and ensure the availability of healthy food choices.",
+    desc: "The LoFoods Project aims to revolutionize healthcare by promoting healthy eating habits and enhancing overall health outcomes.",
     filter: "Healthcare",
     caseStudy: 8,
     project_overview:
@@ -580,13 +580,13 @@ export const projectData = [
           "Cloud-Based Architecture: Leverage cloud services for flexibility, scalability, and cost-effectiveness."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: React.js for UI, Redux for state management, Material-UI for responsive design.",
+          "Back End: Node.js with Express.js for building RESTful APIs, optionally Spring Boot (Java) for enterprise-level applications.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0 for secure user authentication, JWT (JSON Web Tokens) for stateless session management.",
+          "Payment Integration: Stripe API for processing payments, optionally PayPal for additional payment options.",
+          "Hosting: AWS, including EC2 for compute, S3 for storage, RDS for managed databases, optionally Lambda for serverless functions; alternatively Azure for cloud services.",
+          "Containerization: Docker for containerizing applications, Kubernetes for container orchestration., Kubernetes for container orchestration."
         ]
       }
     ],
@@ -652,7 +652,7 @@ export const projectData = [
       "Unlock your full potential with personalized coaching and advanced fitness tracking.",
     category: "Fitness",
     external_link: "",
-    desc: "The Alphacoach project aims to transform health and fitness by providing customized coaching plans tailored to individual needs. Utilizing data analytics, artificial intelligence, and cutting-edge digital tools, Alphacoach offers real-time insights, tracks user progress, and adjusts plans accordingly to ensure optimal results.",
+    desc: "The Alphacoach project aims to transform health and fitness by providing customized coaching plans tailored to individual needs.",
     filter: "Fitness",
     caseStudy: 9,
     project_overview:
@@ -679,13 +679,13 @@ export const projectData = [
           "Cloud-Based Architecture: Leveraging cloud services for flexibility, scalability, and cost-effectiveness."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: React.js for UI, Redux for state management, Material-UI for responsive design.",
+          "Back End: Node.js with Express.js for building RESTful APIs, optionally Spring Boot (Java) for enterprise-level applications.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0 for secure user authentication, JWT (JSON Web Tokens) for stateless session management.",
+          "Payment Integration: Stripe API for processing payments, optionally PayPal for additional payment options.",
+          "Hosting: AWS, including EC2 for compute, S3 for storage, RDS for managed databases, optionally Lambda for serverless functions; alternatively Azure for cloud services.",
+          "Containerization: Docker for containerizing applications, Kubernetes for container orchestration., Kubernetes for container orchestration."
         ]
       }
     ],
@@ -750,7 +750,7 @@ export const projectData = [
       "Empowering communities through education, healthcare, and sustainable development.",
     category: "NGO",
     external_link: "",
-    desc: "The Bhavyata Foundation project is an initiative aimed at addressing critical social issues and improving the quality of life for underprivileged communities. Focusing on education, healthcare, rural development, and skill training, the foundation leverages community participation and sustainable practices to create lasting positive impacts.",
+    desc: "The Bhavyata Foundation project is an initiative aimed at addressing critical social issues and improving the quality of life for underprivileged communities.",
     filter: "NGO",
     caseStudy: 10,
     project_overview:
@@ -773,13 +773,13 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: React.js for UI, Redux for state management, Material-UI for responsive design.",
+          "Back End: Node.js with Express.js for building RESTful APIs, optionally Spring Boot (Java) for enterprise-level applications.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0 for secure user authentication, JWT (JSON Web Tokens) for stateless session management.",
+          "Payment Integration: Stripe API for processing payments, optionally PayPal for additional payment options.",
+          "Hosting: AWS, including EC2 for compute, S3 for storage, RDS for managed databases, optionally Lambda for serverless functions; alternatively Azure for cloud services.",
+          "Containerization: Docker for containerizing applications, Kubernetes for container orchestration., Kubernetes for container orchestration."
         ]
       }
     ],
@@ -836,7 +836,7 @@ export const projectData = [
       "Revolutionizing education through innovative teaching methods and digital integration.",
     category: "Education",
     external_link: "",
-    desc: "The LeMark Education project is dedicated to revolutionizing the education sector by enhancing the quality of learning through innovative teaching methods and advanced technology. By focusing on comprehensive educational programs tailored to diverse learning needs, LeMark Education aims to improve learning outcomes and engagement.",
+    desc: "The LeMark Education project is dedicated to revolutionizing the education sector by enhancing the quality of learning through innovative teaching methods and advanced technology.",
     filter: "Education",
     caseStudy: 11,
     project_overview:
@@ -858,13 +858,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Front End: HTML/CSS/JavaScript, React.js/Vue.js/Angular, Bootstrap/Tailwind CSS for UI development.",
+          "Back End: Node.js/Express.js, Python/Django, Ruby on Rails for server-side logic.",
           "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Authentication: OAuth 2.0/OpenID Connect, JWT for secure user authentication.",
+          "Payment Integration: Stripe/PayPal for processing online payments.",
+          "Hosting: AWS/G"
         ]
       }
     ],
@@ -921,7 +920,7 @@ export const projectData = [
       "Empowering businesses with scalable AI solutions for enhanced performance and security.",
     category: "AI",
     external_link: "",
-    desc: "Revent AI is at the forefront of revolutionizing businesses with scalable artificial intelligence solutions designed to enhance performance and security. Through meticulous requirements gathering, competitive analysis, and technical feasibility studies, Revent AI ensures the successful integration of advanced AI technologies within budget and timeline constraints.",
+    desc: "Revent AI is at the forefront of revolutionizing businesses with scalable artificial intelligence solutions designed to enhance performance and security.",
     filter: "AI",
     caseStudy: 12,
     project_overview:
@@ -940,13 +939,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js/Vue.js for dynamic UI, D3.js for data visualization.",
+          "Back End: Python/Flask or Django for backend logic and API development.",
+          "Database: MongoDB or Elasticsearch for storing and querying AI-generated data.",
+          "Authentication: OAuth 2.0 or JWT for securing APIs and authenticating users.",
+          "Payment Integration: Stripe for processing online payments.",
+          "Hosting: AWS or Google Cloud Platform for scalable and reliable hosting of AI services."
         ]
       }
     ],
@@ -996,7 +994,7 @@ export const projectData = [
       "Revolutionizing business operations with AI-powered insights and optimization.",
     category: "AI",
     external_link: "",
-    desc: "Vecflow is dedicated to revolutionizing business operations through cutting-edge AI solutions that provide unparalleled insights and optimization. With a focus on scalability, security, and performance, Vecflow develops AI-driven platforms that ensure a user-friendly and responsive experience for both businesses and their customers. ",
+    desc: "Vecflow is dedicated to revolutionizing business operations through cutting-edge AI solutions that provide unparalleled insights and optimization.",
     filter: "AI",
     caseStudy: 13,
     project_overview:
@@ -1015,13 +1013,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js/Vue.js for dynamic UI.",
+          "Back End: Python/Flask or Django for backend logic and API development.",
+          "Database: MongoDB or Elasticsearch for storing and querying AI-generated data.",
+          "Authentication: OAuth 2.0 or JWT for securing APIs and authenticating users.",
+          "Payment Integration: Stripe for processing online payments.",
+          "Hosting: AWS or Google Cloud Platform for scalable and reliable hosting of AI services."
         ]
       }
     ],
@@ -1071,7 +1068,7 @@ export const projectData = [
       "Transforming healthcare operations with innovative solutions and data-driven insights.",
     category: "Healthcare",
     external_link: "",
-    desc: "BajoFoods is dedicated to transforming healthcare operations through innovative solutions and data-driven insights. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to the healthcare sector.",
+    desc: "BajoFoods is dedicated to transforming healthcare operations through innovative solutions and data-driven insights.",
     filter: "Healthcare",
     caseStudy: 14,
     project_overview:
@@ -1090,13 +1087,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js/Vue.js for dynamic and interactive UI.",
+          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
+          "Database: MongoDB or PostgreSQL for storing healthcare data.",
+          "Authentication: OAuth 2.0 or JWT for securing access to healthcare data.",
+          "Payment Integration: Stripe for processing online payments.",
+          "Hosting: AWS or GCP for scalable and reliable hosting of healthcare applications."
         ]
       }
     ],
@@ -1146,7 +1142,7 @@ export const projectData = [
       "Empowering service-oriented businesses with comprehensive operational insights.",
     category: "Service",
     external_link: "",
-    desc: "Atlassian is dedicated to empowering service-oriented businesses by providing comprehensive operational insights through their dashboard. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to service-based industries.",
+    desc: "Atlassian is dedicated to empowering service-oriented businesses by providing comprehensive operational insights through their dashboard.",
     filter: "Service",
     caseStudy: 15,
     project_overview:
@@ -1165,13 +1161,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js/Vue.js for dynamic and interactive UI.",
+          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
+          "Database: MongoDB or PostgreSQL for storing service data.",
+          "Authentication: OAuth 2.0 or JWT for securing access to service data.",
+          "Payment Integration: Stripe for processing online payments.",
+          "Hosting: AWS or GCP for scalable and reliable hosting of service-based applications."
         ]
       }
     ],
@@ -1221,7 +1216,7 @@ export const projectData = [
       "Empowering finance professionals with comprehensive insights and analytics",
     category: "Finance",
     external_link: "",
-    desc: "Poker Boss aims to empower finance professionals by providing comprehensive insights and analytics through their dashboard. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to the finance sector.",
+    desc: "Poker Boss aims to empower finance professionals by providing comprehensive insights and analytics through their dashboard.",
     filter: "Finance",
     caseStudy: 16,
     project_overview:
@@ -1240,13 +1235,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js/Vue.js for dynamic and interactive UI.",
+          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
+          "Database: MySQL/PostgreSQL or MongoDB for storing financial data.",
+          "Authentication: OAuth 2.0 or JWT for securing access to financial data.",
+          "Payment Integration: Stripe for processing online payments.",
+          "Hosting: AWS or GCP for scalable and reliable hosting of service-based applications."
         ]
       }
     ],
@@ -1295,7 +1289,7 @@ export const projectData = [
     subheading: "Unlocking business insights through advanced AI analytics.",
     category: "AI",
     external_link: "",
-    desc: "Navirego AI is dedicated to unlocking valuable business insights through advanced AI analytics, providing a holistic view of business operations from financial metrics to sales and marketing data. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to AI requirements.",
+    desc: "Navirego AI is dedicated to unlocking valuable business insights through advanced AI analytics, providing a holistic view of business operations from financial metrics to sales and marketing data.",
     filter: "AI",
     caseStudy: 17,
     project_overview:
@@ -1314,13 +1308,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js/Vue.js for dynamic and interactive UI.",
+          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
+          "Database: MongoDB or PostgreSQL for storing AI data.",
+          "Authentication: OAuth 2.0 or JWT for securing access to AI data and services.",
+          "Payment Integration: Stripe for processing online payments.",
+          "Hosting: AWS or GCP for scalable and reliable hosting of AI platforms."
         ]
       }
     ],
@@ -1370,7 +1363,7 @@ export const projectData = [
       "Empowering businesses with AI-driven insights for enhanced decision-making.",
     category: "AI",
     external_link: "",
-    desc: "Wordflo AI is your ultimate tool for transforming business operations with cutting-edge AI technology. Our platform provides a panoramic view of your financial metrics, sales, and marketing data, ensuring you have the insights needed to make informed decisions.",
+    desc: "Wordflo AI is your ultimate tool for transforming business operations with cutting-edge AI technology.",
     filter: "AI",
     caseStudy: 18,
     project_overview:
@@ -1389,13 +1382,12 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js/Vue.js for dynamic and interactive UI.",
+          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
+          "Database: MongoDB or PostgreSQL for storing AI data.",
+          "Authentication: OAuth 2.0 or JWT for securing access to AI data and services.",
+          "Payment Integration: Stripe for processing online payments.",
+          "Hosting: AWS or GCP for scalable and reliable hosting of AI platforms."
         ]
       }
     ],
@@ -1492,9 +1484,13 @@ const ProjectsGrid = () => {
               <span>
                 <h6>{item.category}</h6>
                 <h2>{item.title}</h2>
-                <p className="description">{item.desc}</p>
+                <p>{item.desc}</p>
                 {item.external_link ? (
-                  <a href={item.external_link} target="_blank">
+                  <a
+                    href={item.external_link}
+                    target="_blank"
+                    className="button-wrapper"
+                  >
                     <Image
                       className="caseButton"
                       src="/caseButton.svg"
@@ -1504,7 +1500,10 @@ const ProjectsGrid = () => {
                     />
                   </a>
                 ) : (
-                  <Link href={`/casestudy/${item.caseStudy}`}>
+                  <Link
+                    href={`/casestudy/${item.caseStudy}`}
+                    className="button-wrapper"
+                  >
                     <Image
                       className="caseButton"
                       src="/caseButton.svg"

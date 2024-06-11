@@ -11,6 +11,7 @@ import Testimonial from "@/components/testimonial";
 import { useState } from "react";
 
 interface TechStackItem {
+  id: Number;
   img: string;
   title: string;
   description: string;
@@ -274,32 +275,40 @@ export default function Home() {
         </div>
         {/* tech-stack section */}
         <div className="tech-stack">
-          <h3>Our Tech Stack</h3>
-          <h4>
-            Cutting-Edge <span>Technologies</span> Fueling your Websites
-          </h4>
-          <p>
-            Crafted with precision and powered by the latest advancements, our
-            websites stand as a testament to innovation.
-          </p>
-          <ul>
-            {techStack.map(({ title, img, description }: TechStackItem) => (
-              <li key={title}>
-                <figure
-                  onMouseEnter={() =>
-                    handleMouseEnter({ title, img, description })
-                  }
-                  onMouseLeave={handleMouseLeave}
-                >
-                  <Image src={img} width={50} height={50} alt={title} />
-                </figure>
-                <h5>{title}</h5>
-                {hoveredItem && hoveredItem.title === title && (
-                  <p className="description">{description}</p>
-                )}
-              </li>
-            ))}
-          </ul>
+          <video autoPlay loop muted className="background-video" controls>
+            <source src="/assets/video/tech-stack.mp4" type="video/mp4" />
+          </video>
+          <div className="tech-stack-content">
+            <h3>Our Tech Stack</h3>
+            <h4>
+              Cutting-Edge <span>Technologies</span> Fueling your Websites
+            </h4>
+            <p>
+              Crafted with precision and powered by the latest advancements, our
+              websites stand as a testament to innovation.
+            </p>
+
+            <ul>
+              {techStack.map(
+                ({ id, title, img, description }: TechStackItem) => (
+                  <li key={title}>
+                    <figure
+                      onMouseEnter={() =>
+                        handleMouseEnter({ id, title, img, description })
+                      }
+                      onMouseLeave={handleMouseLeave}
+                    >
+                      <Image src={img} width={50} height={50} alt={title} />
+                    </figure>
+                    <h5>{title}</h5>
+                    {hoveredItem && hoveredItem.id === id && (
+                      <p>{description}</p>
+                    )}
+                  </li>
+                )
+              )}
+            </ul>
+          </div>
         </div>
         {/* projects section */}
         <div className="projects">

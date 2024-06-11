@@ -67,7 +67,7 @@ const Footer = () => {
 
           <div className="map">
             <a
-              href="https://www.google.com/maps/place/SH-20,+Ajanta+Square,+Ajanta+Theater,+OFF+L+T+Road,+Borivali+West,+Mumbai,+Maharashtra+400092/@19.1822222,72.8443333,17z/data=!3m1!4b1!4m5!3m4!1s0x3be77e5a083c390f:0x8288419c87d98a1f!8m2!3d19.1822222!4d72.8443333"
+              href="https://www.google.co.in/maps/place/Ajanta+Square+Mall/@19.229351,72.8521163,17z/data=!4m6!3m5!1s0x3be7b11dbe7149f9:0x26d5f8156420981c!8m2!3d19.229514!4d72.8541209!16s%2Fg%2F11qyjvtkfr?entry=ttu"
               target="_blank"
               rel="noopener noreferrer"
             >

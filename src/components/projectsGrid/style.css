@@ -16,23 +16,29 @@
 
   .project-card {
     @apply w-64 border rounded-xl;
-  }
+    p {
+      @apply px-4  text-sm;
+      line-height: 1.5;
+      white-space: normal;
+    }
+    h2 {
+      @apply px-4 font-semibold text-center;
+    }
+    h6 {
+      @apply text-xs px-4 mb-2 mt-2 font-semibold text-center;
+      color: var(--primary-color);
+    }
 
-  h2 {
-    @apply px-4 font-semibold;
-  }
-  h6 {
-    @apply text-xs px-4 mb-2 mt-2 font-semibold;
-    color: var(--primary-color);
-  }
-  p {
-    @apply px-4 text-sm font-medium;
-  }
-  span {
-    @apply text-justify;
-  }
-  .caseButton {
-    @apply px-4 py-2 pb-4 cursor-pointer;
+    span {
+      @apply text-justify;
+    }
+    .button-wrapper {
+      @apply flex justify-center items-center;
+    }
+
+    .caseButton {
+      @apply px-4 py-2 pb-4 cursor-pointer;
+    }
   }
 }
 
@@ -46,7 +52,6 @@
     }
     p {
       @apply px-4 text-sm;
-      white-space: pre-wrap;
     }
     h2 {
       @apply px-4 text-lg font-semibold;
