@@ -16,29 +16,29 @@
 
   .project-card {
     @apply w-64 border rounded-xl;
-    p {
-      @apply px-4  text-sm;
-      line-height: 1.5;
-      white-space: normal;
-    }
-    h2 {
-      @apply px-4 font-semibold text-center;
-    }
-    h6 {
-      @apply text-xs px-4 mb-2 mt-2 font-semibold text-center;
-      color: var(--primary-color);
-    }
-
-    span {
-      @apply text-justify;
-    }
-    .button-wrapper {
-      @apply flex justify-center items-center;
-    }
-
-    .caseButton {
-      @apply px-4 py-2 pb-4 cursor-pointer;
-    }
+  }
+  h2 {
+    @apply px-4 font-semibold;
+  }
+  h6 {
+    @apply text-xs px-4 mb-2 mt-2 font-semibold;
+    color: var(--primary-color);
+  }
+  p {
+    @apply px-4 text-xs;
+  }
+  span {
+    @apply text-justify;
+  }
+  .caseButton {
+    @apply px-4 py-2 pb-4 cursor-pointer;
+  }
+  .desc {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
   }
 }
 

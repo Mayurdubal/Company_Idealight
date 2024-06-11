@@ -175,16 +175,18 @@ export default function Home() {
               <button>Discover</button>
             </div>
             <div>
-              <span className="badge">App Development</span>
-              <h5>
-                Empower your mobile presence with state-of-the-art applications.
-              </h5>
-              <p>
-                Transform your digital footprint with our expertly crafted
-                mobile applications, meticulously developed utilizing the latest
-                advancements in technology.
-              </p>
-              <button>Discover</button>
+              <span>
+                <span className="badge">Cloud Services</span>
+                <h5>
+                  Unleash the Power of the Cloud: Transform Your Business Today.
+                </h5>
+                <p>
+                  Ready to harness the full potential of the cloud? Contact us
+                  today to learn more about our cloud services and discover how
+                  we can help you unlock new possibilities for your business.
+                </p>
+                <button className="primary-button">Discover</button>
+              </span>
             </div>
           </div>
           <div className="services2">
@@ -214,71 +216,10 @@ export default function Home() {
               <button>Discover</button>
             </div>
           </div>
-          <div className="services3">
-            <div>
-              <span>
-                <span className="badge">Cloud Services</span>
-                <h5>
-                  Unleash the Power of the Cloud: Transform Your Business Today.
-                </h5>
-                <p>
-                  Ready to harness the full potential of the cloud? Contact us
-                  today to learn more about our cloud services and discover how
-                  we can help you unlock new possibilities for your business.
-                </p>
-                <button className="primary-button">Discover</button>
-              </span>
-              <span>
-                <span>
-                  <main>
-                    <Image
-                      src="/security.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Cloud Security
-                  </main>
-                  <main>
-                    <Image
-                      src="/saas.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Software as a Service
-                  </main>
-                </span>
-                <span>
-                  <main>
-                    <Image
-                      src="/migration.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Cloud Migration
-                  </main>
-                  <main>
-                    <Image
-                      src="/backup.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Backup & Restore
-                  </main>
-                </span>
-              </span>
-            </div>
-          </div>
         </div>
         {/* tech-stack section */}
         <div className="tech-stack">
-          <video autoPlay loop muted className="background-video" controls>
-            <source src="/assets/video/tech-stack.mp4" type="video/mp4" />
-          </video>
-          <div className="tech-stack-content">
+          <div>
             <h3>Our Tech Stack</h3>
             <h4>
               Cutting-Edge <span>Technologies</span> Fueling your Websites
