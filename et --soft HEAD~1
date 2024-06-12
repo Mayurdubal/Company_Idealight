@@ -1,0 +1,316 @@
+[33mcommit 50196cd5043eb4490b8211942e5cf333a1ba326d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcorrection[m[33m)[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Wed Jun 12 18:59:42 2024 +0530
+
+    Updated 'our tech-stack section'"
+
+[33mcommit 880e84435d3dfc7ec2ff707190115c3756a490ad[m[33m ([m[1;31morigin/correction[m[33m)[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Tue Jun 11 21:14:48 2024 +0530
+
+    fixed minor changes
+
+[33mcommit c24c9daa95bc64b22684f02d39fb3c90afe267c3[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Tue Jun 11 15:13:20 2024 +0530
+
+    Content for case study
+
+[33mcommit 905db7a896332feb936549af94dfb6c6355cd1ed[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Mon Jun 10 20:23:06 2024 +0530
+
+    minor changes
+
+[33mcommit 5b558b4760c00714b91aee00b54f66a91940029b[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Mon Jun 10 11:10:08 2024 +0530
+
+    Added content for case study
+
+[33mcommit e41316ef8ebd08888962384e0a49d2c9df6049da[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Sat Jun 8 18:16:25 2024 +0530
+
+    minor changes
+
+[33mcommit 472cf1e9bdd90e2b465a18fa4d5f2d107f5e98c1[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Fri Jun 7 18:29:56 2024 +0530
+
+    Added link and fixed minor changes in projectGrid
+
+[33mcommit d8ce96dd759f9d32579157bed4bf5080ae5cb01a[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Fri Jun 7 13:55:54 2024 +0530
+
+    Added content for casestudy of projects
+
+[33mcommit 8eb929081c2bf0e86049ff0795ba8b4086cb0011[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Thu Jun 6 21:40:27 2024 +0530
+
+    fixed the changes for case study
+
+[33mcommit cd91a3d1d75aadf4a7b646c472ddf12755170b00[m
+Author: sagarmoze0 <sagarmoze0@gmail.com>
+Date:   Thu Jun 6 16:24:00 2024 +0530
+
+    fix changes
+
+[33mcommit e3b53e1ee6725b459c03049cad5c73b31ea09f02[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmain[m[33m)[m
+Author: sahuharshit <sahu_harshit@yahoo.in>
+Date:   Wed Jun 5 17:25:46 2024 +0530
+
+    feat: refactored the prettier issue and fixed the build
+
+[33mcommit 5c0cedce299b69aa061eae5e29badbdd0cb4931a[m
+Author: sagarmoze0 <162138863+sagarmoze0@users.noreply.github.com>
+Date:   Tue Jun 4 20:01:41 2024 +0530
+
+    Case study of Tamohara (#15)
+    
+    * Project section update
+    
+    * Case study of Tamohara
+
+[33mcommit abf69d6d8ee78a9c2445478694ffd4060931b5ac[m
+Author: Harshit Sahu <sahu_harshit@yahoo.in>
+Date:   Tue Mar 26 18:08:49 2024 +0530
+
+    Added dynamic contents for projects (#13)
+    
+    * Website navigation, favion and minor update (#1)
+    
+    * Website navigation, favion and minor update
+    
+    * Form linked with Formspree
+    
+    ---------
+    
+    Co-authored-by: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+    
+    * Project Website Fix (#2)
+    
+    * Website navigation, favion and minor update
+    
+    * Form linked with Formspree
+    
+    * Project Website Fix
+    
+    ---------
+    
+    Co-authored-by: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+    
+    * Nested Route Style Load Fix (#3)
+    
+    * Website navigation, favion and minor update
+    
+    * Form linked with Formspree
+    
+    * Project Website Fix
+    
+    * Nested Route Style Load Fix
+    
+    ---------
+    
+    Co-authored-by: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+    
+    * Two Row Slider for Technology (#4)
+    
+    * Website navigation, favion and minor update
+    
+    * Form linked with Formspree
+    
+    * Project Website Fix
+    
+    * Nested Route Style Load Fix
+    
+    * Two Row Slider for Technology
+    
+    * Project Website to new Tab
+    
+    ---------
+    
+    Co-authored-by: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+    
+    * Services section added
+    
+    * Projects added / contact added / footer completed
+    
+    * Issues resolved
+    
+    * Menu Pages added / Contact Form updated
+    
+    * Error Resolved
+    
+    * Case study added
+    
+    * case study link added to projects
+    
+    * key added to resolve the error
+    
+    * Mobile resposiveness added
+    
+    * Deployement issue resolved
+    
+    * Content dynamic added for portfolio projects
+    
+    * Issues resolved on formatting and key
+    
+    ---------
+    
+    Co-authored-by: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+    Co-authored-by: snktsingh <sanketsingh.dev@gmail.com>
+
+[33mcommit d008c7aaff50688771679d1ecf90f7b613cdbd03[m
+Author: Harshit Sahu <sahu_harshit@yahoo.in>
+Date:   Tue Mar 12 12:16:35 2024 +0530
+
+    Mobile responsiveness (#11)
+    
+    * Services section added
+    
+    * Projects added / contact added / footer completed
+    
+    * Issues resolved
+    
+    * Menu Pages added / Contact Form updated
+    
+    * Error Resolved
+    
+    * Case study added
+    
+    * case study link added to projects
+    
+    * key added to resolve the error
+    
+    * Mobile resposiveness added
+    
+    * Deployement issue resolved
+    
+    ---------
+    
+    Co-authored-by: snktsingh <sanketsingh.dev@gmail.com>
+
+[33mcommit 657518702455616fd944c5df7d7a0fad13ac16fc[m
+Author: Harshit Sahu <sahu_harshit@yahoo.in>
+Date:   Fri Mar 8 03:53:23 2024 +0530
+
+    Casestudy completely added (#10)
+    
+    * Services section added
+    
+    * Projects added / contact added / footer completed
+    
+    * Issues resolved
+    
+    * Menu Pages added / Contact Form updated
+    
+    * Error Resolved
+    
+    * Case study added
+    
+    * case study link added to projects
+    
+    * key added to resolve the error
+    
+    ---------
+    
+    Co-authored-by: snktsingh <sanketsingh.dev@gmail.com>
+
+[33mcommit 3fbad307dc64e251d93eab9ed2c83a9024e1ba80[m
+Author: Harshit Sahu <sahu_harshit@yahoo.in>
+Date:   Fri Mar 8 03:49:06 2024 +0530
+
+    Case Study added (#9)
+    
+    * Services section added
+    
+    * Projects added / contact added / footer completed
+    
+    * Issues resolved
+    
+    * Menu Pages added / Contact Form updated
+    
+    * Error Resolved
+    
+    * Case study added
+    
+    ---------
+    
+    Co-authored-by: snktsingh <sanketsingh.dev@gmail.com>
+
+[33mcommit d44b2af0e5100ccbae88b13e3621647d213dcb07[m
+Author: Harshit Sahu <sahu_harshit@yahoo.in>
+Date:   Wed Mar 6 23:24:38 2024 +0530
+
+    Contact Updated / Menu page added (#8)
+    
+    * Services section added
+    
+    * Projects added / contact added / footer completed
+    
+    * Issues resolved
+    
+    * Menu Pages added / Contact Form updated
+    
+    * Error Resolved
+    
+    ---------
+    
+    Co-authored-by: snktsingh <sanketsingh.dev@gmail.com>
+
+[33mcommit 72703dcdfa5b6b695e61c45588e40f90d8e7e234[m
+Author: Harshit Sahu <sahu_harshit@yahoo.in>
+Date:   Wed Mar 6 13:27:36 2024 +0530
+
+    Services section added (#7)
+    
+    * Services section added
+    
+    * Projects added / contact added / footer completed
+    
+    * Issues resolved
+    
+    ---------
+    
+    Co-authored-by: snktsingh <sanketsingh.dev@gmail.com>
+
+[33mcommit a5c60a09f662bbccf577e71ad9a0e9aa122bb3ed[m
+Author: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+Date:   Fri Mar 1 21:50:46 2024 +0530
+
+    Contact UI
+
+[33mcommit 7b0cb490137488d36e6d7838475b98e5d20b8830[m
+Author: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+Date:   Fri Mar 1 20:51:31 2024 +0530
+
+    prettier config update
+
+[33mcommit 53775081753e3be46dd005b02ba6c4eb0d597edd[m
+Author: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+Date:   Fri Mar 1 20:22:57 2024 +0530
+
+    Projects and Testimonial Section
+
+[33mcommit 27e3dd5c9e66b1cc6de125d23a639424a8b3560f[m
+Author: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+Date:   Fri Mar 1 17:05:26 2024 +0530
+
+    Pre-commit test
+
+[33mcommit 15f264dde4e78a72a2e564ed572e22d94f44bbbe[m
+Author: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+Date:   Fri Mar 1 16:59:17 2024 +0530
+
+    Husky added
+
+[33mcommit 9f887e607fd8ec519af0c7ecaf73fea7f623be0c[m
+Author: Harshit Sahu <127093164+sahu-harshit@users.noreply.github.com>
+Date:   Fri Mar 1 16:40:43 2024 +0530
+
+    Nesting Tailwing Config added
+
+[33mcommit 2722bdb99ad76f50b51e1fafa2809aa3f0dfe9ea[m

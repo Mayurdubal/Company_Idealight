@@ -10,8 +10,6 @@ import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
 import { useState } from "react";
 
-
-
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
   const hasErrors = Array.isArray(state.errors) && state.errors.length > 0;
@@ -216,17 +214,15 @@ export default function Home() {
             </p>
 
             <ul>
-              {techStack.map(
-                ({ title, img, description }) => (
-                  <li key={title}>
-                    <figure>
-                      <Image src={img} width={50} height={50} alt={title} />
-                    </figure>
-                    <h5>{title}</h5>
-                    <p>{description}</p>
-                  </li>
-                )
-              )}
+              {techStack.map(({ title, img, description }) => (
+                <li key={title}>
+                  <figure>
+                    <Image src={img} width={50} height={50} alt={title} />
+                  </figure>
+                  <h5>{title}</h5>
+                  <p>{description}</p>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
