@@ -1,0 +1,90 @@
+Define general styles for the category list .category-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+.category-list button {
+  padding: 10px 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+.cat {
+  margin-right: 12px;
+}
+.category-list button.active {
+  padding-right: 2px;
+}
+.category-list button {
+  background-color: #151617;
+  color: #fff;
+}
+
+/* Define the container for the project cards */
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Define the styles for individual project cards */
+.project-card {
+  width: 100px; /* Set the width of the card */
+  height: 200px; /* Set the height of the card */
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Define the styles for the image inside the project card */
+.project-card figure {
+  margin: 0;
+  width: 90px; /* Adjust the size of the image container */
+  height: 90px; /* Adjust the size of the image container */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Define the styles for the text inside the project card */
+.project-card span {
+  text-align: center;
+}
+
+.project-card h6 {
+  margin: 7px 0 5px 0;
+  font-size: 14px;
+  color: #999;
+}
+
+.project-card h2 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Define the styles for the Load More button */
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #0070f3;
+  color: #fff;
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}

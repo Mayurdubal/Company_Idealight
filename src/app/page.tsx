@@ -9,26 +9,11 @@ import { techStack } from "@/constants";
 import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
 import { useState } from "react";
-
-interface TechStackItem {
-  id: Number;
-  img: string;
-  title: string;
-  description: string;
-}
+import TechGrid from "@/components/projectsGrid/techgrid";
 
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
   const hasErrors = Array.isArray(state.errors) && state.errors.length > 0;
-  const [hoveredItem, setHoveredItem] = useState<TechStackItem | null>(null);
-
-  const handleMouseEnter = (item: TechStackItem) => {
-    setHoveredItem(item);
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredItem(null);
-  };
 
   return (
     <main className="home">
@@ -275,10 +260,7 @@ export default function Home() {
         </div>
         {/* tech-stack section */}
         <div className="tech-stack">
-          <video autoPlay loop muted className="background-video" controls>
-            <source src="/assets/video/tech-stack.mp4" type="video/mp4" />
-          </video>
-          <div className="tech-stack-content">
+          <div>
             <h3>Our Tech Stack</h3>
             <h4>
               Cutting-Edge <span>Technologies</span> Fueling your Websites
@@ -287,26 +269,16 @@ export default function Home() {
               Crafted with precision and powered by the latest advancements, our
               websites stand as a testament to innovation.
             </p>
+            <TechGrid />
 
             <ul>
-              {techStack.map(
-                ({ id, title, img, description }: TechStackItem) => (
-                  <li key={title}>
-                    <figure
-                      onMouseEnter={() =>
-                        handleMouseEnter({ id, title, img, description })
-                      }
-                      onMouseLeave={handleMouseLeave}
-                    >
-                      <Image src={img} width={50} height={50} alt={title} />
-                    </figure>
-                    <h5>{title}</h5>
-                    {hoveredItem && hoveredItem.id === id && (
-                      <p>{description}</p>
-                    )}
-                  </li>
-                )
-              )}
+              {techStack.map(({ id, title, img, description }) => (
+                <li key={title}>
+                  <Image src={img} width={50} height={50} alt={title} />
+
+                  <h5>{title}</h5>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
