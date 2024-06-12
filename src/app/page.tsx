@@ -10,25 +10,11 @@ import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
 import { useState } from "react";
 
-interface TechStackItem {
-  id: Number;
-  img: string;
-  title: string;
-  description: string;
-}
+
 
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
   const hasErrors = Array.isArray(state.errors) && state.errors.length > 0;
-  const [hoveredItem, setHoveredItem] = useState<TechStackItem | null>(null);
-
-  const handleMouseEnter = (item: TechStackItem) => {
-    setHoveredItem(item);
-  };
-
-  const handleMouseLeave = () => {
-    setHoveredItem(null);
-  };
 
   return (
     <main className="home">
@@ -231,20 +217,13 @@ export default function Home() {
 
             <ul>
               {techStack.map(
-                ({ id, title, img, description }: TechStackItem) => (
+                ({ title, img, description }) => (
                   <li key={title}>
-                    <figure
-                      onMouseEnter={() =>
-                        handleMouseEnter({ id, title, img, description })
-                      }
-                      onMouseLeave={handleMouseLeave}
-                    >
+                    <figure>
                       <Image src={img} width={50} height={50} alt={title} />
                     </figure>
                     <h5>{title}</h5>
-                    {hoveredItem && hoveredItem.id === id && (
-                      <p>{description}</p>
-                    )}
+                    <p>{description}</p>
                   </li>
                 )
               )}
