@@ -16,11 +16,11 @@ export const projectData = [
       "Transforming education with comprehensive, accessible resources, enhancing student learning and educator support.",
     category: "Education",
     external_link: "",
-    desc: "Bartleby Education Project leverages an advanced educational platform to boost student learning and engagement.",
+    desc: "Bartleby Education Project leverages an advanced educational platform to boost student learning and engagement. With textbook solutions, expert Q&A, and personalized study aids, Bartleby integrates seamlessly into educational institutions to provide round-the-clock access to high-quality resources. The project focuses on supporting educators with supplementary tools and fostering self-paced learning environments, ensuring scalable, secure, and effective outcomes.",
     filter: "Education",
     caseStudy: 1,
     project_overview:
-      "The Bartleby Education Project aims to leverage Bartleby, an educational platform, to enhance student learning and support.",
+      "The Bartleby Education Project aims to leverage Bartleby, an educational platform, to enhance student learning and support. Bartleby provides a range of services, including textbook solutions, expert Q&A, and personalized study help. This project will focus on integrating Bartleby's resources into educational institutions to improve student outcomes and engagement.",
     objective: [
       "Enhance Learning Outcomes: Utilize Bartleby’s resources to provide students with additional learning support, leading to improved academic performance.",
       "Increase Accessibility: Make high-quality educational resources easily accessible to students anytime and anywhere.",
@@ -105,7 +105,7 @@ export const projectData = [
       "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
     category: "Inventory Management",
     external_link: " https://stockapp.idealite.in/",
-    desc: "Designer Watches LLP revolutionizes inventory management by offering a comprehensive dashboard that provides real-time financial metrics, sales data, and marketing insights. ",
+    desc: "Designer Watches LLP revolutionizes inventory management by offering a comprehensive dashboard that provides real-time financial metrics, sales data, and marketing insights. With our integrated platform, businesses can achieve a holistic view of their operations, ensuring efficient inventory control and optimized business processes. Explore our solution to enhance your inventory management and drive your business forward with precise, actionable data.",
     filter: "Systems",
     caseStudy: 2,
     project_overview: "",
@@ -138,7 +138,7 @@ export const projectData = [
     subheading:
       "Modernizing postal operations to deliver enhanced efficiency, security, and customer satisfaction.",
     external_link: "",
-    desc: "The UK Post Office is undertaking a transformative government project aimed at modernizing its operations to improve efficiency, customer service, and overall functionality.",
+    desc: "The UK Post Office is undertaking a transformative government project aimed at modernizing its operations to improve efficiency, customer service, and overall functionality. By implementing advanced technologies and streamlined processes, this initiative will enhance user experience, ensure robust data security, and support long-term sustainability. The project focuses on real-time parcel tracking, efficient inventory management, and seamless integration with existing systems, ultimately delivering a more reliable and user-friendly service for all customers.",
     filter: "Govt",
     caseStudy: 3,
     project_overview:
@@ -226,13 +226,13 @@ export const projectData = [
 
   {
     id: 4,
-    name: "nikee",
+    name: "nike",
     title: "Nike",
     subheading:
       "Optimizing inventory management with cutting-edge technology for superior efficiency and customer satisfaction.",
     category: "Inventory Management",
     external_link: "",
-    desc: "The Nike Inventory Management Project is dedicated to transforming Nike's inventory processes through the implementation of advanced technologies and strategic innovations.",
+    desc: "The Nike Inventory Management Project is dedicated to transforming Nike's inventory processes through the implementation of advanced technologies and strategic innovations. By focusing on real-time inventory tracking, reducing excess stock, and streamlining supply chain operations, this project aims to enhance accuracy, efficiency, and customer satisfaction. The integration of modern solutions ensures seamless data flow, robust security, and scalability, supporting Nike’s growth and operational excellence. With improved reporting and analytics, Nike is empowered to make informed decisions and maintain optimal inventory levels to meet customer demands.",
     filter: "Systems",
     caseStudy: 4,
     project_overview:
@@ -328,7 +328,7 @@ export const projectData = [
       "From financial metrics to sales and marketing data, our dashboard provides you with a holistic view of your business operations.",
     category: "Finance",
     external_link: "https://investmentapp.idealite.in/",
-    desc: "Tamohara is revolutionizing financial management by offering a state-of-the-art dashboard that provides a holistic view of business operations.",
+    desc: "Tamohara is revolutionizing financial management by offering a state-of-the-art dashboard that provides a holistic view of business operations. With real-time access to financial metrics, sales data, and marketing insights, this platform empowers businesses to make informed decisions, optimize performance, and drive growth. Tamohara integrates advanced analytics and seamless data flow, ensuring accuracy, security, and scalability. Discover how Tamohara can transform your financial management processes and support your strategic objectives.",
     filter: "Finance",
     caseStudy: 5,
     project_overview: "",
@@ -361,7 +361,7 @@ export const projectData = [
       "Revolutionizing pathology with AI-driven precision and efficiency in healthcare diagnostics.",
     category: "Healthcare",
     external_link: "",
-    desc: "Qritive leverages advanced AI technology to transform pathology services, focusing on cancer diagnosis accuracy and efficiency.",
+    desc: "Qritive leverages advanced AI technology to transform pathology services, focusing on cancer diagnosis accuracy and efficiency. By integrating with Optum and UnitedHealthcare (UHC), Qritive aims to enhance diagnostic precision, streamline workflows, and improve patient outcomes. Our AI-powered tools analyze medical images, integrate seamlessly with EHR systems, and adhere to stringent healthcare regulations, ensuring robust data security and compliance. Discover how Qritive's innovative solutions are setting new standards in healthcare diagnostics, enhancing both operational efficiency and patient care.",
     filter: "Healthcare",
     caseStudy: 6,
     project_overview:
@@ -458,7 +458,7 @@ export const projectData = [
       "Integrating advanced AI-driven pathology solutions to revolutionize healthcare diagnostics and patient care.",
     category: "Healthcare",
     external_link: "",
-    desc: "The Optum + UnitedHealthcare (UHC) project focuses on incorporating Qritive's cutting-edge AI-powered pathology tools to enhance diagnostic accuracy, streamline workflows, and improve patient outcomes.",
+    desc: "The Optum + UnitedHealthcare (UHC) project focuses on incorporating Qritive's cutting-edge AI-powered pathology tools to enhance diagnostic accuracy, streamline workflows, and improve patient outcomes. By leveraging advanced technology, the project aims to provide precise and reliable cancer diagnoses, reduce turnaround times, and ensure seamless integration with existing health information systems. Adhering to stringent healthcare regulations, the project also emphasizes robust patient data security and compliance. Discover how this collaboration sets new standards in healthcare, driving efficiency and excellence in patient care and operational processes.",
     filter: "Healthcare",
     caseStudy: 7,
     project_overview:
@@ -554,7 +554,7 @@ export const projectData = [
       "Empowering healthier lifestyles through personalized nutrition and advanced dietary management solutions.",
     category: "Healthcare",
     external_link: "",
-    desc: "The LoFoods Project aims to revolutionize healthcare by promoting healthy eating habits and enhancing overall health outcomes.",
+    desc: "The LoFoods Project aims to revolutionize healthcare by promoting healthy eating habits and enhancing overall health outcomes. Through the provision of low-calorie, nutritious food options, LoFoods leverages advanced technology and data analytics to create personalized dietary plans, track health metrics, and ensure the availability of healthy food choices. By integrating with Electronic Health Records (EHR) systems, the project provides comprehensive tools for managing patient diets and nutritional intake. This initiative not only addresses diet-related health issues such as obesity, diabetes, and cardiovascular diseases but also emphasizes robust data security and compliance with healthcare regulations. Discover how LoFoods is making nutritious food accessible and affordable, improving patient care, and driving positive health changes in communities.",
     filter: "Healthcare",
     caseStudy: 8,
     project_overview:
@@ -652,7 +652,7 @@ export const projectData = [
       "Unlock your full potential with personalized coaching and advanced fitness tracking.",
     category: "Fitness",
     external_link: "",
-    desc: "The Alphacoach project aims to transform health and fitness by providing customized coaching plans tailored to individual needs.",
+    desc: "The Alphacoach project aims to transform health and fitness by providing customized coaching plans tailored to individual needs. Utilizing data analytics, artificial intelligence, and cutting-edge digital tools, Alphacoach offers real-time insights, tracks user progress, and adjusts plans accordingly to ensure optimal results. The platform features personalized workout plans, nutritional guidance, and community support to keep users motivated and engaged. By integrating with fitness tracking devices and health apps, Alphacoach ensures comprehensive data collection and analysis, promoting sustainable healthy habits and improving overall fitness outcomes. Robust security measures and compliance with data protection regulations guarantee the privacy and safety of user information. Discover how Alphacoach is redefining personal fitness through innovative technology and personalized coaching.",
     filter: "Fitness",
     caseStudy: 9,
     project_overview:
@@ -750,7 +750,7 @@ export const projectData = [
       "Empowering communities through education, healthcare, and sustainable development.",
     category: "NGO",
     external_link: "",
-    desc: "The Bhavyata Foundation project is an initiative aimed at addressing critical social issues and improving the quality of life for underprivileged communities.",
+    desc: "The Bhavyata Foundation project is an initiative aimed at addressing critical social issues and improving the quality of life for underprivileged communities. Focusing on education, healthcare, rural development, and skill training, the foundation leverages community participation and sustainable practices to create lasting positive impacts. By providing access to essential services and opportunities, Bhavyata Foundation empowers individuals to achieve economic independence and better health outcomes. The project includes detailed stakeholder interviews, competitive analysis, and a technical feasibility study to ensure successful implementation. Utilizing a robust system architecture and a comprehensive development and deployment strategy, the initiative aims to overcome challenges related to resource allocation, community engagement, sustainability, and funding, while fostering partnerships and community involvement for greater impact.",
     filter: "NGO",
     caseStudy: 10,
     project_overview:
@@ -836,7 +836,7 @@ export const projectData = [
       "Revolutionizing education through innovative teaching methods and digital integration.",
     category: "Education",
     external_link: "",
-    desc: "The LeMark Education project is dedicated to revolutionizing the education sector by enhancing the quality of learning through innovative teaching methods and advanced technology.",
+    desc: "The LeMark Education project is dedicated to revolutionizing the education sector by enhancing the quality of learning through innovative teaching methods and advanced technology. By focusing on comprehensive educational programs tailored to diverse learning needs, LeMark Education aims to improve learning outcomes and engagement. The project's objectives include enhancing educational quality, increasing accessibility to education for underprivileged and remote learners, providing personalized learning paths, and offering professional development opportunities for educators. Through meticulous requirements gathering, competitive analysis, and technical feasibility studies, LeMark Education ensures the successful integration of advanced technology within budget and timeline constraints. The project leverages a microservices architecture and a robust technology stack to develop scalable and maintainable solutions. Challenges such as technology integration, digital divide, teacher training, and student engagement are addressed through blended learning models, teacher training programs, digital inclusion initiatives, and personalized learning tools. The outcomes include successful deployment of e-learning platforms, increased online engagement, and positive user feedback on platform performance, usability, and security.",
     filter: "Education",
     caseStudy: 11,
     project_overview:
@@ -920,7 +920,7 @@ export const projectData = [
       "Empowering businesses with scalable AI solutions for enhanced performance and security.",
     category: "AI",
     external_link: "",
-    desc: "Revent AI is at the forefront of revolutionizing businesses with scalable artificial intelligence solutions designed to enhance performance and security.",
+    desc: "Revent AI is at the forefront of revolutionizing businesses with scalable artificial intelligence solutions designed to enhance performance and security. Through meticulous requirements gathering, competitive analysis, and technical feasibility studies, Revent AI ensures the successful integration of advanced AI technologies within budget and timeline constraints. The project overview emphasizes the development of a scalable and secure e-commerce platform with a user-friendly and responsive front end, robust back-end services, integration of third-party payment gateways and shipping services, and provision of an admin panel for inventory and order management. Leveraging a microservices architecture and a robust technology stack, Revent AI develops scalable and maintainable solutions that address challenges such as scalability, security, and performance optimization. The outcomes include the successful launch of the e-commerce platform, a significant increase in online sales and customer engagement, and positive feedback from users on platform performance, usability, and security.",
     filter: "AI",
     caseStudy: 12,
     project_overview:
@@ -983,7 +983,7 @@ export const projectData = [
       "Achieved a significant increase in online sales and customer engagement.",
       "Received positive feedback from users for the platform's performance, usability, and security."
     ],
-    img: "/revent_ai.png"
+    img: "/revent_ai.svg"
   },
 
   {
@@ -1057,7 +1057,7 @@ export const projectData = [
       "Achieved a significant increase in online sales and customer engagement.",
       "Received positive feedback from users for the platform's performance, usability, and security."
     ],
-    img: "/vecflow.png"
+    img: "/vecflow.svg"
   },
 
   {
@@ -1068,7 +1068,7 @@ export const projectData = [
       "Transforming healthcare operations with innovative solutions and data-driven insights.",
     category: "Healthcare",
     external_link: "",
-    desc: "BajoFoods is dedicated to transforming healthcare operations through innovative solutions and data-driven insights.",
+    desc: "BajoFoods is dedicated to transforming healthcare operations through innovative solutions and data-driven insights. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to the healthcare sector. Key objectives include ensuring a user-friendly and responsive front end, implementing robust back-end services for business logic and data management, integrating third-party payment gateways and shipping services, and providing an admin panel for efficient inventory and order management. Through thorough requirements gathering, competitive analysis, and technical feasibility studies, BajoFoods addresses challenges such as scalability, security, and performance optimization. Leveraging a microservices architecture and a comprehensive technology stack, including React.js, Node.js, MongoDB, and AWS, BajoFoods delivers a platform that meets the stringent requirements of the healthcare industry. The outcomes include the successful launch of the e-commerce platform, a significant increase in online sales and customer engagement, and positive feedback from users on platform performance, usability, and security.",
     filter: "Healthcare",
     caseStudy: 14,
     project_overview:
@@ -1131,7 +1131,7 @@ export const projectData = [
       "Achieved a significant increase in online sales and customer engagement.",
       "Received positive feedback from users for the platform's performance, usability, and security."
     ],
-    img: "/bajo_foods.png"
+    img: "/bajo_foods.svg"
   },
 
   {
@@ -1142,7 +1142,7 @@ export const projectData = [
       "Empowering service-oriented businesses with comprehensive operational insights.",
     category: "Service",
     external_link: "",
-    desc: "Atlassian is dedicated to empowering service-oriented businesses by providing comprehensive operational insights through their dashboard.",
+    desc: "Atlassian is dedicated to empowering service-oriented businesses by providing comprehensive operational insights through their dashboard. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to service-based industries. Key objectives include ensuring a user-friendly and responsive front end, implementing robust back-end services for business logic and data management, integrating third-party payment gateways and shipping services, and providing an admin panel for efficient inventory and order management. Through stakeholder interviews, competitive analysis, and technical feasibility studies, Atlassian addresses challenges such as scalability, security, and performance optimization. Leveraging a microservices architecture and a comprehensive technology stack, including React.js, Node.js, MongoDB, and AWS, Atlassian delivers a platform that meets the stringent requirements of service-based businesses. The outcomes include the successful launch of the e-commerce platform, a significant increase in online sales and customer engagement, and positive feedback from users on platform performance, usability, and security.",
     filter: "Service",
     caseStudy: 15,
     project_overview:
@@ -1205,7 +1205,7 @@ export const projectData = [
       "Achieved a significant increase in online sales and customer engagement.",
       "Received positive feedback from users for the platform's performance, usability, and security."
     ],
-    img: "/atlassiann.png"
+    img: "/atlassiann.svg"
   },
 
   {
@@ -1216,7 +1216,7 @@ export const projectData = [
       "Empowering finance professionals with comprehensive insights and analytics",
     category: "Finance",
     external_link: "",
-    desc: "Poker Boss aims to empower finance professionals by providing comprehensive insights and analytics through their dashboard.",
+    desc: "Poker Boss aims to empower finance professionals by providing comprehensive insights and analytics through their dashboard. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to the finance sector. Key objectives include ensuring a user-friendly and responsive front end, implementing robust back-end services for business logic and data management, integrating third-party payment gateways and shipping services, and providing an admin panel for efficient inventory and order management. Through stakeholder interviews, competitive analysis, and technical feasibility studies, Poker Boss addresses challenges such as scalability, security, and performance optimization. Leveraging a microservices architecture and a comprehensive technology stack, including React.js, Node.js, MongoDB, and AWS, Poker Boss delivers a platform that meets the stringent requirements of finance professionals. The outcomes include the successful launch of the e-commerce platform, a significant increase in online sales and customer engagement, and positive feedback from users on platform performance, usability, and security.",
     filter: "Finance",
     caseStudy: 16,
     project_overview:
@@ -1279,7 +1279,7 @@ export const projectData = [
       "Achieved a significant increase in online sales and customer engagement.",
       "Received positive feedback from users for the platform's performance, usability, and security."
     ],
-    img: "/poker_boss.png"
+    img: "/poker_boss.svg"
   },
 
   {
@@ -1289,7 +1289,7 @@ export const projectData = [
     subheading: "Unlocking business insights through advanced AI analytics.",
     category: "AI",
     external_link: "",
-    desc: "Navirego AI is dedicated to unlocking valuable business insights through advanced AI analytics, providing a holistic view of business operations from financial metrics to sales and marketing data.",
+    desc: "Navirego AI is dedicated to unlocking valuable business insights through advanced AI analytics, providing a holistic view of business operations from financial metrics to sales and marketing data. The project overview emphasizes the development of a scalable and secure e-commerce platform tailored to AI requirements. Key objectives include ensuring a user-friendly and responsive front end, implementing robust back-end services for business logic and data management, integrating third-party payment gateways and shipping services, and providing an admin panel for efficient inventory and order management. Through stakeholder interviews, competitive analysis, and technical feasibility studies, Navirego AI addresses challenges such as scalability, security, and performance optimization. Leveraging a microservices architecture and a comprehensive technology stack, including React.js, Node.js, MongoDB, and AWS, Navirego AI delivers a platform that meets the stringent requirements of AI analytics. The outcomes include the successful launch of the e-commerce platform, a significant increase in online sales and customer engagement, and positive feedback from users on platform performance, usability, and security.",
     filter: "AI",
     caseStudy: 17,
     project_overview:
@@ -1352,7 +1352,7 @@ export const projectData = [
       "Achieved a significant increase in online sales and customer engagement.",
       "Received positive feedback from users for the platform's performance, usability, and security."
     ],
-    img: "/navirego_ai.png"
+    img: "/navirego.svg"
   },
 
   {
@@ -1363,7 +1363,7 @@ export const projectData = [
       "Empowering businesses with AI-driven insights for enhanced decision-making.",
     category: "AI",
     external_link: "",
-    desc: "Wordflo AI is your ultimate tool for transforming business operations with cutting-edge AI technology.",
+    desc: "Wordflo AI is at the forefront of empowering businesses with AI-driven insights, providing a comprehensive dashboard that offers a holistic view of business operations, ranging from financial metrics to sales and marketing data. The project overview outlines the development objectives, including the creation of a scalable and secure e-commerce platform with a user-friendly and responsive front end, robust back-end services for efficient data management, and seamless integration of third-party payment gateways and shipping services. Through stakeholder interviews, competitive analysis, and technical feasibility studies, Wordflo AI addresses key challenges such as scalability, security, and performance optimization. Leveraging a microservices architecture and a sophisticated technology stack featuring React.js, Node.js, MongoDB, and AWS, Wordflo AI delivers a cutting-edge platform tailored to AI requirements. The outcomes include the successful launch of the e-commerce platform, a substantial increase in online sales and customer engagement, and positive feedback from users on platform performance, usability, and security.",
     filter: "AI",
     caseStudy: 18,
     project_overview:
@@ -1382,12 +1382,13 @@ export const projectData = [
           " Chose a microservices architecture to ensure scalability and maintainability."
         ],
         technology_stack: [
-          "Front End: React.js/Vue.js for dynamic and interactive UI.",
-          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
-          "Database: MongoDB or PostgreSQL for storing AI data.",
-          "Authentication: OAuth 2.0 or JWT for securing access to AI data and services.",
-          "Payment Integration: Stripe for processing online payments.",
-          "Hosting: AWS or GCP for scalable and reliable hosting of AI platforms."
+          "Front End: React.js for the user interface, Redux for state management.",
+          "Back End: Node.js with Express.js for building RESTful APIs.",
+          "Database: MongoDB for its scalability and flexibility with unstructured data.",
+          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
+          "Payment Integration: Stripe API for processing payments.",
+          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
+          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
         ]
       }
     ],
@@ -1426,7 +1427,7 @@ export const projectData = [
       "Achieved a significant increase in online sales and customer engagement.",
       "Received positive feedback from users for the platform's performance, usability, and security."
     ],
-    img: "/wordflo_ai.png"
+    img: "/wordflo.svg"
   }
 ];
 
@@ -1478,13 +1479,13 @@ const ProjectsGrid = () => {
                   src={`${item.img}`}
                   width={270}
                   height={270}
-                  alt="bartleby"
+                  alt={item.title}
                 />
               </figure>
               <span>
                 <h6>{item.category}</h6>
                 <h2>{item.title}</h2>
-                <p>{item.desc}</p>
+                <p className="desc">{item.desc}</p>
                 {item.external_link ? (
                   <a
                     href={item.external_link}
@@ -1501,7 +1502,7 @@ const ProjectsGrid = () => {
                   </a>
                 ) : (
                   <Link
-                    href={`/casestudy/${item.caseStudy}`}
+                    href={`/casestudy/${item.caseStudy}?projectName=${item.name}`}
                     className="button-wrapper"
                   >
                     <Image

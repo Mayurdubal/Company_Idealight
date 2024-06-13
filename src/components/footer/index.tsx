@@ -21,7 +21,9 @@ const Footer = () => {
               <Link href="/">Privacy Policy</Link>
             </li>
             <li>
-              <Link href="/">Where to Find Us</Link>
+              <Link href="https://www.google.co.in/maps/place/Ajanta+Square+Mall/@19.229351,72.8521163,17z/data=!4m6!3m5!1s0x3be7b11dbe7149f9:0x26d5f8156420981c!8m2!3d19.229514!4d72.8541209!16s%2Fg%2F11qyjvtkfr?entry=ttu">
+                Where to Find Us
+              </Link>
             </li>
             <li>
               <Link href="/">Contact Us</Link>
@@ -49,16 +51,16 @@ const Footer = () => {
           <h5>Solutions</h5>
           <ul>
             <li>
-              <Link href="/">About Us</Link>
+              <Link href="/">Products</Link>
             </li>
             <li>
-              <Link href="/">Work</Link>
+              <Link href="/portfolio">Case Studies</Link>
             </li>
             <li>
-              <Link href="/">Services</Link>
+              <Link href="/">Industries</Link>
             </li>
             <li>
-              <Link href="/">Blogs</Link>
+              <Link href="/">Resources</Link>
             </li>
           </ul>
         </div>

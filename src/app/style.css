@@ -283,9 +283,16 @@
 
 .tech-stack {
   @apply py-16 relative;
-  
+  .background-video {
+    @apply absolute inset-0 w-full h-full object-cover z-[-1];
+  }
+
+  .tech-stack-content {
+    @apply relative z-10 text-white text-center;
+  }
+
   h4 {
-    @apply mt-3 mb-1 text-2xl font-semibold text-black;
+    @apply mt-3 mb-1 text-white text-2xl font-semibold text-white;
 
     span {
       color: var(--primary-color);
@@ -300,10 +307,10 @@
     @apply py-14 grid grid-cols-3 gap-x-32 gap-y-10;
 
     li {
-      @apply px-16 py-8 flex flex-col items-center text-center;
+      @apply border rounded-md px-16 py-8 flex flex-col items-center text-center;
 
       figure {
-        @apply w-[103px] h-[89px] mb-3 rounded-md flex justify-center items-center bg-white;
+        @apply w-[103px] h-[89px] mb-3 rounded-md flex justify-center items-center bg-[#0389560D];
       }
 
       h5 {

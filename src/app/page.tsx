@@ -11,6 +11,13 @@ import Testimonial from "@/components/testimonial";
 import { useState } from "react";
 import TechGrid from "@/components/projectsGrid/techgrid";
 
+interface TechStackItem {
+  id: Number;
+  img: string;
+  title: string;
+  description: string;
+}
+
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
   const hasErrors = Array.isArray(state.errors) && state.errors.length > 0;
@@ -160,16 +167,18 @@ export default function Home() {
               <button>Discover</button>
             </div>
             <div>
-              <span className="badge">App Development</span>
-              <h5>
-                Empower your mobile presence with state-of-the-art applications.
-              </h5>
-              <p>
-                Transform your digital footprint with our expertly crafted
-                mobile applications, meticulously developed utilizing the latest
-                advancements in technology.
-              </p>
-              <button>Discover</button>
+              <span>
+                <span className="badge">Cloud Services</span>
+                <h5>
+                  Unleash the Power of the Cloud: Transform Your Business Today.
+                </h5>
+                <p>
+                  Ready to harness the full potential of the cloud? Contact us
+                  today to learn more about our cloud services and discover how
+                  we can help you unlock new possibilities for your business.
+                </p>
+                <button className="primary-button">Discover</button>
+              </span>
             </div>
           </div>
           <div className="services2">
@@ -199,64 +208,6 @@ export default function Home() {
               <button>Discover</button>
             </div>
           </div>
-          <div className="services3">
-            <div>
-              <span>
-                <span className="badge">Cloud Services</span>
-                <h5>
-                  Unleash the Power of the Cloud: Transform Your Business Today.
-                </h5>
-                <p>
-                  Ready to harness the full potential of the cloud? Contact us
-                  today to learn more about our cloud services and discover how
-                  we can help you unlock new possibilities for your business.
-                </p>
-                <button className="primary-button">Discover</button>
-              </span>
-              <span>
-                <span>
-                  <main>
-                    <Image
-                      src="/security.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Cloud Security
-                  </main>
-                  <main>
-                    <Image
-                      src="/saas.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Software as a Service
-                  </main>
-                </span>
-                <span>
-                  <main>
-                    <Image
-                      src="/migration.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Cloud Migration
-                  </main>
-                  <main>
-                    <Image
-                      src="/backup.svg"
-                      width={40}
-                      height={40}
-                      alt="support"
-                    />{" "}
-                    Backup & Restore
-                  </main>
-                </span>
-              </span>
-            </div>
-          </div>
         </div>
         {/* tech-stack section */}
         <div className="tech-stack">
@@ -270,16 +221,6 @@ export default function Home() {
               websites stand as a testament to innovation.
             </p>
             <TechGrid />
-
-            <ul>
-              {techStack.map(({ id, title, img, description }) => (
-                <li key={title}>
-                  <Image src={img} width={50} height={50} alt={title} />
-
-                  <h5>{title}</h5>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
         {/* projects section */}
@@ -364,13 +305,7 @@ export default function Home() {
                   Send
                 </button>
               </form>
-              <p
-                style={{
-                  opacity: 1,
-                  marginTop: "20px",
-                  color: hasErrors ? "red" : "green"
-                }}
-              >
+              <p>
                 {state.succeeded && "Your Message sent successfully!"}
                 {hasErrors && "Failed to send Message"}
               </p>
