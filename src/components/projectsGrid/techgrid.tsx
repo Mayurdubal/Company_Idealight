@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-import "./style1.css";
+import "./techstyle.css";
 import Link from "next/link";
 import { title } from "process";
 
@@ -55,7 +55,7 @@ export const techData = [
   },
 
   {
-    "Programming Language": [
+    Programming_Language: [
       {
         id: 3,
         title: "nodejs",
@@ -136,7 +136,7 @@ export const techData = [
   },
 
   {
-    "ORM/Backend": [
+    ORM_Backend: [
       {
         id: 16,
         title: "KnexJS",
@@ -151,7 +151,7 @@ export const techData = [
   },
 
   {
-    "AWS Service": [
+    AWS_Service: [
       {
         id: 18,
         title: "VPC",
@@ -283,7 +283,7 @@ export const techData = [
   },
 
   {
-    "3rd Party Tools": [
+    rd_Party_Tools: [
       {
         id: 45,
         title: "Airflow",
@@ -303,7 +303,7 @@ export const techData = [
   },
 
   {
-    "UI Framework": [
+    UI_Framework: [
       {
         id: 51,
         title: "MaterialUI",
@@ -335,72 +335,6 @@ export const techData = [
   }
 ];
 
-// function TechGrid() {
-//   const [filterKey, setFilterKey] = useState<string>("all");
-//   const [visibleCount, setVisibleCount] = useState<number>(4);
-
-//   const filteredData =
-//     filterKey === "all"
-//       ? techData.flatMap((category) => Object.values(category)[0])
-//       : techData
-//           .flatMap((category) => Object.values(category)[0])
-//           .filter((item) => item.category === filterKey);
-
-//   return (
-//     <div className="my-5">
-//       <ul className="category-list">
-//         <li className="cat">
-//           <button
-//             className={filterKey === "all" ? "active" : ""}
-//             onClick={() => setFilterKey("all")}
-//           >
-//             All (
-//             {techData.flatMap((category) => Object.values(category)[0]).length})
-//           </button>
-//         </li>
-//         {Object.entries(
-//           techData.reduce((acc: Record<string, number>, curr) => {
-//             const categoryKey = Object.keys(curr)[0];
-//             acc[categoryKey] = Object.values(curr)[0].length;
-//             return acc;
-//           }, {})
-//         ).map(([category, count]) => (
-//           <li key={category}>
-//             <button
-//               className={filterKey === category ? "active" : ""}
-//               onClick={() => setFilterKey(category)}
-//             >
-//               {category} ({count})
-//             </button>
-//           </li>
-//         ))}
-//       </ul>
-//       <div className="project-container">
-//         {filteredData.slice(0, visibleCount).map((item) => (
-//           <div className="project-card" key={item.id}>
-//             <div>
-//               <figure>
-//                 <Image src={item.img} width={80} height={80} alt={item.title} />
-//               </figure>
-//               <span>
-//                 <h6>{item.category}</h6>
-//                 <h2>{item.title}</h2>
-//               </span>
-//             </div>
-//           </div>
-//         ))}
-//       </div>
-//       {visibleCount < filteredData.length && (
-//         <button onClick={() => setVisibleCount(visibleCount + 4)}>
-//           Load More
-//         </button>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default TechGrid;
-
 function TechGrid() {
   const [filterKey, setFilterKey] = useState<string>("all");
   const [visibleCount, setVisibleCount] = useState<number>(4);
@@ -413,8 +347,8 @@ function TechGrid() {
           .filter((item) => item.category === filterKey);
 
   return (
-    <div className="tech-grid-container my-5">
-      <ul className="category-list">
+    <div className="tech-container my-5">
+      <ul className="tech-category-list">
         <li>
           <button
             className={filterKey === "all" ? "active" : ""}
@@ -424,27 +358,29 @@ function TechGrid() {
             {techData.flatMap((category) => Object.values(category)[0]).length})
           </button>
         </li>
-        {Object.entries(
-          techData.reduce((acc: Record<string, number>, curr) => {
-            const categoryKey = Object.keys(curr)[0];
-            acc[categoryKey] = Object.values(curr)[0].length;
-            return acc;
-          }, {})
-        ).map(([category, count]) => (
-          <li key={category}>
-            <button
-              className={filterKey === category ? "active" : ""}
-              onClick={() => setFilterKey(category)}
-            >
-              {category} ({count})
-            </button>
-          </li>
-        ))}
+        <div className="tech">
+          {Object.entries(
+            techData.reduce((acc: Record<string, number>, curr) => {
+              const categoryKey = Object.keys(curr)[0];
+              acc[categoryKey] = Object.values(curr)[0].length;
+              return acc;
+            }, {})
+          ).map(([category, count]) => (
+            <li key={category}>
+              <button
+                className={filterKey === category ? "active" : ""}
+                onClick={() => setFilterKey(category)}
+              >
+                {category} ({count})
+              </button>
+            </li>
+          ))}
+        </div>
       </ul>
-      <div className="project-container">
+      <div className="tech-container">
         {filteredData.slice(0, visibleCount).map((item) => (
-          <div className="project-card" key={item.id}>
-            <div className="card-content">
+          <div className="tech-card" key={item.id}>
+            <div className="tech-card-content">
               <figure>
                 <Image src={item.img} width={80} height={80} alt={item.title} />
               </figure>

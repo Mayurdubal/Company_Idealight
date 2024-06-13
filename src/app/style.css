@@ -282,17 +282,10 @@
 }
 
 .tech-stack {
-  @apply py-16 relative;
-  .background-video {
-    @apply absolute inset-0 w-full h-full object-cover z-[-1];
-  }
-
-  .tech-stack-content {
-    @apply relative z-10 text-white text-center;
-  }
+  @apply py-16;
 
   h4 {
-    @apply mt-3 mb-1 text-white text-2xl font-semibold text-white;
+    @apply mt-3 mb-1 text-[#00000080] text-2xl font-semibold text-black;
 
     span {
       color: var(--primary-color);

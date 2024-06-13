@@ -9,14 +9,7 @@ import { techStack } from "@/constants";
 import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
 import { useState } from "react";
-import TechGrid from "@/components/projectsGrid/techgrid";
-
-interface TechStackItem {
-  id: Number;
-  img: string;
-  title: string;
-  description: string;
-}
+import TechGrid from "@/components/projectsGrid/techGrid";
 
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
@@ -221,6 +214,18 @@ export default function Home() {
               websites stand as a testament to innovation.
             </p>
             <TechGrid />
+
+            <ul>
+              {techStack.map(({ title, img, description }) => (
+                <li key={title}>
+                  <figure>
+                    <Image src={img} width={50} height={50} alt={title} />
+                  </figure>
+                  <h5>{title}</h5>
+                  <p>{description}</p>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
         {/* projects section */}
@@ -305,7 +310,13 @@ export default function Home() {
                   Send
                 </button>
               </form>
-              <p>
+              <p
+                style={{
+                  opacity: 1,
+                  marginTop: "20px",
+                  color: hasErrors ? "red" : "green"
+                }}
+              >
                 {state.succeeded && "Your Message sent successfully!"}
                 {hasErrors && "Failed to send Message"}
               </p>
