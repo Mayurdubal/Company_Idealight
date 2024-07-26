@@ -1,0 +1,77 @@
+.all-service {
+  background-color: rgba(103, 96, 100, 0.103);
+
+  h2 {
+    @apply pt-10 mb-4 text-4xl font-semibold;
+    background: linear-gradient(90deg, #038956, #50fbba);
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+  }
+
+  h3 {
+    @apply text-3xl;
+    text-align: center;
+    background: linear-gradient(90deg, #038956, #50fbba);
+    background-clip: text;
+    color: transparent;
+  }
+
+  h5 {
+    @apply text-lg text-white font-thin mt-5;
+  }
+
+  p {
+    @apply text-sm mt-2 mb-3 text-white text-justify leading-6;
+  }
+
+  .title {
+    @apply flex align-middle;
+    p {
+      @apply text-black text-lg;
+      text-align: center;
+    }
+    .btn {
+      @apply ml-10 mt-5 cursor-pointer block;
+    }
+
+    .text-content {
+      display: inline-grid;
+      text-align: center;
+    }
+  }
+
+  .gradient-cards {
+    @apply ml-10 mr-10;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 30px;
+
+    @media screen and (max-width: 991px) {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .card {
+      flex: 0 1 calc(50% - 16px);
+      border-top: 4px solid #3da077;
+      border-bottom: 4px solid #3da077;
+      border-radius: 50px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      background: linear-gradient(71deg, #2f2329, #1a171c, #36586e);
+      margin-bottom: 20px;
+      box-sizing: border-box;
+      perspective: 1000px;
+    }
+
+    .card-body {
+      padding: 45px;
+      position: relative;
+    }
+  }
+
+  .conclusion p {
+    @apply text-lg text-black mb-10;
+  }
+}

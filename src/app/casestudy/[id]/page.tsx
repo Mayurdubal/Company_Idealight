@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 
 const CaseStudy = () => {
   const pathname = usePathname();
+
   const temp = pathname.lastIndexOf("/");
   const projectId = parseInt(pathname.slice(temp + 1), 10);
 

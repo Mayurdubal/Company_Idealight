@@ -1,11 +1,10 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Image from "next/image";
-
+import { usePathname, useSearchParams } from "next/navigation";
 import "./style.css";
 import Link from "next/link";
-import { title } from "process";
 
 export const projectData = [
   {
@@ -848,14 +847,15 @@ export const projectData = [
       "Professional Development: Provide training and resources for educators to enhance their teaching skills and adapt to new technologies."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Interviews: Conducting interviews with key stakeholders to understand their needs and expectations.",
+      "Data Collection: Gathering data requirements, including data sources, volume, and quality.",
+      "Functional Requirements: Defining the functional requirements of the AI solution, such as specific tasks and objectives.",
+      "Non-Functional Requirements: Identifying non-functional requirements, including performance, scalability, and security."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Choosing the appropriate architecture for the AI solution, such as microservices or monolithic architecture."
         ],
         technology_stack: [
           "Front End: HTML/CSS/JavaScript, React.js/Vue.js/Angular, Bootstrap/Tailwind CSS for UI development.",
@@ -893,16 +893,16 @@ export const projectData = [
       "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
     ],
     challenges: [
-      "Technology Integration: Integrating advanced technology into traditional educational systems.",
-      "Digital Divide: Ensuring all students have access to necessary digital tools and internet connectivity.",
-      "Teacher Training: Equipping educators with the skills and knowledge to effectively use new technologies and teaching methods.",
-      "Student Engagement: Keeping students engaged and motivated in a digital learning environment.",
-      "Resource Allocation: Efficiently allocating resources to maximize impact and reach.",
-      "E-Learning Platforms: Develop and deploy e-learning platforms that provide interactive and engaging educational content.",
-      "Blended Learning Models: Implement blended learning models that combine online and offline education to enhance flexibility and accessibility.",
-      "Teacher Training Programs: Offer comprehensive training programs for teachers to help them adapt to new technologies and teaching strategies.",
-      "Digital Inclusion Initiatives: Launch initiatives to provide digital devices and internet access to underprivileged students.",
-      "Personalized Learning Tools: Use AI and data analytics to create personalized learning experiences tailored to each student's needs."
+      "Data Quality and Volume: Ensuring access to high-quality, diverse datasets for training AI models.",
+      "Scalability: Developing AI solutions that can scale efficiently across various applications and industries.",
+      "Real-Time Processing: Creating algorithms capable of processing large volumes of data in real-time.",
+      "Integration: Seamlessly integrating AI solutions with existing systems and workflows.",
+      "Ethical Considerations: Addressing ethical concerns related to AI, such as bias and data privacy.",
+      "Advanced Algorithms: Utilizing deep learning, machine learning, and reinforcement learning to build powerful AI models.",
+      "Data Augmentation: Implementing techniques to enhance the quality and diversity of training data.",
+      "Cloud Computing: Leveraging cloud platforms for scalable data processing and storage.",
+      "APIs and Frameworks: Developing APIs and frameworks to facilitate the integration of AI solutions with existing systems.",
+      "Ethical AI Practices: Adopting best practices for ethical AI development, including fairness, transparency, and accountability."
     ],
     outcomes: [
       "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
@@ -924,64 +924,72 @@ export const projectData = [
     filter: "AI",
     caseStudy: 12,
     project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    ",
+      "Ravent AI is an advanced artificial intelligence (AI) project focused on developing innovative solutions for various applications, such as predictive analytics, natural language processing (NLP), and computer vision. The project aims to leverage cutting-edge AI technologies to solve complex problems across different industries, including healthcare, finance, and logistics.",
     objective: [
-      "Develop a scalable and secure e-commerce platform. Ensure a user-friendly and responsive front end. Implement robust back-end services to handle business logic and data management. Integrate third-party payment gateways and shipping services.Provide an admin panel for inventory and order management."
+      "Automate Data Analysis: Develop AI models to automate complex data analysis tasks.",
+      "Enhance Predictive Accuracy: Improve the accuracy of predictive models for better decision-making.",
+      "Scalable Solutions: Create scalable AI solutions that can handle large datasets and high user concurrency.",
+      "User-Friendly Interface: Ensure the platform is accessible and easy to use for non-technical users."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Interviews: Conduct interviews with key stakeholders to understand their needs and expectations.",
+      "Data Collection: Gather comprehensive datasets that the AI models will analyze.",
+      "Regulatory Compliance: Ensure compliance with relevant data protection and privacy regulations.",
+      " Technical Specifications: Define the technical requirements and constraints for the system."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Microservices Architecture: Chosen for its flexibility and scalability, allowing independent deployment and scaling of components.",
+          "Cloud-Based Infrastructure: Opt for cloud infrastructure to leverage scalability and reliability."
         ],
         technology_stack: [
-          "Front End: React.js/Vue.js for dynamic UI, D3.js for data visualization.",
-          "Back End: Python/Flask or Django for backend logic and API development.",
-          "Database: MongoDB or Elasticsearch for storing and querying AI-generated data.",
-          "Authentication: OAuth 2.0 or JWT for securing APIs and authenticating users.",
-          "Payment Integration: Stripe for processing online payments.",
-          "Hosting: AWS or Google Cloud Platform for scalable and reliable hosting of AI services."
+          "Front End: React for developing a responsive and interactive user interface.",
+          "Back End: Node.js with Express for building scalable server-side applications.",
+          "Database: PostgreSQL for robust and efficient data storage.",
+          "AI Models: TensorFlow and PyTorch for developing and deploying machine learning models.",
+          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
+          "Payment Integration: Stripe for handling secure payment transactions.",
+          "Hosting: AWS for hosting the application and ensuring high availability."
         ]
       }
     ],
     development: [
       {
         front_end: [
-          "Wireframing and Prototyping: Created wireframes and interactive prototypes using Figma to visualize the user interface and user experience.",
-          "Component Development: Developed reusable React components for various parts of the application, including the product catalog, shopping cart, and checkout process.",
-          "Responsive Design: Ensured the application was responsive and optimized for various devices and screen sizes."
+          "React: Build user interfaces that are dynamic and responsive.",
+          "Redux: Manage the application state efficiently."
         ],
         back_end: [
-          "API Development: Developed RESTful APIs using Express.js for handling business logic and data operations.",
-          "Database Schema Design: Designed a flexible and efficient schema for MongoDB to handle product information, user data, and order details.",
-          "Authentication: Implemented JWT-based authentication to secure API endpoints and manage user sessions.",
-          "Payment Integration: Integrated Stripe API for handling payments securely, including support for multiple payment methods."
+          "Node.js & Express: Develop RESTful APIs to handle data requests and business logic.",
+          "PostgreSQL: Store and manage application data efficiently."
         ]
       }
     ],
     testing: [
-      "Unit Testing: Wrote unit tests using Jest for both front-end components and back-end services to ensure functionality at a granular level.",
-      "Integration Testing: Conducted integration tests to verify that different modules and services worked together as expected.",
-      "User Acceptance Testing (UAT): Performed UAT with a group of end-users to validate the system against business requirements and gather feedback."
+      "Unit Testing: Validate individual components and functions.",
+      "Integration Testing: Ensure different components of the system work together seamlessly.",
+      "System Testing: Conduct end-to-end testing to validate the entire system.",
+      "User Acceptance Testing (UAT): Involve end-users to ensure the system meets their requirements and expectations."
     ],
     deployment: [
-      "Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines using Jenkins to automate the building, testing, and deployment of the application.",
-      "Containerization: Deployed applications using Docker containers to ensure consistency across different environments.",
-      "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
+      "Frontend Deployment: Use AWS S3 or similar services for deploying the React application.",
+      "Backend Deployment: Use Docker to containerize and deploy the Node.js application on AWS ECS or similar platforms."
     ],
     challenges: [
-      "Scalability: Ensured scalability by designing the platform with a microservices architecture and leveraging AWS infrastructure.",
-      "Security: Addressed security concerns by implementing JWT for authentication, HTTPS for data transmission, and regular security audits.",
-      "Performance Optimization: Improved performance by optimizing database queries, implementing caching strategies, and using a content delivery network (CDN) for static assets."
+      "Data Quality: Ensuring high-quality, diverse datasets for training AI models.",
+      "Solution: Collaborate with data providers and use data cleaning techniques.",
+      "Solution: Implement cloud-based scalable infrastructure.",
+      "Model Accuracy: Achieving high accuracy in AI predictions.",
+      "Continuously train and refine models using updated data and techniques.",
+      "User Adoption: Ensuring the platform is user-friendly and meets user needs.",
+      "Solution: Conduct regular user testing and incorporate feedback."
     ],
     outcomes: [
-      "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
-      "Achieved a significant increase in online sales and customer engagement.",
-      "Received positive feedback from users for the platform's performance, usability, and security."
+      "Enhanced Decision Making: Users can make informed decisions based on accurate AI predictions.",
+      "Time Savings: Automation of data analysis tasks reduces the time required for manual analysis.",
+      "Scalability: The platform can handle growing amounts of data and user interactions efficiently.",
+      "User Satisfaction: Increased satisfaction among users due to improved system performance and new functionalities."
     ],
     img: "/revent_ai.svg"
   },
@@ -998,36 +1006,40 @@ export const projectData = [
     filter: "AI",
     caseStudy: 13,
     project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    ",
+      "Vecflow AI is an AI-powered solution designed to optimize various processes in different domains by leveraging advanced machine learning and artificial intelligence techniques. This project aims to enhance operational efficiency, reduce costs, and improve decision-making through intelligent data analysis and automation.",
     objective: [
-      "Develop a scalable and secure e-commerce platform. Ensure a user-friendly and responsive front end. Implement robust back-end services to handle business logic and data management. Integrate third-party payment gateways and shipping services.Provide an admin panel for inventory and order management."
+      "Automate Routine Tasks: Implement AI to handle repetitive and time-consuming tasks.",
+      "Enhance Decision-Making: Provide actionable insights through advanced data analytics.",
+      "Improve Efficiency: Streamline workflows and processes to maximize productivity.",
+      "Scalability: Develop a system that can easily scale with the growing needs of the organization."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Analysis: Conduct interviews and workshops with key stakeholders to understand their needs and expectations.",
+      "Data Collection: Gather data from various sources that the AI system will analyze.",
+      "Functional Requirements: Define the specific functionalities required by the system.",
+      "Non-Functional Requirements: Establish performance, security, and usability requirements."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Microservices Architecture: To allow independent development, deployment, and scaling of different components of the system.",
+          "Event-Driven Architecture: To handle real-time data processing and provide timely insights."
         ],
         technology_stack: [
-          "Front End: React.js/Vue.js for dynamic UI.",
-          "Back End: Python/Flask or Django for backend logic and API development.",
-          "Database: MongoDB or Elasticsearch for storing and querying AI-generated data.",
-          "Authentication: OAuth 2.0 or JWT for securing APIs and authenticating users.",
-          "Payment Integration: Stripe for processing online payments.",
-          "Hosting: AWS or Google Cloud Platform for scalable and reliable hosting of AI services."
+          "Front End: React for building dynamic and responsive user interfaces.",
+          "Back End: Node.js with Express for developing scalable server-side applications.",
+          "Database: MongoDB for flexible and scalable data storage.",
+          "Machine Learning: TensorFlow and PyTorch for developing and deploying AI models.",
+          "Hosting: AWS for scalable and reliable cloud hosting services.",
+          "Authentication: OAuth 2.0 for secure user authentication and authorization."
         ]
       }
     ],
     development: [
       {
         front_end: [
-          "Wireframing and Prototyping: Created wireframes and interactive prototypes using Figma to visualize the user interface and user experience.",
-          "Component Development: Developed reusable React components for various parts of the application, including the product catalog, shopping cart, and checkout process.",
-          "Responsive Design: Ensured the application was responsive and optimized for various devices and screen sizes."
+          "React: Develop interactive and user-friendly interfaces that allow users to interact with AI tools and view analytics results.",
+          "Node.js and Express: Build RESTful APIs that connect the front end with the AI models and database, ensuring efficient data flow and processing."
         ],
         back_end: [
           "API Development: Developed RESTful APIs using Express.js for handling business logic and data operations.",
@@ -1038,24 +1050,25 @@ export const projectData = [
       }
     ],
     testing: [
-      "Unit Testing: Wrote unit tests using Jest for both front-end components and back-end services to ensure functionality at a granular level.",
-      "Integration Testing: Conducted integration tests to verify that different modules and services worked together as expected.",
-      "User Acceptance Testing (UAT): Performed UAT with a group of end-users to validate the system against business requirements and gather feedback."
+      "Unit Testing: Test individual components and functionalities for correctness.",
+      "Integration Testing: Ensure that different parts of the system work together seamlessly.",
+      "System Testing: Conduct end-to-end testing to validate the entire workflow.",
+      "User Acceptance Testing (UAT): Gather feedback from end-users to ensure the system meets their needs and expectations."
     ],
     deployment: [
-      "Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines using Jenkins to automate the building, testing, and deployment of the application.",
-      "Containerization: Deployed applications using Docker containers to ensure consistency across different environments.",
-      "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
+      "Frontend Deployment: Deploy the React application on a platform like AWS S3 or similar cloud services.",
+      "Backend Deployment: Use Docker containers to deploy the Node.js application, ensuring consistency and scalability across different environments."
     ],
     challenges: [
-      "Scalability: Ensured scalability by designing the platform with a microservices architecture and leveraging AWS infrastructure.",
-      "Security: Addressed security concerns by implementing JWT for authentication, HTTPS for data transmission, and regular security audits.",
-      "Performance Optimization: Improved performance by optimizing database queries, implementing caching strategies, and using a content delivery network (CDN) for static assets."
+      "Data Quality: Challenge in ensuring high-quality data for training AI models. Solution: Implement robust data cleaning and preprocessing techniques.",
+      "Scalability: Challenge in handling increasing amounts of data and user requests. Solution: Use cloud-based services with auto-scaling capabilities.",
+      "Model Accuracy: Challenge in developing accurate and reliable AI models. Solution: Continuously train and fine-tune models using diverse and high-quality datasets."
     ],
     outcomes: [
-      "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
-      "Achieved a significant increase in online sales and customer engagement.",
-      "Received positive feedback from users for the platform's performance, usability, and security."
+      "Operational Efficiency: Significant improvement in operational processes due to automation.",
+      "Enhanced Insights: Better decision-making capabilities through advanced data analytics.",
+      "Cost Reduction: Reduction in operational costs by automating routine tasks and optimizing workflows.",
+      "User Satisfaction: Positive feedback from users due to the intuitive and effective AI tools."
     ],
     img: "/vecflow.svg"
   },
@@ -1072,64 +1085,63 @@ export const projectData = [
     filter: "Healthcare",
     caseStudy: 14,
     project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    ",
+      "BajoFoods is a healthcare project focused on developing and providing nutritious, low-carb, and diabetes-friendly food products. The project aims to address the dietary needs of individuals with specific health conditions, such as diabetes, and promote overall health and wellness through scientifically formulated food products.",
     objective: [
-      "Develop a scalable and secure e-commerce platform. Ensure a user-friendly and responsive front end. Implement robust back-end services to handle business logic and data management. Integrate third-party payment gateways and shipping services.Provide an admin panel for inventory and order management."
+      "Improve Patient Nutrition: Develop a comprehensive nutritional program to enhance patient health outcomes.",
+      "Streamline Healthcare Services: Implement a system to efficiently manage patient records and nutritional plans.",
+      "Enhance Data Analytics: Utilize data analytics to provide personalized dietary recommendations."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Interviews: Conduct interviews with healthcare providers, patients, and dietitians to gather requirements.",
+      "Data Collection: Collect nutritional data, patient health records, and other relevant information.",
+      "Regulatory Compliance: Ensure that the system complies with healthcare regulations and standards."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Architecture Selection: Choose a microservices architecture for scalability and flexibility."
         ],
         technology_stack: [
-          "Front End: React.js/Vue.js for dynamic and interactive UI.",
-          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
-          "Database: MongoDB or PostgreSQL for storing healthcare data.",
-          "Authentication: OAuth 2.0 or JWT for securing access to healthcare data.",
-          "Payment Integration: Stripe for processing online payments.",
-          "Hosting: AWS or GCP for scalable and reliable hosting of healthcare applications."
+          "Front End: React.js for dynamic and responsive user interfaces.",
+          "Back End: Node.js for server-side processing.",
+          "Database: MongoDB for flexible and scalable data storage.",
+          "Analytics: Python with libraries such as Pandas and Scikit-learn for data analysis and machine learning.",
+          "Hosting: AWS for cloud hosting and scalability.",
+          "Authentication: OAuth 2.0 for secure user authentication."
         ]
       }
     ],
     development: [
       {
         front_end: [
-          "Wireframing and Prototyping: Created wireframes and interactive prototypes using Figma to visualize the user interface and user experience.",
-          "Component Development: Developed reusable React components for various parts of the application, including the product catalog, shopping cart, and checkout process.",
-          "Responsive Design: Ensured the application was responsive and optimized for various devices and screen sizes."
+          "React.js: Develop user interfaces for patients and healthcare providers.",
+          "UI/UX Design: Focus on user-friendly design principles to ensure easy navigation and accessibility."
         ],
         back_end: [
-          "API Development: Developed RESTful APIs using Express.js for handling business logic and data operations.",
-          "Database Schema Design: Designed a flexible and efficient schema for MongoDB to handle product information, user data, and order details.",
-          "Authentication: Implemented JWT-based authentication to secure API endpoints and manage user sessions.",
-          "Payment Integration: Integrated Stripe API for handling payments securely, including support for multiple payment methods."
+          "Node.js: Develop the backend logic to handle data processing and integration with the database.",
+          "API Development: Create RESTful APIs for communication between the front end and back end."
         ]
       }
     ],
     testing: [
-      "Unit Testing: Wrote unit tests using Jest for both front-end components and back-end services to ensure functionality at a granular level.",
-      "Integration Testing: Conducted integration tests to verify that different modules and services worked together as expected.",
-      "User Acceptance Testing (UAT): Performed UAT with a group of end-users to validate the system against business requirements and gather feedback."
+      "Unit Testing: Test individual components for functionality.",
+      "Integration Testing: Ensure that the front-end and back-end components work seamlessly together.",
+      "System Testing: Validate the entire system's functionality and performance.",
+      "User Acceptance Testing (UAT): Involve end-users to test the system and provide feedback."
     ],
     deployment: [
-      "Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines using Jenkins to automate the building, testing, and deployment of the application.",
-      "Containerization: Deployed applications using Docker containers to ensure consistency across different environments.",
-      "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
+      "Frontend Deployment: Host the React.js application on AWS S3.",
+      "Backend Deployment: Deploy the Node.js application using Docker containers on AWS ECS."
     ],
     challenges: [
-      "Scalability: Ensured scalability by designing the platform with a microservices architecture and leveraging AWS infrastructure.",
-      "Security: Addressed security concerns by implementing JWT for authentication, HTTPS for data transmission, and regular security audits.",
-      "Performance Optimization: Improved performance by optimizing database queries, implementing caching strategies, and using a content delivery network (CDN) for static assets."
+      "Data Privacy: Challenge in ensuring patient data privacy. Solution: Implement robust encryption and secure authentication mechanisms.",
+      "Scalability: Handling increased load as more patients use the system. Solution: Use AWS auto-scaling features to dynamically adjust resources.",
+      "Integration with Existing Systems: Challenge in integrating with current healthcare management systems. Solution: Develop APIs and middleware to facilitate seamless integration."
     ],
     outcomes: [
-      "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
-      "Achieved a significant increase in online sales and customer engagement.",
-      "Received positive feedback from users for the platform's performance, usability, and security."
+      "Improved Patient Health: Enhanced nutritional plans leading to better patient health outcomes.",
+      "Efficient Healthcare Management: Streamlined management of patient records and nutritional plans.",
+      "Data-Driven Insights: Personalized dietary recommendations based on data analytics."
     ],
     img: "/bajo_foods.svg"
   },
@@ -1137,7 +1149,7 @@ export const projectData = [
   {
     id: 15,
     name: "atlassian",
-    title: "Atlassiann",
+    title: "Atlassian",
     subheading:
       "Empowering service-oriented businesses with comprehensive operational insights.",
     category: "Service",
@@ -1146,64 +1158,66 @@ export const projectData = [
     filter: "Service",
     caseStudy: 15,
     project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    ",
+      "Atlassian, a leading software company known for its collaboration and project management tools, is undertaking a new service project to enhance its offerings. The focus is on developing a comprehensive service platform to streamline project management and team collaboration.",
     objective: [
-      "Develop a scalable and secure e-commerce platform. Ensure a user-friendly and responsive front end. Implement robust back-end services to handle business logic and data management. Integrate third-party payment gateways and shipping services.Provide an admin panel for inventory and order management."
+      "Improve User Experienc: Offer a user-friendly interface with intuitive navigation and features.",
+      "Enhance Collaboratio: Improve team communication and collaboration through an integrated service platform.",
+      "Streamline Project Managemen: Provide tools to manage projects more efficiently, from planning to execution.",
+      "Increase Productivit: Automate routine tasks to allow teams to focus on high-value activities."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Interview: Engage with key stakeholders, including project managers, team leads, and end-users, to understand their needs and pain points.",
+      "Market Analysi: Study market trends and competitor offerings to identify gaps and opportunities.",
+      "User Survey: Conduct surveys to gather feedback on existing tools and desired features.",
+      "Technical Requirement: Define technical specifications, including scalability, security, and integration capabilities."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Microservices Architectur: Choose a microservices architecture to allow independent development, deployment, and scaling of services.",
+          "Cloud-Based Architectur: Utilize cloud infrastructure to provide flexibility and scalability."
         ],
         technology_stack: [
-          "Front End: React.js/Vue.js for dynamic and interactive UI.",
-          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
-          "Database: MongoDB or PostgreSQL for storing service data.",
-          "Authentication: OAuth 2.0 or JWT for securing access to service data.",
-          "Payment Integration: Stripe for processing online payments.",
-          "Hosting: AWS or GCP for scalable and reliable hosting of service-based applications."
+          "Front End: React for building a dynamic and responsive user interface.",
+          "Back End: Node.js for developing scalable server-side applications.",
+          "Database: PostgreSQL for reliable and robust data storage.",
+          "Authentication: OAuth 2.0 for secure authentication and authorization."
         ]
       }
     ],
     development: [
       {
         front_end: [
-          "Wireframing and Prototyping: Created wireframes and interactive prototypes using Figma to visualize the user interface and user experience.",
-          "Component Development: Developed reusable React components for various parts of the application, including the product catalog, shopping cart, and checkout process.",
-          "Responsive Design: Ensured the application was responsive and optimized for various devices and screen sizes."
+          "React: Develop a responsive and interactive user interface.",
+          "Redux: Manage the application state efficiently."
         ],
         back_end: [
-          "API Development: Developed RESTful APIs using Express.js for handling business logic and data operations.",
-          "Database Schema Design: Designed a flexible and efficient schema for MongoDB to handle product information, user data, and order details.",
-          "Authentication: Implemented JWT-based authentication to secure API endpoints and manage user sessions.",
-          "Payment Integration: Integrated Stripe API for handling payments securely, including support for multiple payment methods."
+          "Node.j: Build server-side applications and APIs.",
+          "Express.j: Implement a web framework for Node.js to handle HTTP requests and routing."
         ]
       }
     ],
     testing: [
-      "Unit Testing: Wrote unit tests using Jest for both front-end components and back-end services to ensure functionality at a granular level.",
-      "Integration Testing: Conducted integration tests to verify that different modules and services worked together as expected.",
-      "User Acceptance Testing (UAT): Performed UAT with a group of end-users to validate the system against business requirements and gather feedback."
+      "Unit Testin: Test individual components and services for functionality.",
+      "Integration Testin: Ensure that different modules and services work together seamlessly.",
+      "End-to-End Testin: Conduct comprehensive testing to validate the entire workflow.",
+      "User Acceptance Testing UAT: Involve end-users in testing to ensure the system meets their needs and expectations."
     ],
     deployment: [
-      "Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines using Jenkins to automate the building, testing, and deployment of the application.",
-      "Containerization: Deployed applications using Docker containers to ensure consistency across different environments.",
-      "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
+      "Deployment Strategy: Planning a phased deployment approach to minimize disruption.",
+      "Environment Setup: Setting up development, staging, and production environments.",
+      "Monitoring: Implementing monitoring tools to ensure system performance and availability."
     ],
     challenges: [
-      "Scalability: Ensured scalability by designing the platform with a microservices architecture and leveraging AWS infrastructure.",
-      "Security: Addressed security concerns by implementing JWT for authentication, HTTPS for data transmission, and regular security audits.",
-      "Performance Optimization: Improved performance by optimizing database queries, implementing caching strategies, and using a content delivery network (CDN) for static assets."
+      "Scalabilit: Challenge in handling large volumes of data and high user traffic. Solution: Implement auto-scaling and load balancing in the cloud infrastructure.",
+      "Securit: Challenge in ensuring data security and compliance. Solution: Implement robust encryption, secure authentication, and regular security audits.",
+      "User Adoptio: Challenge in encouraging users to adopt the new platform. Solution: Provide comprehensive training and support, and gather user feedback for continuous improvement."
     ],
     outcomes: [
-      "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
-      "Achieved a significant increase in online sales and customer engagement.",
-      "Received positive feedback from users for the platform's performance, usability, and security."
+      "Improved Collaboratio: Enhanced team communication and collaboration through an integrated platform.",
+      "Positive User Feedbac: High user satisfaction due to an intuitive and user-friendly interface.",
+      "Efficient Project Managemen: Streamlined project management processes, leading to increased productivity.",
+      "Improved Collaboratio: Enhanced team communication and collaboration through an integrated platform."
     ],
     img: "/atlassiann.svg"
   },
@@ -1220,64 +1234,63 @@ export const projectData = [
     filter: "Finance",
     caseStudy: 16,
     project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    ",
+      "Poker Boss is a financial project aimed at developing a sophisticated platform for managing and analyzing financial transactions and data specific to poker games. The platform will provide tools for real-time analytics, secure transactions, and financial reporting, catering to both players and administrators.",
     objective: [
-      "Develop a scalable and secure e-commerce platform. Ensure a user-friendly and responsive front end. Implement robust back-end services to handle business logic and data management. Integrate third-party payment gateways and shipping services.Provide an admin panel for inventory and order management."
+      "Real-Time Financial Analytics: To offer real-time insights into financial transactions and game outcomes.",
+      "Secure Transactions: Ensure robust security measures for financial transactions.",
+      "User-Friendly Interface: Develop an intuitive interface for users to manage their financial data easily.",
+      "Compliance: Ensure the platform complies with relevant financial regulations and standards."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Interviews: Conduct interviews with potential users, including poker players and financial administrators, to gather requirements.",
+      "Market Research: Analyze similar platforms to identify key features and best practices.",
+      "Regulatory Requirements: Identify and document necessary compliance requirements for financial transactions in the gaming industry."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Service-Oriented Architecture (SOA): Opt for a service-oriented architecture to facilitate modular, scalable, and maintainable services."
         ],
         technology_stack: [
-          "Front End: React.js/Vue.js for dynamic and interactive UI.",
-          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
-          "Database: MySQL/PostgreSQL or MongoDB for storing financial data.",
-          "Authentication: OAuth 2.0 or JWT for securing access to financial data.",
-          "Payment Integration: Stripe for processing online payments.",
-          "Hosting: AWS or GCP for scalable and reliable hosting of service-based applications."
+          "Front End: React.js for a dynamic and responsive user interface.",
+          "Back End: Node.js with Express.js for handling server-side logic and API requests.",
+          "Database: PostgreSQL for structured data storage and fast query performance.",
+          "Authentication: OAuth 2.0 for secure user authentication.",
+          "Payment Integration: Stripe API for secure and reliable payment processing.",
+          "Hosting: AWS (Amazon Web Services) for scalable and reliable cloud hosting solutions."
         ]
       }
     ],
     development: [
       {
         front_end: [
-          "Wireframing and Prototyping: Created wireframes and interactive prototypes using Figma to visualize the user interface and user experience.",
-          "Component Development: Developed reusable React components for various parts of the application, including the product catalog, shopping cart, and checkout process.",
-          "Responsive Design: Ensured the application was responsive and optimized for various devices and screen sizes."
+          "React.js: Develop user interfaces that are interactive and responsive, ensuring a seamless user experience."
         ],
         back_end: [
-          "API Development: Developed RESTful APIs using Express.js for handling business logic and data operations.",
-          "Database Schema Design: Designed a flexible and efficient schema for MongoDB to handle product information, user data, and order details.",
-          "Authentication: Implemented JWT-based authentication to secure API endpoints and manage user sessions.",
-          "Payment Integration: Integrated Stripe API for handling payments securely, including support for multiple payment methods."
+          "Node.js with Express.js: Implement the server-side logic, API endpoints, and integrate with the database and payment gateways."
         ]
       }
     ],
     testing: [
-      "Unit Testing: Wrote unit tests using Jest for both front-end components and back-end services to ensure functionality at a granular level.",
-      "Integration Testing: Conducted integration tests to verify that different modules and services worked together as expected.",
-      "User Acceptance Testing (UAT): Performed UAT with a group of end-users to validate the system against business requirements and gather feedback."
+      "Unit Testing: Test individual components for expected functionality.",
+      "Integration Testing: Ensure different modules work together as intended.",
+      "System Testing: Conduct end-to-end testing to validate the complete workflow.",
+      "User Acceptance Testing (UAT): Validate the system with real users to ensure it meets their needs and expectations."
     ],
     deployment: [
-      "Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines using Jenkins to automate the building, testing, and deployment of the application.",
-      "Containerization: Deployed applications using Docker containers to ensure consistency across different environments.",
-      "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
+      "AWS S3: Use AWS S3 for hosting the React.js application.",
+      "AWS EC2: Deploy the Node.js application using Docker containers on AWS EC2 instances."
     ],
     challenges: [
-      "Scalability: Ensured scalability by designing the platform with a microservices architecture and leveraging AWS infrastructure.",
-      "Security: Addressed security concerns by implementing JWT for authentication, HTTPS for data transmission, and regular security audits.",
-      "Performance Optimization: Improved performance by optimizing database queries, implementing caching strategies, and using a content delivery network (CDN) for static assets."
+      "Data Security: Ensuring the security of financial data is critical. Solution: Implement strong encryption protocols, regular security audits, and compliance with industry standards like PCI DSS.",
+      "Scalability: The system must handle a large number of concurrent users. Solution: Use AWS auto-scaling features to adjust resources based on traffic.",
+      "Regulatory Compliance: Adhering to various financial regulations. Solution: Incorporate compliance checks into the development process and work with legal experts."
     ],
     outcomes: [
-      "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
-      "Achieved a significant increase in online sales and customer engagement.",
-      "Received positive feedback from users for the platform's performance, usability, and security."
+      "Improved Financial Oversight: Enhanced capability to monitor and analyze financial transactions in real-time.",
+      "User Satisfaction: A user-friendly interface leading to higher user satisfaction and engagement.",
+      "Security and Compliance: A secure platform that complies with all necessary financial regulations.",
+      "Scalability: A system that can scale with growing user demand without performance degradation."
     ],
     img: "/poker_boss.svg"
   },
@@ -1293,64 +1306,64 @@ export const projectData = [
     filter: "AI",
     caseStudy: 17,
     project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    ",
+      "Navirego AI is an innovative project in the artificial intelligence domain, focusing on developing advanced AI solutions for navigation and logistics. The project aims to leverage AI to enhance route optimization, real-time tracking, and predictive analytics for various industries, including transportation, shipping, and supply chain management.",
     objective: [
-      "Develop a scalable and secure e-commerce platform. Ensure a user-friendly and responsive front end. Implement robust back-end services to handle business logic and data management. Integrate third-party payment gateways and shipping services.Provide an admin panel for inventory and order management."
+      "Optimize Maritime Navigation: Develop AI models to enhance maritime navigation efficiency and safety.",
+      "Reduce Fuel Consumption: Utilize AI to suggest optimal routes that minimize fuel usage.",
+      "Real-Time Monitoring: Implement real-time monitoring and alert systems for maritime vessels.",
+      "Predictive Maintenance: Use AI to predict and prevent maintenance issues before they occur."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Interviews: Conduct interviews with maritime industry experts, ship operators, and engineers to understand their needs.",
+      "Data Collection: Gather historical navigation data, weather patterns, and vessel performance metrics.",
+      "Regulatory Requirements: Ensure compliance with international maritime safety and environmental regulations."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Microservices Architecture: Adopt a microservices approach for modularity, allowing independent development and scaling of different system components.",
+          "Cloud-Based Infrastructure: Leverage cloud computing for scalable data processing, storage, and deployment."
         ],
         technology_stack: [
-          "Front End: React.js/Vue.js for dynamic and interactive UI.",
-          "Back End: Node.js/Express.js or Python/Django for server-side logic and APIs.",
-          "Database: MongoDB or PostgreSQL for storing AI data.",
-          "Authentication: OAuth 2.0 or JWT for securing access to AI data and services.",
-          "Payment Integration: Stripe for processing online payments.",
-          "Hosting: AWS or GCP for scalable and reliable hosting of AI platforms."
+          "Front End: Angular for creating interactive and user-friendly interfaces.",
+          "Back End: Node.js with Express for building robust APIs.",
+          "Database: PostgreSQL for structured data storage and retrieval.",
+          "AI Models: TensorFlow and PyTorch for developing and deploying machine learning models.",
+          "Hosting: AWS for scalable and reliable cloud services.",
+          "Authentication: OAuth 2.0 for secure user authentication and authorization."
         ]
       }
     ],
     development: [
       {
         front_end: [
-          "Wireframing and Prototyping: Created wireframes and interactive prototypes using Figma to visualize the user interface and user experience.",
-          "Component Development: Developed reusable React components for various parts of the application, including the product catalog, shopping cart, and checkout process.",
-          "Responsive Design: Ensured the application was responsive and optimized for various devices and screen sizes."
+          "Angular: Develop an intuitive interface for real-time monitoring and control, route optimization, and predictive analytics."
         ],
         back_end: [
-          "API Development: Developed RESTful APIs using Express.js for handling business logic and data operations.",
-          "Database Schema Design: Designed a flexible and efficient schema for MongoDB to handle product information, user data, and order details.",
-          "Authentication: Implemented JWT-based authentication to secure API endpoints and manage user sessions.",
-          "Payment Integration: Integrated Stripe API for handling payments securely, including support for multiple payment methods."
+          "Node.js & Express: Create APIs to handle data processing, integration with AI models, and user management."
         ]
       }
     ],
     testing: [
-      "Unit Testing: Wrote unit tests using Jest for both front-end components and back-end services to ensure functionality at a granular level.",
-      "Integration Testing: Conducted integration tests to verify that different modules and services worked together as expected.",
-      "User Acceptance Testing (UAT): Performed UAT with a group of end-users to validate the system against business requirements and gather feedback."
+      "Unit Testing: Test individual components for functionality and reliability.",
+      "Integration Testing: Ensure seamless integration between the front-end, back-end, and AI models.",
+      "System Testing: Conduct end-to-end testing to validate the entire system's performance.",
+      "User Acceptance Testing (UAT): Engage maritime operators to test the system in real-world scenarios and gather feedback."
     ],
     deployment: [
-      "Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines using Jenkins to automate the building, testing, and deployment of the application.",
-      "Containerization: Deployed applications using Docker containers to ensure consistency across different environments.",
-      "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
+      "Frontend Deployment: Deploy the Angular application on AWS S3 or a similar cloud platform for high availability.",
+      "Backend Deployment: Use Docker containers to deploy the Node.js application on AWS ECS or similar services for scalability."
     ],
     challenges: [
-      "Scalability: Ensured scalability by designing the platform with a microservices architecture and leveraging AWS infrastructure.",
-      "Security: Addressed security concerns by implementing JWT for authentication, HTTPS for data transmission, and regular security audits.",
-      "Performance Optimization: Improved performance by optimizing database queries, implementing caching strategies, and using a content delivery network (CDN) for static assets."
+      "Data Quality: Challenge in obtaining high-quality navigation data. Solution: Partner with maritime companies for data sharing and use data preprocessing techniques to clean and normalize data.",
+      "Scalability: Challenge in handling large volumes of real-time data. Solution: Implement cloud-based auto-scaling infrastructure to manage varying loads efficiently.",
+      "Model Accuracy: Challenge in ensuring AI model predictions are accurate and reliable. Solution: Continuously refine models using real-world data and performance metrics."
     ],
     outcomes: [
-      "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
-      "Achieved a significant increase in online sales and customer engagement.",
-      "Received positive feedback from users for the platform's performance, usability, and security."
+      "Improved Navigation Efficiency: Enhanced route planning and navigation accuracy, reducing travel time and fuel consumption.",
+      "Increased Safety: Real-time monitoring and alert systems improve maritime safety by detecting and alerting potential hazards.",
+      "Cost Savings: Significant cost savings through optimized fuel usage and predictive maintenance, reducing unplanned downtime and repair costs.",
+      "User Satisfaction: Positive feedback from maritime operators on the system's usability and effectiveness in real-world applications."
     ],
     img: "/navirego.svg"
   },
@@ -1367,73 +1380,87 @@ export const projectData = [
     filter: "AI",
     caseStudy: 18,
     project_overview:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus id tellus laoreet laoreet. Etiam sollicitudin facilisis risus molestie lobortis. Etiam vel lectus quis turpis mattis ultricies. Sed auctor ex eget euismod consequat. Donec ultrices sollicitudin tortor a tristique.    ",
+      "Wordflo AI is an advanced AI project designed to revolutionize content generation and analysis. It leverages cutting-edge natural language processing (NLP) techniques to create, edit, and analyze text content efficiently.",
     objective: [
-      "Develop a scalable and secure e-commerce platform. Ensure a user-friendly and responsive front end. Implement robust back-end services to handle business logic and data management. Integrate third-party payment gateways and shipping services.Provide an admin panel for inventory and order management."
+      "Improve Editorial Processes: Streamline editing and proofreading processes through AI-powered tools.",
+      "Enhance Content Analysis: Provide detailed analysis and insights on existing content for better decision-making.",
+      "Automate Content Generation: Utilize AI to generate high-quality written content across various topics."
     ],
     requirements_gathering: [
-      "Stakeholder Interviews: Conducted detailed interviews with stakeholders to understand business requirements, target audience, and desired features.",
-      "Competitive Analysis: Analyzed competitor websites to identify industry standards and unique selling propositions.",
-      "Technical Feasibility Study: Assessed the technical feasibility of integrating required features within the given budget and timeline."
+      "Stakeholder Interviews: Conduct interviews with key stakeholders to understand their needs and expectations.",
+      "Market Research: Analyze the market to identify trends and requirements for AI-driven content tools.",
+      "Data Collection: Gather diverse and comprehensive datasets to train the AI models effectively."
     ],
     system_architecture_design: [
       {
         architecture_selection: [
-          " Chose a microservices architecture to ensure scalability and maintainability."
+          "Microservices Architecture: Ensures scalability and flexibility, allowing independent development and deployment of services.",
+          "Cloud-Based Infrastructure: Facilitates easy scaling and management of resources."
         ],
         technology_stack: [
-          "Front End: React.js for the user interface, Redux for state management.",
-          "Back End: Node.js with Express.js for building RESTful APIs.",
-          "Database: MongoDB for its scalability and flexibility with unstructured data.",
-          "Authentication: JWT (JSON Web Tokens) for secure user authentication.",
-          "Payment Integration: Stripe API for processing payments.",
-          "Hosting: AWS for cloud infrastructure, including EC2 instances, S3 for storage, and RDS for database management.",
-          "Containerization: Docker for containerizing applications to ensure consistent environments across development, testing, and production."
+          "Front End: React.js for building responsive and interactive user interfaces.",
+          "Back End: Node.js with Express.js for creating scalable server-side applications.",
+          "Database: MongoDB for flexible and scalable data storage.",
+          "AI Models: TensorFlow and Hugging Face Transformers for NLP tasks.",
+          "Authentication: OAuth 2.0 for secure user authentication and authorization.",
+          "Hosting: AWS for cloud hosting, ensuring reliability and scalability."
         ]
       }
     ],
     development: [
       {
         front_end: [
-          "Wireframing and Prototyping: Created wireframes and interactive prototypes using Figma to visualize the user interface and user experience.",
-          "Component Development: Developed reusable React components for various parts of the application, including the product catalog, shopping cart, and checkout process.",
-          "Responsive Design: Ensured the application was responsive and optimized for various devices and screen sizes."
+          "React.js: Develop user-friendly interfaces for content creation and analysis tools."
         ],
         back_end: [
-          "API Development: Developed RESTful APIs using Express.js for handling business logic and data operations.",
-          "Database Schema Design: Designed a flexible and efficient schema for MongoDB to handle product information, user data, and order details.",
-          "Authentication: Implemented JWT-based authentication to secure API endpoints and manage user sessions.",
-          "Payment Integration: Integrated Stripe API for handling payments securely, including support for multiple payment methods."
+          "Node.js with Express.js: Create robust APIs to handle data processing and integrate AI models."
         ]
       }
     ],
     testing: [
-      "Unit Testing: Wrote unit tests using Jest for both front-end components and back-end services to ensure functionality at a granular level.",
-      "Integration Testing: Conducted integration tests to verify that different modules and services worked together as expected.",
-      "User Acceptance Testing (UAT): Performed UAT with a group of end-users to validate the system against business requirements and gather feedback."
+      "Unit Testing: Ensure individual components function correctly.",
+      "System Testing: Conduct end-to-end testing to ensure the entire system works as expected.",
+      "Integration Testing: Validate the interaction between different system components.",
+      "User Acceptance Testing (UAT): Engage users to test the system and provide feedback."
     ],
     deployment: [
-      "Continuous Integration/Continuous Deployment (CI/CD): Set up CI/CD pipelines using Jenkins to automate the building, testing, and deployment of the application.",
-      "Containerization: Deployed applications using Docker containers to ensure consistency across different environments.",
-      "Monitoring and Logging: Implemented monitoring and logging using AWS CloudWatch and ELK stack (Elasticsearch, Logstash, Kibana) to track application performance and troubleshoot issues."
+      "Front End: Deploy React.js application on AWS S3 or similar platforms.",
+      "Back End: Use Docker to containerize Node.js applications for easy deployment and scalability."
     ],
     challenges: [
-      "Scalability: Ensured scalability by designing the platform with a microservices architecture and leveraging AWS infrastructure.",
-      "Security: Addressed security concerns by implementing JWT for authentication, HTTPS for data transmission, and regular security audits.",
-      "Performance Optimization: Improved performance by optimizing database queries, implementing caching strategies, and using a content delivery network (CDN) for static assets."
+      "Model Accuracy: Maintaining high accuracy and relevance in generated content. Solution: Continuously refine and train models using feedback and performance metrics.",
+      "Scalability: Handling large volumes of data and high user traffic. Solution: Utilize scalable cloud infrastructure with auto-scaling capabilities.",
+      "Data Quality: Ensuring high-quality training data for AI models. Solution: Implement rigorous data cleaning and augmentation techniques."
     ],
     outcomes: [
-      "Successfully launched the e-commerce platform within the stipulated timeline and budget.",
-      "Achieved a significant increase in online sales and customer engagement.",
-      "Received positive feedback from users for the platform's performance, usability, and security."
+      "Improved Content Generation: Significantly faster and more efficient content creation.",
+      "Enhanced Analysis: Detailed and accurate content analysis providing actionable insights.",
+      "User Satisfaction: Positive feedback from users on the effectiveness and usability of the AI tools."
     ],
     img: "/wordflo.svg"
   }
 ];
 
 const ProjectsGrid = () => {
-  const [filterKey, setFilterKey] = useState<string>("all");
-  const [visibleCount, setVisibleCount] = useState<number>(4);
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
+
+  const initialFilterKey = searchParams.get("filterKey") || "all";
+  const initialVisibleCount = Number(searchParams.get("visibleCount")) || 4;
+
+  const [filterKey, setFilterKey] = useState<string>(initialFilterKey);
+  const [visibleCount, setVisibleCount] = useState<number>(initialVisibleCount);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams({
+        filterKey,
+        visibleCount: visibleCount.toString()
+      });
+      window.history.pushState({}, "", `${pathname}?${params.toString()}`);
+    }
+  }, [filterKey, visibleCount, pathname]);
+
   const filteredData =
     filterKey === "all"
       ? projectData
@@ -1465,7 +1492,7 @@ const ProjectsGrid = () => {
               className={filterKey === category ? "active" : ""}
               onClick={() => setFilterKey(category)}
             >
-              {category}({count})
+              {category} ({count})
             </button>
           </li>
         ))}

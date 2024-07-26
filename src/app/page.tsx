@@ -8,8 +8,7 @@ import "./style.css";
 import { techStack } from "@/constants";
 import ProjectsGrid from "@/components/projectsGrid";
 import Testimonial from "@/components/testimonial";
-import { useState } from "react";
-import TechGrid from "@/components/projectsGrid/techGrid";
+import TechGrid from "@/components/techGrid/techgrid";
 
 export default function Home() {
   const [state, handleSubmit] = useForm("moqovqjk");
@@ -157,7 +156,9 @@ export default function Home() {
                 CSS3, JavaScript, React, Angular, Vue.js, and other cutting-edge
                 technologies to create dynamic and responsive websites.
               </p>
-              <button>Discover</button>
+              <Link href="/servicesgrid/$">
+                <button>Discover</button>
+              </Link>
             </div>
             <div>
               <span>
@@ -214,18 +215,6 @@ export default function Home() {
               websites stand as a testament to innovation.
             </p>
             <TechGrid />
-
-            <ul>
-              {techStack.map(({ title, img, description }) => (
-                <li key={title}>
-                  <figure>
-                    <Image src={img} width={50} height={50} alt={title} />
-                  </figure>
-                  <h5>{title}</h5>
-                  <p>{description}</p>
-                </li>
-              ))}
-            </ul>
           </div>
         </div>
         {/* projects section */}
